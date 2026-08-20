@@ -1,7 +1,7 @@
 # SparkInTheMachine
 # https://gamebanana.com/mods/704652
 
-RecordCount: 2142
+RecordCount: 2331
 
 console load factory/BZFR/factory c-12-in
    1
@@ -192,37 +192,37 @@ EndRepeat
    5,L,J
   11,L
   15,L,U,X
-  10,L,C
-   8,L,G
-   4,L
+  15,L,C
    8,D,G
-  26,D
-  66
-  10,L,Z
-   1,L,J
+  15,L,G
+   1,L,J,G
+   8,L,G
+  15,D,X,G
+  62,G
+  10,L,Z,G
+   1,L,J,G
    1,L,K,G
    2,L,J,G
    1,L,K,G
    2,L,J,G
-   8,L,D,X
+   8,L,D,X,G
    1,L,J,G
    1,L,K,G
    1,L,J,G
    1,L,K,G
    1,L,J,G
-  17,L
-   6,L,J
+  17,L,G
+   6,L,J,G
    1,L,K,G
    1,L,J,G
    1,L,K,G
-# save lightbulb for faster exit
   12,L,J,G
   20,L
-  15,L,U,Z
-   7,R
-  15,L
-  10,L,D
-   6,L,Z
+  12,L,U,Z
+   8,D,G
+   8,L,D
+# lazy resync here, can def save time
+  11,L,Z
    1,L,J
    2,L
   40
@@ -331,34 +331,30 @@ EndRepeat
 #lvl_d-07-in
   14,L,J
   15,L,X
-  14
-   5,D
+  12
+   6,L
+   4,L,D
+  12,L,Z
    8,U,G
-  14,L
-  10,L,J,G
+   9,L
+   1,L,J,G
+   7,L
+  21,U,G
    1,L,K,G
-   6,L
+   1,L,J,G
+   4,L,K,G
+  12,L
+   4
+   8,L
   15,L,X
-   6,L
-   8,R
-   1,R,D
-  16,L
-  15,L,X,G
-   6,R,J,G
-  18,R,G
-   5,R,D,G
-   2,L,D,G
-   1,R,D,G
-   1,R,J,G
-   7,R
-  11,L
+   6,R,J
+  25,R,D
   17,L,D
    8,L,G
-  24,L
+  23,L
   15,U,X
-  12
-  10,R
-  20,L
+   8,R
+  21,L
   41,L,X
   15,D,C
   14,L,D
@@ -375,15 +371,12 @@ EndRepeat
   15,L,Z
   14,L
   14,L,D
-   6,L,Z
-   1,L,J
-   4,L
+   8,L,G
+   9,L,D,X
   40
 
 #lvl_d-08-in
-   3,L
-   1,L,J
-   6,L,D,X
+   5,L,D,X
    1,L,J
    7,L
    9,L,J
@@ -482,4 +475,4 @@ EndRepeat
   15,U,X
   40
 
-MidwayChapterTime: 1:11.026(4178)
+MidwayChapterTime: 1:10.261(4133)
