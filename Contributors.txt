@@ -1,1 +1,2 @@
+Socks
 Squid2
