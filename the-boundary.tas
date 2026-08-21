@@ -1,7 +1,7 @@
 # SparkInTheMachine
 # https://gamebanana.com/mods/704652
 
-RecordCount: 2496
+RecordCount: 2949
 
 console load factory/BZFR/factory
    1
@@ -98,48 +98,53 @@ console load factory/BZFR/factory
    1,K
   19,U,X
 # there has to be something better here
-  16,R
+   5,R
   15,L,U,X
+  13,L
+   7
+   3,L
+   2
    1,L
-  24
-   5,L
-   1,L,J
-  17,J
-  13
    1,D
-   2,L,D
-   1,L
-   2,R,D
-   6,R,D,X
+   1
+  15,U,X
+   9
+  15,R
+   1
+   1
+   1
+   1,R,D
+   2,D
+   4,L,D
+   2,L
+   3,D
+   4,R,Z
+   1,R,J
+   1,R,K,G
    1,R,J,G
    1,R,K,G
    1,R,J,G
-   2,R,K,G
    6,R
-   1,R,J
-   3,R
-  10,R,J
-   2,R
-  12,R,Z
-   7,R
-   1,R,J
-   3
-   1,R,K
-  15,R,D,X
-  15,R,D
-   1,R,J
+   1,J
+   8
+   6,R
+   1,R,D
+  12,R,U,Z
+   2,R,J,G
+  19,R,D
   40
 
 #lvl_a-02-out
-   7,R,J
-  15,R,D,X
-  11,R,J
+   5,R,D
+   9,R,J
    7,R
    1,R,G
-   7,R,K,G
-  21,R,J,G
-   8,L
-  15,L,G
+  20,R,J,G
+   6
+   1,R
+   2
+   1,L
+  21,G
    2,L,K,G
    1,J,G
    7,L
@@ -154,8 +159,7 @@ console load factory/BZFR/factory
 # It's almost possible to upleft demo through the spinners and spike climb up the downwards autoscroller but the closest I got made it look like a rounding error-- not sure. Maybe I'm missing something obvious
   15,U,X
    6,L
-   3
-   2
+   5
   15,U,X
   12,L
    3
@@ -454,4 +458,4 @@ EndStunPause
 #    7,L
 #   15,L,Z
 
-MidwayChapterTime: 0:56.168(3304)
+MidwayChapterTime: 0:55.607(3271)
