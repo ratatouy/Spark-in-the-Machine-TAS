@@ -1,4 +1,4 @@
-RecordCount: 2629
+RecordCount: 2712
 
 console load factory/BZFR/factory lvl_f-00-night
    1
@@ -154,21 +154,22 @@ EndRepeat
   40
 
 #lvl_f-03-night
-   6,R
-  20,D,X
-   5,R,D
-  48,R,Z
-  11,R,U,X
-   7,R,J
-   4,R,Z
-   1,R,J
-  10,R
-  34,R,J
-  15,R,Z
-  21,R
-  17,R,X
-  15,D,C
-   3,R
+   5,R
+  24,L,D,X
+  26,R,D,C
+  22,R,U,X
+   4,L,J
+   2
+   5,L,Z
+   4,R,J
+  12,R
+  33,R,J
+  31,R,X
+   4,R,J
+  16,R,C
+   2,R
+  15,D,X
+   2,R
   10,R,Z
    5,R,J
   16,R,U,X
@@ -603,4 +604,4 @@ EndRepeat
   13,U,C
   40
 
-MidwayChapterTime: 1:21.719(4807)
+MidwayChapterTime: 1:21.549(4797)
