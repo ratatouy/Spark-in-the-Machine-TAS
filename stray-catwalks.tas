@@ -1,4 +1,4 @@
-RecordCount: 2550
+RecordCount: 2629
 
 console load factory/BZFR/factory lvl_f-00-night
    1
@@ -498,26 +498,41 @@ EndRepeat
    1,L
    5,J,G
    1,R,K,G
-  32,R,D
-  62,R,Z
+   4
+   7,R,D
+  15,R,D,X
+  13,R,D
+  57,R,Z
    4,R,J
-   2,R,K
-   8,R
-   2,R,J
+   3,R,K
    5,R
-# you can hit this switch 1f sooner but i could not get the subpixels to work
+   1,R,J
+   1,R
+   1,R,J
+   1,R
+   2,R,J
+   4,R
   15,R,Z
-   6,R,G
+   2,R
+   1,G
    1
+   1,G
    4,L
-  14
-   7,L
+   2
+   2,L
+   3
+   1,L
    1
    1,L,D
-   3,L,D
+   3
+   2,D
+   8,L,D
+   1,L,D
+   1,L
+   1,L,D
    1,G
   27,R,J
-# if there's an angle to exit at the top of the dream block that would save a lot of time, but i couldn't find one. this version requires a vertical position ~0.06px precise
+# if there's an way to exit at the top of the dream block that would save a lot of time, but i couldn't find one. this version requires a vertical position ~0.06px precise
   45,R,D,X
    1,R,J
    8,J
@@ -588,4 +603,4 @@ EndRepeat
   13,U,C
   40
 
-MidwayChapterTime: 1:21.753(4809)
+MidwayChapterTime: 1:21.719(4807)
