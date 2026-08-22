@@ -1,4 +1,4 @@
-RecordCount: 2712
+RecordCount: 2952
 
 console load factory/BZFR/factory lvl_f-00-night
    1
@@ -254,8 +254,7 @@ EndRepeat
 # can probably save a couple frames with a better setup for the multiboost, didn't try to optimize too hard
   15,U,X
    5
-  15,L,J
-  13,L,J
+  28,L,J
 # better multiboost? this feels bad
    7,L,U,X
    2,L,J,G
@@ -334,14 +333,17 @@ EndRepeat
    4,R,Z
    1,R,J
    6,R
-  28,R,D,J
-  15,U,X
-   2,R
-   1,L
+  17,R,D,J
+  15,R,U,Z
+   1,L,J,G
+   1,L,K,G
+Repeat, 6
+   1,K
+   1,R,K
+EndRepeat
+  20,R,J
    1,R
-  26,R,J
-   2,R,J
-  10,R,Z
+  14,R,Z
    1,R,J
    6,R
    4,R,J
@@ -407,7 +409,7 @@ EndRepeat
    8,J
    1,R
    1,X
-   1,L
+   1,L,P
    2,L
   14,L,U,Z
    2,L
@@ -604,4 +606,4 @@ EndRepeat
   13,U,C
   40
 
-MidwayChapterTime: 1:21.549(4797)
+MidwayChapterTime: 1:21.481(4793)
