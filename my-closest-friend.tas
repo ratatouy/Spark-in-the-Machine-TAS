@@ -1,7 +1,7 @@
 # SparkInTheMachine
 # https://gamebanana.com/mods/704652
 
-RecordCount: 4056
+RecordCount: 4124
 
 console load factory/BZFR/factory c-12-in
    1
@@ -363,14 +363,17 @@ EndRepeat
   17,L
   47,L,X
   15,D,C
-  10,L,D
-   1,L
+   5,D
+   8,L,D
+   3,L
   10,R
-  15,U,X,G
-  25,L,D,G
-  58,L,Z
-   1,R,J
-  13,U,X
+  15,U,X
+  15,L,D,C
+   4
+   2,D
+  57,L,Z
+   1,R,K
+  14,U,X
    1,L,G
    6,L
    7,L,D,X
@@ -509,4 +512,4 @@ EndRepeat
   24,U,G
   40
 
-MidwayChapterTime: 1:02.917(3701)
+MidwayChapterTime: 1:02.883(3699)
