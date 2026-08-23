@@ -1,7 +1,7 @@
 # SparkInTheMachine
 # https://gamebanana.com/mods/704652
 
-RecordCount: 4328
+RecordCount: 4747
 
 console load factory/BZFR/factory
    1
@@ -241,21 +241,17 @@ console load factory/BZFR/factory
    1,R,J,G
    4,R,K,G
 StunPause,Input
-  12,R,K,G
+  15,R,K,G
 SkipInput,3,1
-  19,R,X
+  18,R,X
 SkipInput,3,1
-   4,R,J
-   1,K
-   8,R,K
-   3,R
-   1,R,J
+   6,R,J
+   7,R,K
+   0,K
 EndStunPause
-   3,R,J
-  15,R,X
-   2,R,J,G
-   0,R
-   2,R,J,G
+  15,R,Z
+   5,R
+   5,R,J,G
    7,R
 ## a-04-out stun :(
    2
@@ -304,20 +300,27 @@ EndStunPause
    1,R,J
    7,R,D,X
    1,R,K,G
+   1
+   5,R
+   1,R,J
+   1,R
+   1,R
+   1,R,D,J
+   1
    6,R
+   2,R,J
+   1,R
    1,R,J
-   3,R
-   1,R,J
-   2
-  12,R
-StunPause
    4,R
+StunPause, Input
+   4,R,D
 SkipInput,3,1
   10,R,Z
-   1,R,K,G
+   1,R,J,G
 EndStunPause
-   1,R,K
-  37,R
+   9,R
+   1,R,J
+  27,R
   40
 
 #lvl_a-05-out
@@ -351,19 +354,17 @@ EndStunPause
   11,R
    1,R,J,G
   22,R
- 109,R,X
-   3
-  55,R,Z
+ 108,R,X
+   4,R,J
+  54,R,Z
    1,R,J
    3
-   1,R,K
-   1,K
-   6,R,K
+   7,R,K
   15,R,D,X
    8,R
    3,R,J
    5,R,D,X
-   1,R,K,G
+   1,R,J,G
   11,R
    3,R,J
   40
@@ -371,8 +372,8 @@ EndStunPause
 # lvl_a-06-out
    7,R,J
   15,R,D,X
-  12,R,J
-  55,R,X
+  15,R,J
+  50,R,X
    1,L,J
    3
   21,L,K
@@ -380,37 +381,38 @@ EndStunPause
   15,U,C
    5,R,J
    8,L,J
-  10,L
-  51,L,X
-   1,R,J
+   4,L
    3
-   2,R,K
-  18,R
-  17,R,D
-  15,R,X
-   8,R,D
-  10,D
-  15,U,X
-  22
+  51,L,X
+   4,R,J
+   1,R,K
+  32,R,D
+   8,R
+  15,R,Z
+   1,R
+   2
+   1,R
+   8
+   2,J
+  31,U,X
   20,L
   15,U,X
-  30,R,U,C
-   1,L,J
-   3
-  20,L,K
-  29,L,U,X
-   1,R,J
-   3
-  21,R,K
-  82,R,U,X
-   3
+  11,L,Z
+  11,R,J
+  11,L,U,X
+   8,L,J
+  13,L,K
+  23,L,X
+   4,R,J
+   7,R,K
+  81,R,U,X
+   4,R,J
   19,R,X
-   1,L,J
-   3
-  40,L,K
-   7,L,D
-  15,L,U,X
+   4,L,J
+  42,L,K
+   4,L,D
    1,L
+  16,L,U,X
    1,L,K,G
    7,L
    5,L,Z
@@ -432,4 +434,4 @@ EndStunPause
 #   15,L,Z
 
 
-MidwayChapterTime: 0:52.275(3075)
+MidwayChapterTime: 0:51.476(3028)
