@@ -1,145 +1,179 @@
-RecordCount: 1527
+RecordCount: 2118
+
 console load factory/BZFR/factory g-02-east
+   1
+
 #Start
-  37
-   5,R,J,Z
+  36
+
+#lvl_g-02-east
+   4,R,Z
+   1,R,J
    7,R
    8,R,J
    8,R,K,G
   15,R,D,X
-   4,R,J
-   6,R
-   1,R,D,J
+   1,R,J
+  12,R,D,X
    1,S
-  34,D,J
-   8,R,J
+   1,D,J
+  34
+   5,R,D,J
   14,U,X
-   4,J
-   2
-   1,R,K,G
-   7,R
-  14,R,Z
-   1,R,J
-  14,R,D,X
-   1,R,J
-  14,R,D,X
-   4,R,J
-   2,R,K
-   1,S
-  34,D,J
-  10,R,K
-  10,R,Z
    5,R,J
+   1,R
+   2,R,K,G
+   7,R
+   7,R,Z
+   1,R,J
+   6,R
+   1,R,J
+  14,R,D,X
+   1,R,J
   13,R,D,X
+   4,R,J
+   3,R,K
+   1,S
+   1,D,J
+  34
+   9,R,J
+   5,R,Z
+   1,R,J
+   7,R
+   2,R,J
+  12,R,D,X
   40
+
 #lvl_g-03-east
-   1
+   2,R,D,X
    1,R,J
   14,R,D,X
    1,R,J
    7,R
-  14,R,J
-  28,U,X
-   4,L,J,G
-   7,J
+  13,R,J
+  27,U,X
+   6,L
+   3
   13,R,K
    3,J
    1,R,K,G
    1,L,K
    2,R,K
    1,K
-   1,R
+   1,R,K
    7,L,U,Z
-  10,L,J,G
-   3,L
-   1,L,J
-  43,L,K
+   6,L,J,G
+   2,J
    1,J
-  25,L,J
+   1,L
+   4
+   1,R,J,G
+   1,R,K,G
+   1,L,K
    1,K
-  10,L,K
-  14,L
-   5,R
-  20,R,D,J
+   1,L,K
+   1,K
+   2,L,K
+   1
+  43,L,J
+# this bit kinda feels bad
+   1,K
+  18,L,K
+   7,L
+   9,R
+  16,R,D,J
   48,U,X
   40,L,U,C
    4,R,J
    1,R,K
    4,K
    2,L
-  13,R,U,X
+  14,R,U,X
    1,R,J,G
-   1,R,K,G
-   1,R,J,G
-   1,R,K,G
-  11,R
-   6,R,J
-  14,R,D,X
-  29,R,J
-  57,R,X
-   1,R,G
-  13,J,G
-  24,R,Z
-   4,R,J
-  30,R,K
-  82,G
-  30,D,G
-  75,R,U,G
-  10,G
-   3,R,J,G
-   6,J
-  73,R,Z
-   2
-  10,J,G
-   1,L,J
-   2,K
-  12,R,J,G
    7,R
-  14,R,Z
-   1,R,J
-   9,R,D,X
-  40
-#lvl_g-04-east
-   3
-   1,R,J
-   7,R
-  20,R,D,J
-  48,R,U,X
-   8,U,G
-  10,L
-  23,L,U,Z
-  16,L,V
-  11,L,J
-  21,U,X
-  17,U,C
-  15,D,X
-  11,L
-  10,L,Z
+
+###
+# this hits switch faster but can't figure out what to do after
+#    1,R,J
+#   18,R,U,X
+#   15,R,U,Z
+###
+
    9,R,J
-  11,R
-  35,R,D,C
-  26,U,G
+  15,R,X
+  15,U,C
+  15,D,X
+   1
+   3,R
+   4,R,Z
    1,R,J
-  11,R
-   3
-  14,R,G
+   1,R
+   1,R,J
+   6,R
+   8,R,J
+  12,R
   34,R,Z
+   4,R,J
+  35,R,K
+   6,R,D,K
+  82,K,G
+  62,U,K,G
+   4,G
+   1,U,G
+   1
+   1,J
+   4,L
+   5,R,Z
+   1,R,J,G
+   5,R
    1,R,J
-  18,R,D,X
-   9,D,C
-  36,G
-  16,R,H
-  23,R,D,C
-   1,R,J
-  14,R,D,X
-   1,R,J
+  34,R,D
    6,R,Z
    1,R,J
-   9,R
-   1,R,G
+   7,R
+  40
+
+#lvl_g-04-east
+   1,R,J
+  14,R,D,X
+  12,R,J
+  36,R,U,Z
+  13,R
+  15,L,U,X
+   6,L
+  19,L
+   4,L,J
+  14,L,K
+  13,U,X
+  14,R
+   9,L,G
+  11,L,D,X
+  19,R,J
+  19,R,J
+  32,D,X
+  26,R,G
+   1,R
+   7,R,G
+  15,R,Z
+  14,R
+   4,R,J
+   1,R,K
+  18,R,D,X
+   9,D,C
+  37,G
+   1
+  11,R,G
+  15,R,D,X
+   8,R,D
+   1,R,J
+  14,R,D,X
+   1,R,J
+  13,R
+   1,G
    4,X
   10,D
   40
+
 #lvl_g-05-east
    6,L
   15,R,D,X
@@ -187,6 +221,7 @@ console load factory/BZFR/factory g-02-east
    1,L,J
    4,L
   40
+
 #lvl_g-06-east
   10,L
    1,L,J
@@ -313,6 +348,7 @@ EndRepeat
    1,R,J,G
   10,R
   40
+
 #lvl_g-08-east
    3,R
    6,R,J
@@ -356,6 +392,7 @@ EndRepeat
   14,R,D,X
    1,R,J
   40
+
 #lvl_g-09-east
    9,R,D,X
    1,R,J
@@ -411,4 +448,5 @@ EndRepeat
    1,R,J
    7,R,D,C
   40
-MidwayChapterTime: 1:19.458(4674)
+
+MidwayChapterTime: 1:16.075(4475)
