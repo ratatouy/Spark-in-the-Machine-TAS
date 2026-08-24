@@ -1,4 +1,4 @@
-RecordCount: 2118
+RecordCount: 2136
 
 console load factory/BZFR/factory g-02-east
    1
@@ -91,14 +91,12 @@ console load factory/BZFR/factory g-02-east
   14,R,U,X
    1,R,J,G
    7,R
-
 ###
 # this hits switch faster but can't figure out what to do after
 #    1,R,J
 #   18,R,U,X
 #   15,R,U,Z
 ###
-
    9,R,J
   15,R,X
   15,U,C
@@ -258,17 +256,21 @@ console load factory/BZFR/factory g-02-east
   15,D,X
    6,L,D
   29,L,J,Z
-   3,R,J
+   3,R
   12,D,G
   23,L,Z
   10,L,V
   30,D,G
-  12,R,D
+   6,R,D
+   3,D
+   2
+   1,D
+  14,R,D,X
+   1,R,J
+  15,R,D,X
   15,R,Z
-  15,R,C
-  15,R,X
   15,R,V
-  28,R,Z
+  24,R,Z
    7,R,J
    8,R
    3,R,J
@@ -277,6 +279,8 @@ console load factory/BZFR/factory g-02-east
   12,R,J
   19,R,G
   40
+
+#lvl_g-07-east
   15,R,D,X
   20,D,C
    1,L,D
@@ -449,4 +453,4 @@ EndRepeat
    7,R,D,C
   40
 
-MidwayChapterTime: 1:16.075(4475)
+MidwayChapterTime: 1:16.007(4471)
