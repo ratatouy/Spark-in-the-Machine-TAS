@@ -1,20 +1,20 @@
 # SparkInTheMachine
 # https://gamebanana.com/mods/704652
 
-RecordCount: 5039
+RecordCount: 5059
 
 console load factory/BZFR/factory
    1
 #Start
  110
-
-#lvl_a00-out
-# spinner cycle a-03-out
-   2
-#
+#spinner-a03
+   1
+#spinner-a03-end
    1,S
    1,D,J
   34
+
+#lvl_a00-out
    4,R,Z
    2,R,J
    2,R,K,G
@@ -56,7 +56,8 @@ console load factory/BZFR/factory
    3,L
   12,L,J
    5,K
-  10,R,X
+   5,R,X
+   5
    3,R,J
    2,R
    9,R,U,X
@@ -64,7 +65,8 @@ console load factory/BZFR/factory
    9,R
    1,R,J
    4,R
-  13,R,Z
+  12,R,Z
+   1
    1,R,J
    7,R
   15,R,U,X
@@ -89,13 +91,12 @@ console load factory/BZFR/factory
    4,J
    1,K
   19,U,X
-# there has to be something better here
    5,R
   15,L,U,X
   13,L
    7
    3,L
-   2
+   1
    1,L
    1,D
    1
@@ -106,7 +107,6 @@ console load factory/BZFR/factory
    1,R,D
    2,D
    4,L,D
-# can probably land 1f earlier
    2,L
    3,D
    4,R,Z
@@ -130,80 +130,76 @@ console load factory/BZFR/factory
    9,R,J
    7,R
    1,R,G
-  20,R,J,G
-   6
-   1,R
-   2
-   1,L
-  21,G
-   2,L,K,G
-   1,J,G
-   7,L
-   5,R
-  27,R,J
-   1,R
-   2,J
-   1,R
-   1
-  16,U,X
-  26,R,J
-# It's almost possible to upleft demo through the spinners and spike climb up the downwards autoscroller but the closest I got made it look like a rounding error-- not sure. Maybe I'm missing something obvious
-  15,U,X
-   6,L
-   5
-  15,U,X
-  12,L
-   3
-   5,L
-   2
-   3,L
-  15,L,Z
-  18,L,J
-   7,R,Z
-   1,L,J
-   7,L
-  16,L,J
-  15,U,X
-  16,L,J
-  26,U,X
-   4,R
-   6,R,D,X
-   1,J,G
-   5
-   1,L
-   1
-   6,L
-   5,L,Z
-   1,R,J
-   5,R
-  19,R,J
-   1,R
-   1
-   1,J
-   1
-   1,J
-   1
-   1,R
-   2
-  15,U,X
-   5,L
-   1,R,K,G
-   1,L,K,G
-   4,K
-   3,L,K
-   3,R,K
-   5,R
-   1,R,J,G
-   6,R,K,G
+  12,R,J,G
    7,R
+   2,R,J
+   2
+   1,J
+   6
+  17,L,G
+   2,D,G
+   2,J,G
+   1,K,G
+   8
+   2,L
+   1,R
+  23,R,J
+   3,R
    1,R,J
    1,R
-   2,R,J
-   6,R
-   2
-   1,D
+  16,U,X
+   4,J
+   5,L,J
+  10,J
+   1,R,J
+   1,L,J
+   3,J
+   1,L,J
+   4,R,U,X
+  11,U
+  10,L
+  18,U,C
+   5
+  37,L,U,X
+   1,L,D
+   1,L
+  14,L,D
+   1,L
+   6,R,D,X
+   1,L,J
+   6,L
+  16,L,J
+  57,U,X
+   2,R
+  12,R,Z
+   1,L,J
+   2,L
+   7,L,D,X
+   1,R,J
+   5,R
+   1,R,J
    1,R
-   1,D
+  12,R,J
+   5,R
+   4,R,J
+   1,R
+   3,R,J
+   2
+  15,U,Z
+   5,L
+   1,R,J,G
+   3,L,J
+   4,J
+   3,R,J
+   2,R
+   1,R,K,G
+   6,R,J,G
+   6,R
+   2,R,J
+   1,R
+   1,R,J
+   7,R,D
+   5,D
    4,R,Z
    1,R,J
    7,R
@@ -236,179 +232,198 @@ console load factory/BZFR/factory
    1
    1,R
    1,R,J,G
-   4,R,K,G
-StunPause,Input
-  15,R,K,G
-SkipInput,3,1
+   3,R,K,G
+StunPause
+  16,R,K,G
+SkipInput 3 1
   18,R,X
-SkipInput,3,1
+SkipInput 3 1
    6,R,J
-   7,R,K
+   5,R,K
 EndStunPause
+   2,R,K
   15,R,Z
    5,R
    5,R,J,G
    7,R
-## a-04-out stun :(
-   1
-##
-   4,R,X
-   6,R,J
+#spinner-a04
+   0
+#spinner-a04-end
+   6,R,X
+   4,R,J
   40
 
+
 #lvl_a-04-out
-  12,R
-  21,L,D
-   4,L,J
-   8,U,X
+   1,R,J
+   7,R
+  23,L,D
+   2,L
+   9,U,X
   21,R,J
-  15,R,X
-  25,R
+  40,R,X
   15,D,C
-   6,J
-   6,L,J
-  20,L,X
-   4,R,U,G
-   7,R,G
-  12,D
+   1,L,J
+  10,J
    1
-   3,D
-   7,L,D
-   3,D
+  20,L,X
+   8,R,G
+   5,D
    1,L,D
    1,D
-   1
-   1,R,D
-   1,R
+   3,R,D
+  13,L,D
+   1,L
+   1,L,D
+   1,L
+   6
    4,R,Z
    1,R,J
    1,R,K,G
    1,R,J,G
    1,R,K,G
-   7,R
-   1,R,J
-   8,R
-   1,R,J
-   9,R
-   5,R,Z
-StunPause
-   9,R,Z
-EndStunPause
    1,R,J,G
-  25,R,D
-   7,R
-   2,R,D
+   5
+   3,R
+   1,R,J
+  17,R
+StunPause
+   1,R
+SkipInput 3 1
+   9,R,Z
+   1,J,G
+EndStunPause
+   2
+  18,R,D
+  14,R
   40
 
 #lvl_a-05-out
-   1,R,D
-   8,R,U,X
-   2,R,J,G
-   7,R
-   7,R,J
-  14,R,X
-   1,R,J
-   3
-  21,R,K
-   1,R
-   1,R,G
-  15,D,X
-   2,R,D
-  21,R
-  14,L,U,Z
-   4,J,G
-   1,K,G
-   7
-  10,L,D,X
+   3,R
+   1,L,N
+   6,D,J
+   1
+  10,R,X
   11,R,J
-   6,R
-   1,R,J
-   9,R
-   8,R,D
-   1,R,J,G
+  14,R,X
+   4,R,J
+   9,R,K
+  13,R
+   1,G
+  15,D,X
+  18,R
+   5,U,X
+  10,L,U
+   1,J,G
+   8
+   4,L
+   1,L,J
    1,J
+   1,L,J
+   7,R,D,X
+   3
+   1,R,J
+   2,J
    6,R,J
-  11,R
+  23,R,D
+   7,R,K,G
+   1
+   4,R
+   4,R,J
+   3,R
    1,R,J,G
-  22,R
- 108,R,X
+  15,R,D
+   5,D
+ 109,R,X
    4,R,J
   54,R,Z
-   1,R,J
-   3
-   7,R,K
+   4,R,J
+   3,R,K
+   4,R
   15,R,D,X
    8,R
    3,R,J
    5,R,D,X
    1,R,J,G
   11,R
-   3,R,J
+   1,R,J
+   6,R,D,X
   40
 
-# lvl_a-06-out
-   7,R,J
-  15,R,D,X
-  15,R,J
-  50,R,X
-   1,L,J
-   3
-  21,L,K
-  15,U,X
-  15,U,C
-   5,R,J
-   8,L,J
-   4,L
-   3
-  51,L,X
-   4,R,J
-   1,R,K
-  32,R,D
-   8,R
-  15,R,Z
+#lvl_a-06-out
+   9,R,J
+   5,R
+   2,R,J
    1,R
-   2
-   1,R
-   8
-   2,J
-  31,U,X
-  20,L
-  15,U,X
-  11,L,Z
-  11,R,J
-  11,L,U,X
+  59,R,X
    8,L,J
   13,L,K
-  23,L,X
+   4,K
+   1,L,K
+  15,U,X
+  13,U,C
+  10,R,J
+   5,R
+  51,L,Z
    4,R,J
-   7,R,K
-  81,R,U,X
-   4,R,J
-  19,R,X
-   4,L,J
-  42,L,K
-   4,L,D
-   1,L
-  16,L,U,X
-   1,L,K,G
-   7,L
-   5,L,Z
+   1,R,K
+  20,R
+  15,R,D
+   3,R
+   1
+   1,R
+  15,R,Z
+   6
+   1,R
+   5
+   2,R,D,J
+  27,U,X
+  24,L
+  15,U,X
+  11,L,Z
+  12,R,J
+  11,L,U,X
+   8,R,K
+   8,R,J
+   5,J
+  18,R,U,X
+  61
+  20,R,X
+   8,L,J
+  36,L,K
+   1,L,D
+  28,L,U,X
    2,L,J
-   1,K,G
-   9,L
-   1,L,J
+  11,L,Z
+   3,L,J
+   1,L
   14,L,D,X
    1,L,J
-   5,L,U,Z
+   6,L,U,Z
   40
 
-# probably good next-room enter, idk
-# lvl_b-00-out
-#    6,L,U,Z
-#    1,R,K,G
-#   10,L,K,G
-#    7,L
-#   15,L,Z
+#Time
+MidwayChapterTime: 0:49.266(2898)
 
-
-MidwayChapterTime: 0:50.626(2978)
+#lvl_b-00-out
+   5,R
+   1,R,J,G
+  10,L,J
+   4,L
+   1,K
+  16,L,Z
+   4
+   4,R,D,X
+   1,R,J
+   1,S
+   1,D,O
+  34
+   1,R,J
+   6,J
+   3,R,J
+   5,R,K,G
+   7,R
+   2,R,J
+  14,R,D,X
+   1,R,J
+  40
