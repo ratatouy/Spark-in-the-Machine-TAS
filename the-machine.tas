@@ -1,4 +1,4 @@
-RecordCount: 3828
+RecordCount: 4218
 
 console load factory/BZFR/factory e-00-in
    1
@@ -144,32 +144,26 @@ EndRepeat
   13,L,X
    4,L,J
    1,L,K
-  15,L,D,X
-   2,L
-   1,D
-   6
-   1,L,J
-  10,L
-  11,R,D,X
-   1,L,J
-   3,L,K,G
-   5,L
-  10,L,D,X
-   1,L,J,G
-  19,D
-  14,D,X
-   8,D
-  10,R,Z
+  14,L,D,X
+  11,L,J
+  25,L
+  18,D,X
+  10,R,D,C
    1,R,J
-  24,D
-  15,R,D
-  15,R,D,X
-  15,D,C
+  28,D
+  14,R,D
+   1,R,J
+  20,R
+  18,G
+   4,R,X
+  10,D
+   1,J
    6,L,Z
    1,L,J
-   7,L
+   1
+   6,L
    1,L,J
-   7,L,D,X
+   8,L,D,X
    1,L,J
    7,L
    3,L,J
@@ -219,26 +213,25 @@ EndRepeat
   15,L,D,X
    5,L
    1,L,J
-   3
-  14,R,D,X
-   1,L,J
-   5,L,D,X
-   1,L,J,G
-   9,L
+  12,L,D,X
   40
-   4,L
-   4,L,J
-  15,L,D,X
-   4,L
-  12,L,J
-   5,L
-   8,L,J
+
+#lvl_e-wire-01-in
+   2,L,D,X
+   1,L,J
+  14,L,D,X
+   1,L,J
+  16,L,D,X
+  27,L,J
+   2,J
   12,R,K
    5,R
-   4,R,J
-  14,U,X
-  15,L,J
-   4,L
+   3,R,J
+  15,U,X
+  11,L,J
+   4,J
+   1,L,J
+   4,J
   14,R,X
 # optimizable
   12,L,J
@@ -1049,8 +1042,6 @@ EndRepeat
    2
    2,L
    1,R
-
-
    3,J,G
    3,R
    3
@@ -1079,33 +1070,26 @@ EndRepeat
   30,R,U,Z
   15,U,X
   40,R,U,C,G
-   8,L,J,G
+   7,L,J,G
+   1,L,J,G
   11,L,K,G
    3,L,G
    1,J,G
    1,G
   19,L,Z,G
    8,L,J,G
-  12,L,K,G
-   5,L,G
-   2,L,J,G
-   1,K,G
-  24,L,K,G
+  19,L,K
+   1,K
+   3,J
+   1
+  16,U,G
+   9,L,G
    1,J,G
-  11,L,J,G
-   5,L,G
-   3,L,J,G
-   6,L,G
-   1,K,G
-  10,L,K,G
-   5,L,G
-   2,L,J,G
-   8,L,G
-   8,J,G
-   5,L,J
-   1,J
-   6,L,J
-  22,L,U,X
+   8,K,G
+  11,L,K
+   1,K
+  15,L,U,X
+   7,L
    1,L,G
   32,R
    1,R,G
@@ -1348,5 +1332,128 @@ EndRepeat
    1,S
    1,D,J
   34
+   6,R,Z
+   1,R,J
+   7,R
+   1,R,J
+  14,R,D,X
+   1,R,J
+   8,R,D,X
+  40
 
-MidwayChapterTime: 3:00.965(10645)
+#lvl_e-end-in
+   6,R,D,X
+   1,R,J
+  10,R,D,X
+   1,R,J
+   7,R
+   5,R,J
+   8,J
+  18,R,U,Z
+  14,R,X
+   1,L,J
+   4,L,K
+  13,L,U,C
+  47,R,G
+  17,L,G
+  27,L,U,X,G
+   4,R,G
+   3,R,G
+   4,L,Z,G
+   2,L,J,G
+   1,L,K,G
+   8,L,K
+  18,R,G
+  21,R,D,X
+  15,R,G
+  15,R,D,X
+   9,R,D
+  45,R,G
+  37,L,D,G
+  13,R,U,Z,G
+   5,R,J,G
+   5,R
+   2,J
+  28,R,J,G
+  21,R,Z
+   8,R,J
+  37,R,K
+  85,R,Z
+   4,L,J
+  15,U,X
+   1,G
+   6
+  11,U
+   1,G
+   6
+  23,R
+   1,G
+   6
+  18,D
+   1,L,G
+   6
+  27,L
+   1,G
+   6
+   8,U
+   3,L
+   1,L,G
+   6
+  30,L
+   7,R
+  14,R,U,X
+  22,L
+  15,L,U,Z
+  13,L
+  15,L,U,X
+  33,L,D,C
+   1,G
+  48
+   1,G
+  26
+   1,G
+  26
+   1,G
+  45
+   1,G
+  28
+   1,G
+  28
+   1,G
+  30
+   1,G
+  45
+   8,R,J
+  11,R,K
+   1,R
+   1,R,G
+   6
+  15,R,D,X
+   4,R,D
+   1,R,J
+   1,J
+   5,R,D,X
+   2,R,J,G
+  11,R
+   1,R,J
+   2,J
+   1,R
+   6,R,D,X
+   5,R,J,G
+  10,R
+   3,R,J
+  15,R,D,X
+   1,R,J
+  14,R,D,X
+   1,R,J
+   1,S
+   1,D,J
+  34
+  14,R,D,X
+   1,R,J
+  14,R,D,X
+   1,R,J
+  13,R,D,X
+  40
+
+MidwayChapterTime: 3:21.178(11834)
