@@ -331,9 +331,9 @@ EndStunPause
    5,L
   22,L,X
    4,R,G
-# spinner cycle b-06
+#spinner-b06
    0,G
-#
+#spinner-b06-end
    3,J,G
   10,R,X
    6,R,J
