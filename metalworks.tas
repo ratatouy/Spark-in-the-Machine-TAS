@@ -1,7 +1,7 @@
 # SparkInTheMachine
 # https://gamebanana.com/mods/704652
 
-RecordCount: 2153
+RecordCount: 2158
 
 console load factory/BZFR/factory -9396.50004512072 -1144
    1
@@ -289,12 +289,7 @@ EndStunPause
   14,R,U,Z
    1,R,J,G
    1,L
-#spinner-b06
-   5,R
-   1
-   1
-   1,D
-#spinner-b06-end
+   6,R
    4,R,Z
    2,R,J
    4,R
@@ -336,37 +331,43 @@ EndStunPause
    5,L
   22,L,X
    4,R,G
+# spinner cycle b-06
+   0,G
+#
    3,J,G
   10,R,X
    6,R,J
   12,R,K
   16,R,Z
    1,G
-   4,J,G
-   2,R
-   4
-   1,R,J
+   1,R,J,G
+   2,R,J
+   1,J
+   1,R
    1
+   1,R
+   3
+   1,R
    1,L
    1
-   1,R,D
-   7,R
-   1,R,G
-   2,R
-   1,R,G
    1,R
-   3,R,G
+   1,L
    1,R
-   5,R,D,X
-   1,R,K,G
-   1,R,J,G
-   1,R,K,G
-   1,R,J,G
-   3,R
+   1,G
    1
    1,R
-   1,R,J
+   1
    2,R
+   1,G
+   5,R
+   2,G
+   1,R
+   5,R,D,X
+   1,R,J,G
+   1,R,K,G
+   1,R,J,G
+   1,R,K,G
+   7,R
    2,R,J
 StunPause
    1,R,U,Z
@@ -694,7 +695,7 @@ EndRepeat
   15,R,D,X
    4,R
 #Time
-MidwayChapterTime: 1:19.084(4652)
+MidwayChapterTime: 1:19.033(4649)
    1,R,J
    8,R,D,X
    1,S
