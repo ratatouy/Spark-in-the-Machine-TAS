@@ -1,4 +1,4 @@
-RecordCount: 4219
+RecordCount: 4384
 
 console load factory/BZFR/factory -6084 -9236.08339381218 0 -105
    1
@@ -23,7 +23,9 @@ console load factory/BZFR/factory -6084 -9236.08339381218 0 -105
    2,R
   14,R,D,X
    1,L,J
-   7,L
+   5,L
+   1,L,J
+   1,L
   12,L,J
    1,L
   15,U,X
@@ -41,36 +43,27 @@ EndRepeat
    7,G
    1,U
   11,L
-   4,J,G
+   3,J,G
    1,R,J
    1,L,K,G
-   1,L,J,G
+   2,L,J,G
    7,L
-   5,L,J
+   3,L,J
+   2,L
   15,U,X
    2,L
    8,R
-   5,L,D,X
-   1,R,J
-   3,R
-   1,R,J
-   1,J
-   1
-   1,J
    1,R
-   1,D
+  14,R,Z
+   1,L,J
    1,S
    1,D,J
   34
-   7,L,Z
    1,L,J
    1
-   5,L
+  14,L,D,X
    1,L,J
-  13,L,D,X
-   1,L,J
-   1
-   8,L,D,X
+  12,L,D,X
    1,R,J
    7,R
    1,R,J
@@ -97,6 +90,7 @@ EndRepeat
    1,L,J
    3,L
   15,L,D,X
+   2
    1,L,J
    8,L
   40
@@ -136,8 +130,8 @@ EndRepeat
    3,L,J
   15,L,D,X
    1,L,J
-   9,L
-  13,L,X
+  15,L,D,X
+   5
    4,L,J
    1,L,K
   14,L,D,X
@@ -193,19 +187,24 @@ EndRepeat
    7,L,J,G
    1,R,J,G
    1,K,G
-  10,J,G
-  16,L,Z
+   1,J,G
+  20,L,X
    4,L,J
-  10,L,K
-  19,R,U,X
-  11,R,J
-   7,G
-  16,U
+   7,L,K
+  19,U,X
+   2,R
+   2
+  14,R,G
+   1,R
+   1,R
+  15,U,G
+   2
+   1,L
   34,L,J
   46,L,X
-   7,L,J
+   8,L,J
   12,L,K
-   5,L
+   4,L
   15,L,D,X
    5,L
    1,L,J
@@ -1451,4 +1450,5 @@ EndRepeat
    1,R,J
   13,R,D,X
   40
-MidwayChapterTime: 3:20.940(11820)
+
+MidwayChapterTime: 3:20.685(11805)
