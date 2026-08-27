@@ -1,4 +1,4 @@
-RecordCount: 3440
+RecordCount: 3786
 console load factory/BZFR/factory 23102 -14728
 #Start
   37
@@ -871,43 +871,45 @@ console load factory/BZFR/factory 23102 -14728
    3,L,K,G
    9,L,J,G
   40
+
 #lvl_i-14-collapse
   15,L,K
   10,U,X
-  23,L,J
-  20,D,G
-  14,L,H
-  15,L,D,X
-  15,D,C
-   6,R,Z
-   1,L,J
-   7,L
-  25,L,J
-  15,L,U,Z
-   9,U,C
-  27,R,J
-  45,L,G
-  26,D,C
-  15,L,X
-  17,R,C
-  20,R,D,X
+  28,L,J
+   8,D,G
+  19,L,D,G
+   8,U,H
+  40,L,D,H
+   2,D,H
+   3,L,D,H
+   2,D,H
+   2,L,H
+   9,L,D,H
+   1,L,H
+   1,L,D,H
    8,L,G
-  33,L,D,X
-   1,K
-  19,L,K
-   2,K,G
-   5,R,K
-  13,J
-  14,L,Z
+   5,L,D,X
+   1,L,K,G
    1,L,J,G
-   1,K,G
-   1
-   7,R,D,X
+   1,L,K,G
+   1,L,J,G
+   6,L
+   1,L,K
+   4,L
+   3,L,D,J
+   1,D,J
+   2,L,D,J
+   2,L
+StunPause
+   3,L
+   3,L,J
+EndStunPause
+   4,L
    1,L,J
-   7,L
-  25,L,J
-  26,L,U,Z
-  15,L,D,C
+  19,L
+  29,L,U,Z
+   3
+  15,L,D,X
    1,L,J
    4,R
    1,R,J
@@ -938,13 +940,15 @@ EndRepeat
   12,L,D,X
    4,L,J
   20,L,Z
-  15,L,X
-  15,L,U,C
-  10,L,D,X
+   6,L,X
+   7,L,G
+   2,L,K
+   7,L
+   4,L,J
+   6,L
+   4,L,J
+   6,L
    1,L,J
-  21,L,G
-   2,L,J
-   3,L
   18,D,C
   18,D,X
    5,L,J,Z
@@ -983,6 +987,7 @@ EndRepeat
    1,L,J,G
   14,L
   40
+
 #lvl_i-15-collapse
    1,L,J
   11,L,D,X
@@ -990,15 +995,19 @@ EndRepeat
    7,L
   20,L,D,J
   21,L,D,X
-  11,R,G
-  31,R,D,X
+  10,R,G
+  20,R,D,X
+   1,R
+   3,R,D
+   8,L,D
    8,L,G
-  29,L,D,C
-  29,L,J
+  28,L,D,C
+  20,L,J
+   9,L
   29,R,G
   42,D
   17,L,D
-   8
+   7
   15,U,G
   12,R
   22,L,G
@@ -1048,128 +1057,4 @@ EndRepeat
  425
    1,S
   18,D,J
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
-MidwayChapterTime: 3:40.507(12971)
+MidwayChapterTime: 3:37.447(12791)
