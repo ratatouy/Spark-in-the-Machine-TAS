@@ -1,4 +1,4 @@
-RecordCount: 3786
+RecordCount: 3972
 console load factory/BZFR/factory 23102 -14728
 #Start
   37
@@ -8,10 +8,14 @@ console load factory/BZFR/factory 23102 -14728
    1,L,J
    7,L,D,X
   40
+
 #lvl_pSuite east
    1,S
-  34,D,J
-   7,L
+   1,D,J
+  37
+
+#lvl_i-00-collapse
+   3,L
   11,L,D,J
    1,R,K,G
    7,L,K
@@ -33,30 +37,46 @@ console load factory/BZFR/factory 23102 -14728
   15,L,D,C
   26,L,G
    1,G
-  15,L,G
+  12,L,G
+   2,L,D,G
+   1,L,G
    9,L,J,G
   47,L,H
-  14,L,Z
-   3,K
-  10,L,X
-  19,L,J
-  14,L,Z
-  40
-  10,R
-  17
-  12,L,Z
-   3,L,J
+  15,L,Z
+   2,G
+   5,L,Z
+   2,L,J,G
+   1,L,K,G
+   2,L,J,G
+  11,L,K,G
+  11,L
+   3,L
+  28
+  20,R
+   1,R,J
+   4,R
+   4
+   2,J
+   5
+   6,R,Z
+   1,L,J
+   6,L
+   1,L,J
+   1,L
    5,L,D,X
    1,L,J,G
   12,L
   40
+
 #lvl_i-01-collapse
    3,L
    1,L,J
-  14,L
+  13,L
+   1
    1,L,J
-  14,L,D,X
-  23,L,J
+  13,L,D,X
+  22,L,J
+   1,L,J
   15,L,U,X
   10,R
   27,R,X
@@ -68,9 +88,10 @@ console load factory/BZFR/factory 23102 -14728
   19,L,D,X
   11,L,J
   32,L
-   8,U,G
-  11,L,J
-  27,J
+  15,U,G
+   1,R
+   5,L
+  25
   22,L,U,X
   42,L,G
   25,R,D
@@ -102,6 +123,7 @@ console load factory/BZFR/factory 23102 -14728
   14,L,D,X
    1,L,J
   40
+
 #lvl_i-02-collapse
   14,L,D,X
   22,L,J
@@ -162,6 +184,7 @@ console load factory/BZFR/factory 23102 -14728
    1,L,J,G
   13,L
   40
+
 #lvl_i-03-collapse
    2,L,D
   12,L,U,X
@@ -222,6 +245,7 @@ console load factory/BZFR/factory 23102 -14728
    1,L,J,G
   10,L
   40
+
 #lvl_i-04-collapse
    4,L
    5,L,J
@@ -260,6 +284,7 @@ console load factory/BZFR/factory 23102 -14728
    1,L,J,G
    9,L
   40
+
 #lvl_i-05-in-mask-collapse
    6,L
   11,L,J
@@ -351,6 +376,7 @@ console load factory/BZFR/factory 23102 -14728
    1,L,J
    8,L,D,X
   40
+
 #lvl_i-05-transition-in-mask-collapse
    4,L,J
   15,L,C
@@ -368,6 +394,7 @@ console load factory/BZFR/factory 23102 -14728
    1,L,J
    9,L,D,X
   40
+
 #lvl_i-06-in-mask-collapse
    5
    9,L,J
@@ -431,6 +458,7 @@ console load factory/BZFR/factory 23102 -14728
    4,L,J
    1
   40
+
 #lvl_i-07-in-mask-collapse
   14,L,D,X
    1,L,J
@@ -485,6 +513,7 @@ console load factory/BZFR/factory 23102 -14728
   12,L
    2,L,J
   40
+
 #lvl_i-08-in-mask-collapse
    9,L
    1,L,J
@@ -538,6 +567,7 @@ console load factory/BZFR/factory 23102 -14728
    4,L,J,G
    5,L,K,G
   40
+
 #lvl_i-09-in-mask-collapse
    8,L,K
   20,L,X
@@ -612,6 +642,7 @@ console load factory/BZFR/factory 23102 -14728
   11,L
    2,L,J
   40
+
 #lvl_i-10-in-mask-collapse
    4,L,J
    7,L
@@ -663,6 +694,7 @@ console load factory/BZFR/factory 23102 -14728
    1,L,K
    8,L,U,Z
   40
+
 #lvl_i-10-transition-in-mask-collapse
    6,R
    1,J,G
@@ -678,6 +710,7 @@ console load factory/BZFR/factory 23102 -14728
    7,L
    6,L,U,X
   40
+
 #lvl_i-11-in-mask-collapse
    6,R
    1,J,G
@@ -755,6 +788,7 @@ console load factory/BZFR/factory 23102 -14728
   14,L
    1,L,K
   40
+
 #lvl_i-12-collapse
    5,L,K
   12,L
@@ -805,6 +839,7 @@ console load factory/BZFR/factory 23102 -14728
    1,L,J,G
   10,L
   40
+
 #lvl_i-13-collapse
    4,L
   12,L,J
@@ -1057,4 +1092,4 @@ EndRepeat
  425
    1,S
   18,D,J
-MidwayChapterTime: 3:37.447(12791)
+MidwayChapterTime: 3:37.294(12782)
