@@ -1,5 +1,7 @@
-RecordCount: 3972
+RecordCount: 4586
+
 console load factory/BZFR/factory 23102 -14728
+
 #Start
   37
   14,L,Z
@@ -40,98 +42,139 @@ console load factory/BZFR/factory 23102 -14728
   12,L,G
    2,L,D,G
    1,L,G
-   9,L,J,G
+   7,L,J,G
+   2,J
   47,L,H
   15,L,Z
-   2,G
-   5,L,Z
-   2,L,J,G
-   1,L,K,G
-   2,L,J,G
+   1,L,G
+   6,L,Z
+   1,L,J,G
+   2,L,K,G
+   1,L,J,G
   11,L,K,G
-  11,L
-   3,L
-  28
+   1,L,K
+  13,L
+  17
   20,R
    1,R,J
    4,R
    4
    2,J
    5
-   6,R,Z
+  13,R,Z
    1,L,J
    6,L
    1,L,J
-   1,L
-   5,L,D,X
-   1,L,J,G
-  12,L
+  11,L,D,X
+   1,L,J
+   7,L
+   1,L,J
+   6,L,U,X
   40
 
 #lvl_i-01-collapse
-   3,L
+   6,R
+   1,J,G
+   7,J
+  15,L,D,X
+   3,L,D
+  26,L,J
+  15,R
+  15,R,X
+  11,R
+  15,L
+  14,L,Z
+   3,L,J
+   1,L
+  15,L,D,X
+   4,L,D
+   4,L,Z
    1,L,J
-  13,L
+   7,L
+   7,L,J
+   5,L
+   2,L,J
+   1,L
+   2,L,J
+  12,L
+   7,L,D
+   1,L,D,G
+   6
+   8,U,G
+   6,L
+   1
+   1,L
+  23
+  18,L,U,X
+  51,L,G
+   1,L
+   1,L,G
+   6
+  45,L
+   1,L,D
+  14,R,D
+   4,R
+   2,G
+   1,J,G
+   9
+   1,J
+   4
+  36,L
+  10,L,X
+   1,L,J,G
+   9,L
+   1,L,J
+   4,L
+   2
+   3
+   1,D
+   1,L,J
+   8
+   1,J
    1
    1,L,J
-  13,L,D,X
-  22,L,J
-   1,L,J
-  15,L,U,X
-  10,R
-  27,R,X
-   2
-  15,L
-  15,L,Z
-  14,L,D,C
-   1,L,J
-  19,L,D,X
-  11,L,J
-  32,L
-  15,U,G
-   1,R
-   5,L
-  25
-  22,L,U,X
-  42,L,G
-  25,R,D
-  25,L,G
-  34,R,D
-  15,U,C
-  15,D
-  12,R,D
-  35,L
-   7,L,D
-   8,L,X
-   1,L,J,G
-  20,L
+   6
+   1,R,J
+  11,J
+   6
+   3,J
+   1
+   2,J
+  11
+   1,D
   14,L,Z
+   2,R,J
+   8,R
+  14,R,D,X
    1,L,J
-  14,L,D,X
-   1,L,J
-  15,D,C
-  16,R
-  53
-  12,L,Z
-   3,L,J
-   5,L,D,X
+   6,L,D,X
    1,L,J,G
-  15,L
+  11,L
    1,L,J
-  14,L,D,X
+   6,L
+  15,L,D,X
+   2
    1,L,J
-  14,L,D,X
+  14,L
    1,L,J
+  13,L
   40
 
 #lvl_i-02-collapse
-  14,L,D,X
-  22,L,J
-  13,K,G
-   7,J,G
-  20,R,K
-  10,R
-  10,L,D
+   1,L
+  24,L,J
+   1,G
+   1,K,G
+   9,K,G
+   1,R,J
+# optimize for a frame or two?
+  12,R,K
+  16,R
+   1,R
+   3,L
+   3,L,D
+   2,L,D
+   2,L
   40,L,G
   21,L,Z
    4,L,J
@@ -140,8 +183,11 @@ console load factory/BZFR/factory 23102 -14728
   27,L,U,X,G
   21,U,C,G
    1,R,J,G
-  23,R,K,G
-   3,G
+  20,R,K,G
+   1,R,G
+   2,R,J,G
+   2,J,G
+   1,G
   14,R,Z,G
    1,L,J,G
   15,L,D,X,G
@@ -371,7 +417,11 @@ console load factory/BZFR/factory 23102 -14728
   10,R,J
   10,U,G
   13,R
-  26,L,U,X
+  15,L,U,X
+# spinner cycle i-10
+   9,L
+   3
+#
   14,L,Z
    1,L,J
    8,L,D,X
@@ -674,15 +724,12 @@ console load factory/BZFR/factory 23102 -14728
   12,L,Z
    1,L,J
    2,L
-   1,S
-  10,J
-   2,L
-   1,S
-  10,J
-   2,L
-   1,S
-  10,J
-  15,D,X
+StunPause
+   4,L
+SkipInput 3 1
+   5,D,X
+EndStunPause
+  10,D,X
    4,R,D
    1,R,J
    7,R
@@ -1092,4 +1139,4 @@ EndRepeat
  425
    1,S
   18,D,J
-MidwayChapterTime: 3:37.294(12782)
+MidwayChapterTime: 3:36.070(12710)
