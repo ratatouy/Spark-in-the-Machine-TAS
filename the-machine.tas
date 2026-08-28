@@ -1,4 +1,4 @@
-RecordCount: 5264
+RecordCount: 6360
 
 console load factory/BZFR/factory -6084 -9236.08339381218 0 -105
    1
@@ -274,80 +274,100 @@ console load factory/BZFR/factory -6084 -9236.08339381218 0 -105
    2,R
   15,R,U,X
   17,R,D
-  21,D
-   8
+  20,D
+   5
+   1,D
+   1,R
+   1
+   1,R,D
    1,J
-  20,R,G
-  15,U,X
    2
-   4,L
-  12,L,Z
+   7,R,G
+  13,R
+  15,U,X
+   3,R
+  13,L,Z
    1,R,J
-   3
-  16,R,D
-  11,R,U,Z
-  45,R,G
+   5,R
+   1,R,J
+  13,R
+  13,R,U,Z
+  41,R,G
    3
    9,R,U,X
   21,L
   10,R,U,X
    4,L,J
-   8,L,G
-  36,L,Z,G
-   4,R,J,G
+   4,L,K
+   4,L
+   9,L,Z
+  26,G
+   5,R,J,G
    1,R,K,G
   15,R,D,X,G
-  31,R,G
-  30,R,X,G
-   8,R,J,G
-   9,R,K,G
+  27,R,G
+   5,R,D,G
+  18,R,X,G
+  10,G
+   5,R,J,G
+  11,R,K,G
   14,U,X,G
   15,R,J,G
    8,R,G
-   8,R,J,G
-   5,R,X,G
-  10,G
-  13,R,Z,G
    4,R,J,G
+   2,R,G
+  11,G
+  14,R,Z,G
+   7,R,J,G
    7,R,H
-  22,R,D
+  19,R,D
   40
 
 #lvl_e-wire-04-in
-# painfully slow skip
-   3,R
-  11,R,U,Z
+   4,R
+   9,R,U,X
    1,L,J,G
-   5,R,J
+   6,R,J
    5,R
-   3,R,J
+   1,R,J
   21,R,D
   10,L,D,X
-  20,R,J
-   9,U,X
-  30,D
+   5,R,J
+   4,R
    2
-   7,R,G
-  29,R,D,X,G
-  36,R,J,G
-  15,U,X,G
-   9,L,G
+   1,J
+  15,R,U,X
+  16,L,D
+   9,D
+   2,R,D
+   7,R,D,G
+  15,R,D,X,G
+   6,R,G
+   8,R,D,G
+  28,R,J,G
    1,J,G
-  11,R,J,G
-   6,R,G
-  10,R,J,G
-   6,R,G
+   1,R,J,G
+   1,J,G
+  17,U,X,G
+   4,L,G
+   1,K,G
+   6,J
+   5,R,J
+   6,R
+   7,R,J
+   9,R
    7,R,H
    1,U
-  49,R
-  15,R,U,Z
-   9,R
-  10,U,X
+  35,R
+  14,R,D
+  24,R,U,Z
+   9,U,X
+   1
   25,R
   10
    1,J
   22,L,K
-   7,L,G
+   7,L,K,G
    8,U
   18,R
   15,L,U,Z
@@ -356,30 +376,35 @@ console load factory/BZFR/factory -6084 -9236.08339381218 0 -105
   12,L,J
    5,L
   10,L,J
-  17,L
+  14,L
+   3,L
    2
    6,R
-  15,U,X
-   4,R
-  21,L,D
-   3,L
-   7,L,G
-  13,L,Z
-  11,L,J,G
+  16,U,X
+   8
+   1,L
+   1
    2,L
-   5
-  12,R,J
-   1,R
-  17,U,X
+   6,L,G
+  14,L,Z
+   1,L,J,G
+   9,L
+   1,L,J
+   5,L
+   8
+   4,R,J
+   8,L,J
+   1,L
+  15,U,X
+   1,L
   40
 
 #lvl_e-wire-05-in
-# couldn't find a way to go under the big block sadly, it'd be very cool if it were possible
   11,R,J
-  25,R,U,X
-   4,L,J
-  12,L,K
-  12,L,Z,G
+  23,R,U,X
+   5,L,J
+  14,L,K
+  10,L,Z
    1,R,J,G
    1,G
   11,R,G
@@ -400,66 +425,56 @@ console load factory/BZFR/factory -6084 -9236.08339381218 0 -105
    7,G
   13,R,D,X,G
    1,R,J,G
-   6,R
-   1,R,J
-   1,R
-  12,R,J
-  21,R,D
-  12,R,U,Z
-   4,L,J
-   1,K
-   1,L,K
-   1,L,K,G
-   7,U
-# 0.08 away from ccorrect
-  27,L
+   6,R,G
+   1,R,J,G
+   1,R,G
+  12,R,J,G
+  17,R,D
+  15,R,U,Z
+   4,R,J
+  10,R,K
+   7,L,G
+  14,L
+  14,R,U,X
+   9,U,G
    1
-   1,L,J
-  18,R,U,X
-   8,R
-   9,R,K
-  35,R,U,Z
-   2
-   1,J
+   8
+   5,J
+   5,L,J
+   2,J
    3
-   6,R
-  11
-   1,J
-  18,D
+  15,R,U,Z
+  29
+   2,L
    3,L,D
-   4,L
-# cool wall hit -> coyote jump
-   1,L,G
+   1,L,D,G
    8,R
-   6,R,J
+   3,R,J
+   2,R,J
+   1,J
   15,R,D,X
-   1,R,J
+   1,R
+   1,R,D,J
    5,R
   15,R,D,X
-  28,D
-   1,R,D
-   1,D,G
-  39,D
-   1,L,D
+   9
+   1,R
+  57,D
+   6,R,D
    1,D
-  18,R,D
-  14,R,D,X
-   1,R,J
-   8,R
-   1,R,J
-  13,D,X
+   4,R,D
+   2,R
+   7,R,D,G
+  15,R,D,X
+  15,D
   40
 
 #lvl_e-wire-06-in
-  10,R,D
-   8,D
+  98,D
    1,L,D
-   1,R,D
-   1,L,D
-   1,R,D
    1,D
-   1,R,D
-  82,D
+   2,L,D
+   2,D
   35,L,D
    4,Z
    1,L,J
@@ -467,28 +482,36 @@ console load factory/BZFR/factory -6084 -9236.08339381218 0 -105
    1,L,J
    3,L
    1,L,J
-   9,L
+   4,L
+   5
    1,N
   14,R,D,V
    1,R,J
   15,R,D,X
    1,R,J
-  14,R,D
-   2,R,J
+  11,R,D,X
+   1,R,J
+   1,R,K
+   1,R,J
   40
 
 #lvl_e-hub-in (1)
+   1,R,J
    3,R
-  23,R,D,X
-   6,R,J
-  21,R,D
-  14,R,D,X
-   1,R,J
-  14,R,D,X
-   1,R,J
-  12,R,D,X
+  20,R,D,X
+   3,D
    4,R,J
-   2,R,K
+   7,R,D
+  16,R,D
+  13,R,D,X
+   1,R,J
+   1,R
+  14,R,D,X
+   1,R,J
+  11,R,D,X
+   4,R,J
+   1,R,K
+   2,R
   14,R,D,X
    1,R,J
   15,R,D,X
@@ -496,19 +519,23 @@ console load factory/BZFR/factory -6084 -9236.08339381218 0 -105
    8,R,D
   20,D,X
    4,D
-  30,R,D
-   4,Z
+   1,D
+  29,R,D
+   4,R,Z
    1,R,J
-   7,R
-   9,J
-   3,R,J
    5,R
-  13,U,X
-  14,R,J
-   9,R
-   2,R,J
-  20,R,D
-  29,D
+   1,R,J
+   1,R
+   1,R,J
+   7,R,J
+   1
+   1,R
+   1
+  15,U,X
+   1,R
+  24,R,J
+  26,R,D
+  25,D
   40
 
 #lvl_e-engine-00-in
@@ -549,6 +576,7 @@ EndRepeat
    3,D
    1,R,D
    1,D
+
   40
 
 #lvl_e-engine-01-in
@@ -1420,5 +1448,4 @@ EndRepeat
    1,R,J
   13,R,D,X
   40
-
-MidwayChapterTime: 3:18.152(11656)
+MidwayChapterTime: 3:16.707(11571)
