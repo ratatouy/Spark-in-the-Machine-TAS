@@ -1,4 +1,4 @@
-RecordCount: 6390
+RecordCount: 6360
 
 console load factory/BZFR/factory -6084 -9236.08339381218 0 -105
    1
@@ -398,13 +398,12 @@ console load factory/BZFR/factory -6084 -9236.08339381218 0 -105
   15,U,X
    1,L
   40
-
 #lvl_e-wire-05-in
   11,R,J
   23,R,U,X
    5,L,J
   14,L,K
-  10,L,Z,G
+  10,L,Z
    1,R,J,G
    1,G
   11,R,G
@@ -918,48 +917,54 @@ EndRepeat
    1,R,J,G
    1,R,K,G
    2,K,G
-  22,R,K,G
-  38,U,X
-   7,G
-  22
-   7,G
-  24
-   7,G
-  84
-  15,R,D,X
+  21,R,K,G
+  16,U,X
+   3,R
+  50
+  19,G
+  19,H
+   3,L,D,H
+   5,D,H
+  15,R,D,X,H
+  44,D,G
+  36,D,H
+  11,L,D,X
+   4,L,J
+  14,L,D
+  14,D,G
+  20,U,H
+   8,R,G
+  20,R,D,X
+  12,R
+  14,U,X
+  10,U,G
+  12,L
+  10,U,H
+  12,L,H
+   2,L,K,H
+   1,J,H
+   9,L
    1,R
+   8,R,G
+  15,R,D,X
+   6,L,D
   18,R,D
-  32,L,Z
-Repeat, 6
-   7,G
-  26
-EndRepeat
-  27
-   4,R,J
-  10,R,K
-   9,R
-   1,R,J
-  18,R
-   4,R,D
-  15,R,U,X
-  13,R
-  10,R,G
-   4,J,G
-   1,L
-   4
-   7,J
-   2,L,J
-   2,L
+  12,R
+   8,R,G
+   6,J,G
+   1,L,J
+   1,J
    1
-   6,L
+  11,J
+   1
+   1,L,J
+   9,L
    5,L,Z
    1,R,J
    1,R,K,G
-   9,R
-   1,R
-  10,R,J
+  11,R
+   9,R,J
   40
-
 
 #lvl_e-out-mask-02-in
   16,R,J
@@ -1448,4 +1453,4 @@ EndRepeat
    1,R,J
   13,R,D,X
   40
-MidwayChapterTime: 3:16.707(11571)
+MidwayChapterTime: 3:14.582(11446)
