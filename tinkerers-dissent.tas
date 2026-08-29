@@ -1,4 +1,4 @@
-RecordCount: 3783
+RecordCount: 3933
 
 console load factory/BZFR/factory g-02-east
    1
@@ -441,62 +441,62 @@ console load factory/BZFR/factory g-02-east
   40
 
 #lvl_g-09-east
-   2,R
-   1
+   4,R
+   8,R,D,K
+   3,R
+   1,L
+   4,J,G
    1,R,J
-   7,R,D,X
-   1,R,J
-   7,R
-  18,R,J
-  26,R,X
-   4,L,J
-  17,L,K
-  22,U,X
-  16,L,D,C
-  10,L,D,X
-  39,R,G
-  19,U,H
-   4,R,J,H
-  10,J,H
-   8,H
-   5,J,H
-  13,U,G
-   6,L
-   9,D,H
-   4,L
-  22,L,G
+   7,J
+  28,U,X
+  18,L,D,C
+   6,L,D,X
+   7,G
+  31,R
+   7,R,G
+   1,U
+   9
   15,U,X
+   2,L
+   6,J
+   7,J,G
+  14,L
+   7,L,G
+  26,U
+  15,U,X
+  47,R
+   7,R,G
+   1,J
+   1,K
+  15
+  57,R
+   7,G
    1,R,J
-  14,R
-  15,R,U,X
-  15,R,D,C
-  56,R
-   1
-  10,R,G
-  14,R,D,X
-   1,R,J
-   1
+   1,R,K
+  15,R,D,X
   18,D,C
-  18,L,G
+   7,G
+  11,L
   34,L,D,X
    3,R
    1,R,J
   10,R,D,X
-  36,D,G
-   8,R,D
-  15,D,H
-   8,G
+   7,G
+  27,D
+   1,L,D
+   1,D
+   7,L,D,G
   15,R,D,X
-   4,R,G
-   1,R,J,G
-   8,R
-  14,D
-  20,R,D,X
-  17,R,D,C
-   1,R,J
+   9,D
+   7,G
+  17,D
+   6,R,D
+  13,R,X
+   4,R,J
+   1,R,K
   14,R,D,X
    1,R,J
-   7,R,D,C
+  13,R,D,X
   40
 
-MidwayChapterTime: 1:09.496(4088)
+MidwayChapterTime: 1:08.714(4042)
