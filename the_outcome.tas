@@ -1,4 +1,4 @@
-RecordCount: 4586
+RecordCount: 6253
 
 console load factory/BZFR/factory 23102 -14728
 
@@ -54,38 +54,36 @@ console load factory/BZFR/factory 23102 -14728
   11,L,K,G
    1,L,K
   13,L
-  17
-  20,R
+  43
+   6,R,Z
    1,R,J
    4,R
-   4
-   2,J
-   5
-  13,R,Z
+   1,R,J
+   3,R
+  10,R,D,X
    1,L,J
    6,L
    1,L,J
-  11,L,D,X
+  15,L,D,X
    1,L,J
-   7,L
-   1,L,J
-   6,L,U,X
-  40
+   3,L
+   7,L,U,Z
 
 #lvl_i-01-collapse
-   6,R
-   1,J,G
-   7,J
+  40
+   5,R
+   7,J,G
   15,L,D,X
-   3,L,D
-  26,L,J
-  15,R
+   4,L
+  24,L,J
+  14,R
   15,R,X
-  11,R
-  15,L
-  14,L,Z
-   3,L,J
+  12,R
+  16,L
+  13,L,Z
+   1,L,J
    1,L
+   2,L,J
   15,L,D,X
    4,L,D
    4,L,Z
@@ -97,14 +95,14 @@ console load factory/BZFR/factory 23102 -14728
    1,L
    2,L,J
   12,L
-   7,L,D
-   1,L,D,G
+   6,L,D
+   1
+   1,D,G
    6
    8,U,G
-   6,L
-   1
-   1,L
-  23
+   7,L
+   5
+  19
   18,L,U,X
   51,L,G
    1,L
@@ -127,7 +125,7 @@ console load factory/BZFR/factory 23102 -14728
    4,L
    2
    3
-   1,D
+   1
    1,L,J
    8
    1,J
@@ -137,11 +135,11 @@ console load factory/BZFR/factory 23102 -14728
    1,R,J
   11,J
    6
-   3,J
+   1,J
    1
-   2,J
+   4,J
   11
-   1,D
+   1
   14,L,Z
    2,R,J
    8,R
@@ -167,16 +165,14 @@ console load factory/BZFR/factory 23102 -14728
    1,K,G
    9,K,G
    1,R,J
-# optimize for a frame or two?
-  12,R,K
-  16,R
-   1,R
-   3,L
-   3,L,D
-   2,L,D
+  11,R,K
+   8,R
+   2,R,J
+   7,R
    2,L
+   8,L,D
   40,L,G
-  21,L,Z
+  20,L,Z
    4,L,J
   22,L,K
    2,K
@@ -195,108 +191,140 @@ console load factory/BZFR/factory 23102 -14728
    1,R,J,G
    4,L,J
   14,L
-  14,L,Z
-   3,L,J
-   5,L,D,X
-  25,G
-   1,R,J
-  23,R,U,C
-   5,L,J
-  11,L,K,Z
-  10,D,G
-  37,R,D,C
-  23,R,D,X
+   1,L,J
+  14,L,D,X
+   1,L,J
+   2,L
+   1,L,G
+   6
+  20,D,X
+  19,U,C
+   6,L,D,X
+   2,L,J
+   8,L
+   1,L,J
+   5,D,X
+  19,G
+  17,L,X
    4,R,J
-   3,R,K
-  25,R,U,C
-   5,L,J,Z
-  11,L
-  13,L,X
+  14,R,Z
+   4,L,J
+  18,U,X
+   7,L,D,C
+   1,L,J
+   7,L
+   1,L,J
+  14,L,D,X
+
+
+
    4,L,J
    6,L,K
   30,L,D
    5,L
   18,L,G
-  34,L,U,Z
-  34,L,G
-   8,L,H
-  27,L,D,X
+  15,L,U,Z
+  15,L,X
+  42,L,G
+   1,L
+  24,D,G
+   5,L
+  47
+   1,J
+   8
+   2,J
    5
-  22,R,U,X
-  59
-  12,L,Z
-   3,L,J
-   5,L,D,X
-   1,L,J,G
-  13,L
+   7,R,Z
+   1,L,J
+   6,L
+   1,L,J
+  15,L,D,X
+   2,L
+   9,L,D,J
   40
 
 #lvl_i-03-collapse
-   2,L,D
-  12,L,U,X
-   2,L,J,G
-   1,L
-   9,L,J
-  18,L,D,X
+   2,L,J
+   8,L
+   6,L,J
+  21,L,D,X
    4,R,J
-  33,K
-  10,R,D
-   4,R
+  21,K
+  10
+   8,R
+   5,R
   14,R,X
    1,L,J
   14,L,D,X
-  15,L,J
-  62,L,D,X,G
-   8
-  26,L,Z
-  10,U,G
-  27,R,G
-   9,K,G
-  12,J,G
-  38,L,K
-  18,R,G
-   3,J,G
-  31,D
-  47,L,Z
-  64,G
-  15,D,X
-   5,L
-  79,R,G
-   3,J,G
-  32,L,K
-  26,L,X
-  54,L,G
+  12,L,J
+  15,L,Z
+  50
+   4,L,J
+  15,U,X
+   1,L
+  42,L,G
+  43,L,H
+  43,R,G
+  14,D
+   1,R,D
+   1,D
+   1,R,D
+   2,D
+  18,L,D
+ 121,L,U,Z
+  19,R,U,X
+   1,R,J
+   3,R
+   7,U,X
+  32,L,G
+  45,L,H
+   8,L
   15,R,D,X
-  17,L,D
-  50,L,G
-   7,L,J
-  28,L,D
-  38,L,Z
-  40,L,G
-  12,L,U,Z,G
-   1,R,J,G
-   7,L,J,G
-   3,K,G
-  15,L,H
-   4
-  15,R
-  14,L,Z
+  20,L,D
+  42,L,D,G
+   4,L,D,X
    1,L,J
-  14,L,D,X
-  65
-   9,R
-  12,L,Z
+   6,L
    3,L,J
-   5,L,D,X
-   1,L,J,G
   10,L
+   1,L,J
+  14,L,D
+  38,L,Z
+   8,L,G
+   6,L,J,G
+   1,L,K,G
+  14,L,D,X,G
+   1,L,J,G
+   7,L,G
+  14,L,U,Z,G
+   1,L,J,G
+  15,U,H
+  11,R
+   5
+   1
+   1,R
+  14,L,D,X
+   1,L,J
+  17,L,D,X
+  38
+  11,R
+   1,R,J
+   8,R
+   2,R,J
+   5,R
+   7,R,Z
+   1,L,J
+   6,L
+   1,L,J
+  15,L,D,X
+   6,L,J
   40
 
 #lvl_i-04-collapse
-   4,L
-   5,L,J
-  20,L,D,X
-   6,L
+   4,L,J
+   1,L
+  22,L,D,X
+   7,L
   16,R,Z
    1,L,J
    7,L
@@ -305,150 +333,236 @@ console load factory/BZFR/factory 23102 -14728
   29,L,G
   18,D,X
   17,R,D,C
-  15,R,Z
-  12,R,V
+   1,R
+  14,R,Z
+   1,R,J
+  10,R,Z
    1,L,J
    7,L
-   1,L,D
-   1,L,J
-  22,L
+   2,L,J
+   8,L
+   2,L,J
+   4,L
+   8
   15,U,X
-  20,R,J
-  22,U,G
+  17,R,J
+   1
+   1,J,G
+   6
+  15,U,G
   15,U,X
-   2,R
-  12,R,J
+   1,R
+  12,L,J
   21,U,G
-  20,U,H
-  14,U,X
-  57,L,G
-  15,L,U,X
-  60
-  12,L,Z
-   3,L,J
+  21,U,H
+  13,U,X
+  47,L,G
+  36
+   3,R
+   4
+   1,J
+   8
+   2,J
+   5
+  14,R,Z
+   1,L,J
    5,L,D,X
    1,L,J,G
-   9,L
+  13,L
+   1,L,J
+  10,L,D,X
+   1,L,J
+   7,L
   40
 
 #lvl_i-05-in-mask-collapse
-   6,L
-  11,L,J
-  10,L
-   3,L,J
+  10,L,J
+   5
+   1,L,J
+   1,L,J
+   1,L,J
+   1,L
+   1,L,J
+   2,L,J
+   1,L,J
   12,R,U,X
-  24,L
-  15,U,X
-  37,L,G
-  27,R,D
-  54,L,G
-  15,R,U,Z
-  39,L,C
-   8,L,J
-  20,L,K
-  18,L,X
-  15,U,G
-  28,L,X
-   7,R,G
-  25,R,X
-  10,L,C
-  20,G
-  10,R,X
-  21,G
-  30,L,D,X
-   4,R,J
-   7,R,K
-  14,R
-  21,R,X
-  26,L,U,Z
-   5,L,J
-  25,L,K
-  35,U,X
   18,L
-  45,L,U,X
-  35,L,U,C
-   5,L,J,Z
-   7,L
-   3,L,J
-  14,L,U,Z
+  15,U,Z
+   1,L
+  45,L,G
+  20,L,D
+  43,L,D,G
+  15
+  15,U,X
+  34,L,C
+   8,L,J
+  25,L,K
+   5,L
+  15,L,U,Z
+   2,L
+  17,L,X
+  15,G
+   4
+   3
+   7,R,G
+  17
+  12,R
+  20,R,X
    4,L,J
    1,L,K
+   9,L
+   1,L
+  27,L,X
+  19,R,C
+   6,L,J
+  24,L,U,Z
+   4,L,J
+   1,L,K
+   5,L
+  18,L,J,G
+  15,U,X
+  24,L
   13,L
+  15,L,U,X
+
+###
+# +1f, worth trying to improve
+#   19,L
+#   13
+#   15,L,U,X
+#   17,L
+#    4,L,Z
+#    1,L,J
+#    7,L
+#    1,L,J
+#    2,L
+#   15,L,U,Z
+#    4,L,J
+#    5,L,D,X
+#    1,L,J
+#    5,L
+#    2,L,J
+#    2,L,D,J
+#    4,L
+#   13,L,U,Z
+#    4,L,J
+#    4,L,K
+#    2,L
+#   18,D,X
+#    4,L,Z
+#    2,L,J
+#    8,L
+#    1,L
+#   16,D,X
+#    1,L
+#    1,L,J
+#    4,L,Z
+#    1,L,J
+#    5,L
+#    2,L,J
+#    2,L,J
+#    4,L
+#    6,L,D,J
+#   13,L,U,Z
+#    4,L,J
+#    1,L,K
+#    6,L,D,X
+#    1,L,J
+#    4,L,J
+#    1,L,J,G
+###
+
+  18,L
+   8
+  12,U,X
+  25,L,G
+   2,L,J
+   7,L
+   2
    1,L,J
-   4,L
   16,L,U,Z
    4,L,J
-   3,L,K
-  23,L,D,C
-   5,L,J,Z
-  10,L
-   1,X
-  17,R,D,X
+   1,L,K
+   5,L
+  13,L,U,Z
    4,L,J
-   5,L,K,Z
+   4,L,K
+   2,L
+  19,D,X
+   4,L,Z
+   1,L,J
+   2,L
+   3,L
+   4,L,J
    4,L
-   3,L,J
-   6,L
+   4,L,J
+  15,L,U,Z
+   4,L,J
+   4,L,K
+   1,L
+  19,D,X
+   5,L,Z
    1,L,J
-   2,J
-  17,U,Z
-  11,R,D,X
-  13,L,J
-  13,R,G
-  17,U,X,G
-   3,R,G
-  11,L,D,C,G
-   1,L,J,G
-  12,L,D,G
-   6,L,J,G
-   1,L,G
-   3,L,J,G
-  10,R,J,G
-   1,L,J,G
-  23,K,G
-   3,R,G
-   1,G
-  11,R,G
-   1,G
-   1,L,J,G
-   1,R,K,G
-  23
-  10,J
-  10,R,J
-  10,U,G
-  13,R
+   4,L
+   1,L,J
+   1,L
+   1,L,J
+   7,L,D,J
+   4
+   6,L,G
+  10,R,D,X,G
+   8,L,J,G
+  15,L,X,G
+  75,G
+   1,J,G
+  19,G
+   3,U,G
+  18,R,J
+  15,U,G
+   2,R
   15,L,U,X
+   7,L
+   2,L
 # spinner cycle i-10
-   9,L
-   3
+   1
 #
-  14,L,Z
+   8,L,Z
    1,L,J
-   8,L,D,X
+   7,L
+   3,L,J
   40
 
 #lvl_i-05-transition-in-mask-collapse
+  19,L,X
    4,L,J
-  15,L,C
-   4,L,J
-   6,L,K
+   4,L,K
+   2,L
    1,S
-  35,D,J
-  14,L,Z
+   1,D,J
+  34
+
+#lvl_i-05-transition2-in-mask-collapse
+  10,L,Z
    1,L,J
-  14,L,D,X
-  13,L,J
-  10,L,D,X
+   6,L
+   3,L,J
+  15,L,D,X
+   3,L,D
+   1,L,J
+  14,L,U,X
    1,L,J,G
-  11,L
+  12,L
    1,L,J
-   9,L,D,X
+   5,L,D,X
   40
 
 #lvl_i-06-in-mask-collapse
-   5
-   9,L,J
-  13,L,G
+   9,L,D,X
+   3,L,J
+   1,L
+   1,L,J
+   8,L
+   1,G
    9,L,J,G
    6,L
    1,L,J
@@ -467,55 +581,67 @@ console load factory/BZFR/factory 23102 -14728
   15,R,D,X,G
    4,G
   15,L,D,X,G
-  46,U,G
+  47,U,G
    3,J,G
-  19,K
-  23,R,G
-   3,K
-  19,L,J
-  15,L,X
-  11,R,G
-  13,R,U,Z
-   4,R,J
+  19,R,K
+  21,R,G
+   1,K
+  18,L,J
+  18,L,X
+   9,R,G
+   6,R,J,G
+  10,R,Z
+   8,R,J
    8,R,K
-   1,R
-  16,R,K
-  28,L,U,X
+   6,K
+  26,L,U,X
   16,L,U,Z
   17,U,X
   10,U,G
   35,L,D,G
-   5,G
-  20,L,J,G
-   9,L,G
+   1,L,G
+   4,G
+  19,L,J,G
    2,G
-  28,L,K,G
-  15,U,X
+   1,L,G
+   1,L,J,G
+   8,L,G
+   1,L,J,G
+  11,L,K,G
+   7,L
+   3
+   4,L
+   9,U,X
+   2,D
   13,R,D
   11,R,U,X
    4,L,J
   17,L,K
   10,U,G
   17,R
-  12,U,X
+  11,U,X
    6,J
    3,L,J
    4,L
    1,L,K,G
    1,L,J,G
-  10,L
-  14,L,Z
-   4,L,J
-   1
+   7,L
+  11,L,Z
+   1,L,J
+   6,L
+   1,L,J
+   6,L,D,X
   40
 
 #lvl_i-07-in-mask-collapse
-  14,L,D,X
+   8,L,D,X
    1,L,J
-  30,L
+   4,L
+   4,L,J
+  23,L
   17,L,U,X
-  24,L,C
-   7,R
+  28,L,C
+   3
   10,L,X
   12,L,J
   15,U,X
@@ -1139,4 +1265,4 @@ EndRepeat
  425
    1,S
   18,D,J
-MidwayChapterTime: 3:36.070(12710)
+MidwayChapterTime: 3:31.327(12431)
