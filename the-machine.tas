@@ -1174,11 +1174,8 @@ EndRepeat
 
 #lvl_e-out-mask-05-in
    1,S
-   1,U
-   1,F,
-   1,U,O
-SaveAndQuitReenter
-  36
+   1,D,J
+  69,O
    2,J
    1
   15,U,X
@@ -1296,4 +1293,4 @@ SaveAndQuitReenter
   34
 
 #Time
-MidwayChapterTime: 2:48.504(9912)
+MidwayChapterTime: 2:49.116(9948)
