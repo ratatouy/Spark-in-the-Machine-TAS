@@ -1,0 +1,253 @@
+# SparkInTheMachine
+# https://gamebanana.com/mods/704652
+
+RecordCount: 11
+
+console load factory/BZFR/factory
+   1
+#Start
+
+## The Boundary
+#spinner-a03
+   1
+#spinner-a03-end
+
+Read,the-boundary,Start,stun_a-03
+
+#stun_a-03
+   3,R,K,G
+StunPause
+  16,R,K,G
+SkipInput 3 1
+  18,R,X
+SkipInput 3 1
+   6,R,J
+   5,R,K
+EndStunPause
+   2,R,K
+#endstun_a-03
+
+Read,the-boundary,endstun_a-03,spinner-a04
+
+#spinner-a04
+   0
+#spinner-a04-end
+
+Read,the-boundary,spinner-a04-end,stun_a-04
+
+#stun_a-04
+  17,R
+StunPause
+   1,R
+SkipInput 3 1
+   9,R,Z
+   1,J,G
+EndStunPause
+   2
+#endstun_a-04
+
+Read,the-boundary,endstun_a-04,Time
+##
+
+## Metalworks
+#spinner-b03
+   0
+#spinner-b03-end
+
+Read,metalworks,Start,stun_b-03
+
+#stun_b-03
+   3,R,J
+StunPause
+   6,R,J
+   5,R
+   2,R,J
+   6,R
+EndStunPause
+   2,R
+#endstun_b-03
+
+Read,metalworks,endstun_b-03,spinner-b06
+
+#spinner-b06
+   0,G
+#spinner-b06-end
+
+Read,metalworks,spinner-b06-end,stun_b-06
+
+#stun_b-06
+   2,R,J
+StunPause
+SkipInput,3,1
+   7,R,U,Z
+   2,R,K,G
+   2,R,J,G
+EndStunPause
+   3,R,J,G
+   6,R
+   2,R,K
+   1,R
+   4,R,K
+#endstun_b-06
+
+Read,metalworks,endstun_b-06,Time
+##
+
+## Forlorn Industry
+Read,forlorn-industry,Start,Time
+##
+
+## My Closest Friend
+Read,my-closest-friend,Start,Time
+##
+
+## The Machine
+Read,the-machine,Start,Time
+##
+
+## Stray Catwalks
+Read,stray-catwalks,Start,Time
+##
+
+## Tinkerer's Dissent
+#cycle_g-07-east
+   0
+#endcycle_g-07-east
+
+Read,tinkerers-dissent,Start,snqcycle_g-07
+
+#snqcycle_g-07-east
+   1
+#endsnqcycle_g-07-east
+
+Read,tinkerers-dissent,endsnqcycle_g-07,stun_g-07-east
+
+#stun_g-07-east
+   6,R
+   1,R,J
+   3,R
+  15,R,D,X
+#endstun_g-07-east
+
+Read,tinkerers-dissent,endstun_g-07-east,Time
+##
+
+## Left Running
+Read,left-running,Start,cycle_h-09
+
+#cycle_h-09
+   1
+#endcycle_h-09
+
+Read,left-running,endcycle_h-09,stun_h-09
+
+#stun_h-09
+   3,G
+   1,R,G
+   1,G
+AutoInput, 2
+   1,G,S,N
+  10,G,O
+StartAutoInput
+   2,G
+SkipInput 3 1
+  13,R,U,Z,G
+EndAutoInput
+#endstun_h-09
+
+Read,left-running,endstun_h-09,cycle_i-00
+##
+
+## The Outcome
+#cycle_i-00
+   2
+#endcycle_i-00
+
+Read,left-running,endcycle_i-00,Time
+Read,the_outcome,Start,stun_i-00
+
+#stun_i-00
+### normal non-drift dependent route
+#   49,L,G
+#   47,L,Z
+#    4,R,J
+#   24,R,K
+#   14,U,X
+#   10,L,J
+#    4,J
+#   50,L,G
+#   12,R,D,X
+#   10,L,G
+#   15,L,D,C
+#   26,L,G
+#    1,G
+#   12,L,G
+#    2,L,D,G
+#    1,L,G
+#    7,L,J,G
+#    2,J
+#   47,L,H
+#   15,L,Z
+###
+  51,L,G
+  49,L,Z
+   4,L,J
+  12,L
+  29,L,X
+   4,L,J
+   1,L,K
+  12,L,Z
+  22,D,G
+   2,D
+   4,L,J
+   5,L
+   3,L
+  26,L,Z
+  28,L,G
+   2,L,J,G
+   4,L,G
+   4,L,K,G
+   3,L
+  44,L,H
+  15,L,Z
+#endstun_i-00
+
+Read,the_outcome,endstun_i-00,cycle_i-10
+
+#cycle_i-10
+   1
+#endcycle_i-10
+
+Read,the_outcome,endcycle_i-10,stun_i-10
+
+#stun_i-10
+   2,L
+StunPause
+   4,L
+SkipInput 3 1
+   5,D,X
+EndStunPause
+  10,D,X
+#endstun_i-10
+
+Read,the_outcome,endstun_i-10,cycle_i-14
+
+#cycle_i-14
+   0
+#endcycle_i-14
+
+Read,the_outcome,endcycle_i-14,stun_i-14
+
+#stun_i-14
+   2,L
+StunPause
+   3,L
+   3,L,J
+EndStunPause
+   4,L
+#endstun_i-14
+
+Read,the_outcome,endstun_i-14,Time
+##
+
+ChapterTime: 15:49.552(55856)
