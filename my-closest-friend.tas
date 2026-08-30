@@ -1,13 +1,38 @@
 # SparkInTheMachine
 # https://gamebanana.com/mods/704652
 
-RecordCount: 4516
+RecordCount: 4521
 
-console load factory/BZFR/factory 2410.30204772949 -7367.99989414215 -532.5338 105.00042
+console load factory/BZFR/factory 2935.521791 -9472
    1
 
-#Start
+#lvl_c-11-in
   36
+   1,S
+   1,D,O
+  34
+
+Set Player.Speed.X -388.399902
+
+#Start
+#lvl_c-12-in
+   7,L,J
+  40
+
+#lvl_d-00-in
+   1,L
+  15,L,D,X
+   2,L,D,J
+   2,L
+   5,L,D,X
+   4,L,J,G
+   6,L
+   1,L,J
+   3,L
+   1,L,J
+  14,L
+   1,L,J
+  14,L
    1,L,J
   12,L,D,X
   40
@@ -544,10 +569,6 @@ EndRepeat
 #lvl_e-00-in
   12,L
    4,J,G
-
-#Time
-MidwayChapterTime: 0:59.568(3504)
-
   10,L,X
   12,L,J
    3,K,G
@@ -564,12 +585,32 @@ MidwayChapterTime: 0:59.568(3504)
    2,R
   14,R,D,X
    1,L,J
-   7,L
+   3,L
+   1,L,J
+   3,L
   12,L,J
-   1,L
-  15,U,X
-   1
-Repeat, 4
-   7,G
-  15,U
-EndRepeat
+  13,U,Z
+  12,U,H
+  13,U,G
+  13,U,H
+  13,U,G
+  13,U,H
+  12,U,G
+  13,U,H
+  13,U,G
+  13,U,H
+  12,U,G
+  16,U,H
+   8,U,G
+   8,G
+  12,R,G
+   8,J
+   7,U,J,H
+   1,U
+  14,R
+   2
+   3,R
+   6
+
+#Time
+MidwayChapterTime: 1:05.416(3848)
