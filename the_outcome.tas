@@ -1,9 +1,13 @@
-RecordCount: 6598
+RecordCount: 6608
 
 console load factory/BZFR/factory 23102 -14728
+   1
 
-#Start
-  37
+#lvl_h-10-east
+  36
+#cycle_i-00
+   1
+#endcycle_i-00
   14,L,Z
    1,L,J
   14,L,D,X
@@ -17,6 +21,7 @@ console load factory/BZFR/factory 23102 -14728
   37
 
 #lvl_i-00-collapse
+#Start
    3,L
   11,L,D,J
    1,R,K,G
@@ -28,6 +33,7 @@ console load factory/BZFR/factory 23102 -14728
   15,U,Z
   27,L,D
   27,D
+#stun_i-00
 
 # normal non-drift dependent route
 ###
@@ -62,9 +68,7 @@ console load factory/BZFR/factory 23102 -14728
    1,L,K
   12,L,Z
   22,D,G
-StunPause
    2,D
-EndStunPause
    4,L,J
    5,L
    3,L
@@ -76,6 +80,7 @@ EndStunPause
    3,L
   44,L,H
   15,L,Z
+#endstun_i-00
    1,L,G
    6,L,Z
    1,L,J,G
@@ -500,9 +505,9 @@ EndStunPause
   15,L,U,X
    7,L
    2,L
-# spinner cycle i-10
+#cycle_i-10
    2
-#
+#endcycle_i-10
    8,L,Z
    1,L,J
    7,L
@@ -826,6 +831,7 @@ EndStunPause
    8,L
   12,L,Z
    1,L,J
+#stun_i-10
    2,L
 StunPause
    4,L
@@ -833,6 +839,7 @@ SkipInput 3 1
    5,D,X
 EndStunPause
   10,D,X
+#endstun_i-10
    4,R,D
    1,R,J
    7,R
@@ -925,10 +932,16 @@ EndStunPause
    8,R,G
   11,U,X
   28,L,J
-   7,L
+   3,L
+   1
+   1,L
+   2
+#cycle_i-14
+   0
+#endcycle_i-14
    5,L,J,Z
-  32,R
-  45
+  31,R
+  46
   12,L,Z
    3,L,J
    5,L,D,X
@@ -1084,12 +1097,14 @@ EndStunPause
    3,L,D,J
    1,D,J
    2,L,D,J
+#stun_i-14
    2,L
 StunPause
    3,L
    3,L,J
 EndStunPause
    4,L
+#endstun_i-14
    1,L,J
   19,L
   29,L,U,Z
@@ -1242,4 +1257,9 @@ EndRepeat
  425
    1,S
   18,D,J
-MidwayChapterTime: 3:30.579(12387)
+
+# to update ChapterTime in full level
+   1
+
+#Time
+MidwayChapterTime: 3:30.409(12377)
