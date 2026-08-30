@@ -1,54 +1,12 @@
-RecordCount: 6361
+RecordCount: 6399
 
-console load factory/BZFR/factory -6084 -9236.08339381218 0 -105
+console load factory/BZFR/factory -6018.936194 -9807.542462
    1
 
-#Start
+#lvl_e-00-in (0)
   36
 
-#lvl_e-00-in (0)
-  10,L,X
-  12,L,J
-   3,K,G
-   1,J
-   1,K
-   7,R,K
-   1,R
-   8,R,Z
-   1,R,J
-   6,R
-   1,R,J
-  14,R,D,X
-   1,R,J
-   2,R
-  14,R,D,X
-   1,L,J
-   3,L
-   1,L,J
-   3,L
-  12,L,J
-  13,U,Z
-  12,U,H
-  13,U,G
-  13,U,H
-  13,U,G
-  13,U,H
-  12,U,G
-  13,U,H
-  13,U,G
-  13,U,H
-  12,U,G
-  16,U,H
-   8,U,G
-   8,G
-  12,R,G
-   8,J
-   7,U,J,H
-   1,U
-  14,R
-   2
-   3,R
-   6
+#Start
   14,R,Z
    1,L,J
    1,S
@@ -535,18 +493,21 @@ console load factory/BZFR/factory -6084 -9236.08339381218 0 -105
   24,R,J
   26,R,D
   25,D
-  40
+  43
 
 #lvl_e-engine-00-in
-  90,D
-   1,R,D
-   1,D
-   1,R,D
-   1,G
-  10,R,J,G
-  10,R
-   5,R,D
-  19,D
+   1,S
+   1,D,J
+  69,O
+   1,L,K
+   1,K
+   1,J
+   8,R,J
+   9,R
+   1,R,J
+  11,R,D
+  17,D
+   3,R,D
   10,L,D,X
    9,R,J
   17,R,D,X
@@ -1212,9 +1173,17 @@ EndRepeat
   40
 
 #lvl_e-out-mask-05-in
+#    1,S
+#    1,D,J
+#   69,O
+
    1,S
-   1,D,J
-  69,O
+   1,U
+   1,F,
+   1,U,O
+SaveAndQuitReenter
+  36
+
    2,J
    1
   15,U,X
@@ -1330,127 +1299,6 @@ EndRepeat
    1,S
    1,D,J
   34
-   6,R,Z
-   1,R,J
-   7,R
-   1,R,J
-  14,R,D,X
-   1,R,J
-   8,R,D,X
-  40
 
-#lvl_e-end-in
-   6,R,D,X
-   1,R,J
-  10,R,D,X
-   1,R,J
-   7,R
-   5,R,J
-   8,J
-  18,R,U,Z
-  14,R,X
-   1,L,J
-   4,L,K
-  13,L,U,C
-  47,R,G
-  17,L,G
-  27,L,U,X,G
-   4,R,G
-   3,R,G
-   4,L,Z,G
-   2,L,J,G
-   1,L,K,G
-   8,L,K
-  18,R,G
-  21,R,D,X
-  15,R,G
-  15,R,D,X
-   9,R,D
-  45,R,G
-  37,L,D,G
-  13,R,U,Z,G
-   5,R,J,G
-   5,R
-   2,J
-  28,R,J,G
-  21,R,Z
-   8,R,J
-  37,R,K
-  85,R,Z
-   4,L,J
-  15,U,X
-   1,G
-   6
-  11,U
-   1,G
-   6
-  23,R
-   1,G
-   6
-  18,D
-   1,L,G
-   6
-  27,L
-   1,G
-   6
-   8,U
-   3,L
-   1,L,G
-   6
-  30,L
-   7,R
-  14,R,U,X
-  22,L
-  15,L,U,Z
-  13,L
-  15,L,U,X
-  33,L,D,C
-   1,G
-  48
-   1,G
-  26
-   1,G
-  26
-   1,G
-  45
-   1,G
-  28
-   1,G
-  28
-   1,G
-  30
-   1,G
-  45
-   8,R,J
-  11,R,K
-   1,R
-   1,R,G
-   6
-  15,R,D,X
-   4,R,D
-   1,R,J
-   1,J
-   5,R,D,X
-   2,R,J,G
-  11,R
-   1,R,J
-   2,J
-   1,R
-   6,R,D,X
-   5,R,J,G
-  10,R
-   3,R,J
-  15,R,D,X
-   1,R,J
-  14,R,D,X
-   1,R,J
-   1,S
-   1,D,J
-  34
-  14,R,D,X
-   1,R,J
-  14,R,D,X
-   1,R,J
-  13,R,D,X
-  40
-MidwayChapterTime: 3:14.582(11446)
+#Time
+MidwayChapterTime: 2:49.116(9948)
