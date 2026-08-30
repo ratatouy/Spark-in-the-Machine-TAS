@@ -164,7 +164,7 @@ Read,left-running,endstun_h-09,cycle_i-00
 #endcycle_i-00
 
 Read,left-running,endcycle_i-00,Time
-Read,the_outcome,Start,stun_i-00
+Read,the-outcome,Start,stun_i-00
 
 #stun_i-00
 # +3f non drift dependent
@@ -204,25 +204,25 @@ Read,the_outcome,Start,stun_i-00
   15,L,Z
 #endstun_i-00
 
-Read,the_outcome,endstun_i-00,cycle_i-10
+Read,the-outcome,endstun_i-00,cycle_i-10
 
 #cycle_i-10
    1
 #endcycle_i-10
 
-Read,the_outcome,endcycle_i-10,stun_i-10
+Read,the-outcome,endcycle_i-10,stun_i-10
 
 #stun_i-10
   10,D
 #endstun_i-10
 
-Read,the_outcome,endstun_i-10,cycle_i-14
+Read,the-outcome,endstun_i-10,cycle_i-14
 
 #cycle_i-14
    1
 #endcycle_i-14
 
-Read,the_outcome,endcycle_i-14,stun_i-14
+Read,the-outcome,endcycle_i-14,stun_i-14
 
 #stun_i-14
    2,L
@@ -233,7 +233,7 @@ EndStunPause
    4,L
 #endstun_i-14
 
-Read,the_outcome,endstun_i-14,Time
+Read,the-outcome,endstun_i-14,Time
 ##
 
 ChapterTime: 15:47.104(55712)
