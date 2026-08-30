@@ -1,15 +1,17 @@
 # SparkInTheMachine
 # https://gamebanana.com/mods/704652
 
-RecordCount: 5261
+RecordCount: 5263
 
 console load factory/BZFR/factory
    1
-#Start
- 110
+
 #spinner-a03
    1
 #spinner-a03-end
+
+#Start
+ 110
    1,S
    1,D,J
   34
@@ -232,6 +234,7 @@ console load factory/BZFR/factory
    1
    1,R
    1,R,J,G
+#stun_a-03
    3,R,K,G
 StunPause
   16,R,K,G
@@ -242,6 +245,7 @@ SkipInput 3 1
    5,R,K
 EndStunPause
    2,R,K
+#endstun_a-03
   15,R,Z
    5,R
    5,R,J,G
@@ -252,7 +256,6 @@ EndStunPause
    6,R,X
    4,R,J
   40
-
 
 #lvl_a-04-out
    1,R,J
@@ -286,6 +289,7 @@ EndStunPause
    5
    3,R
    1,R,J
+#stun_a-04
   17,R
 StunPause
    1,R
@@ -294,6 +298,7 @@ SkipInput 3 1
    1,J,G
 EndStunPause
    2
+#endstun_a-04
   18,R,D
   14,R
   40
@@ -407,9 +412,6 @@ EndStunPause
    6,L,U,Z
   40
 
-#Time
-MidwayChapterTime: 0:49.096(2888)
-
 #lvl_b-00-out
    5,R
    1,R,J,G
@@ -417,18 +419,7 @@ MidwayChapterTime: 0:49.096(2888)
    4,L
    1,K
   16,L,Z
-   4
-   4,R,D,X
-   1,R,J
-   1,S
-   1,D,O
-  34
-   1,R,J
-   6,J
-   3,R,J
-   5,R,K,G
-   7,R
-   2,R,J
-  14,R,D,X
-   1,R,J
-  40
+   4,R,G
+
+#Time
+MidwayChapterTime: 0:49.691(2923)
