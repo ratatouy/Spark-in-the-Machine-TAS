@@ -1,21 +1,12 @@
-RecordCount: 2934
+RecordCount: 2936
 
-console load factory/BZFR/factory lvl_h-00-east
+console load factory/BZFR/factory 13933.444450 -11232.166761
    1
+
+#lvl_h-00-east
   36
 
 #Start
-#lvl_h-00-east
-   6,R,Z
-   1,R,J
-   7,R
-   1,R,J
-  15,R,D,X
-   6,R,J
-  13,U,X
-   1,R,J
-   1,R,K,G
-   7,R
    4,R,Z
    1,R,J
    7,R
@@ -28,25 +19,26 @@ console load factory/BZFR/factory lvl_h-00-east
    1,S
    1,D,J
   34
-   1,R
-   1,R
-   1,R,J
-   1,R,J
+   2,R
+   2,R,J
   14,R,U,Z
-  12,R,J,G
-  12,L,K
-  12,R,J
-  12,L,K
-  12,R,J
-  12,L,K
-  12,R,J
-  12,L,K
+  12,J,G
+  12,K
+  12,J
+  12,K
+  12,J
+  12,K
+  12,J
+   9,K,G
+   2,L,K
+   1,J
    7,L
   15,U,X
-   7,R,J
-   4,J
-   1,R,J
-   5,L,J
+   3,R,J
+   1,L,J
+   3,R,J
+   9,L,J
+   1,J
    1,L,K,G
    1,L,J,G
    1,K
@@ -57,7 +49,7 @@ console load factory/BZFR/factory lvl_h-00-east
    3,L,J,G
   11,L,K,G
   18,U,X
-  58,L,C
+  57,L,C
    4,R,J
    9,R,K
    1,R
@@ -667,6 +659,9 @@ EndRepeat
   15,R
    5,R,D
   18,D
+#cycle_h-09
+   2
+#endcycle_h-09
    5,R,J
    2,R
   15,R,Z
@@ -753,6 +748,7 @@ EndRepeat
   15,U,X,G
   13,G
    3,L,G
+#stun_h-09
    3,G
    1,R,G
    1,G
@@ -764,6 +760,7 @@ StartAutoInput
 SkipInput 3 1
   13,R,U,Z,G
 EndAutoInput
+#endstun_h-09
    1,L,G
    1,J,G
    5,J
@@ -793,6 +790,9 @@ EndRepeat
   15
   16,L
   19,L,J
+#cycle_i-00
+   0
+#endcycle_i-00
    6,L,Z
    1,L,J
    7,L
@@ -807,4 +807,5 @@ EndRepeat
    1,D,J
   37
 
-MidwayChapterTime: 2:07.347(7491)
+#Time
+MidwayChapterTime: 2:06.531(7443)
