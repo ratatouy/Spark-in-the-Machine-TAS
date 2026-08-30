@@ -1,7 +1,7 @@
 # SparkInTheMachine
 # https://gamebanana.com/mods/704652
 
-RecordCount: 11
+RecordCount: 12
 
 console load factory/BZFR/factory
    1
@@ -167,41 +167,33 @@ Read,left-running,endcycle_i-00,Time
 Read,the_outcome,Start,stun_i-00
 
 #stun_i-00
-### normal non-drift dependent route
-#   49,L,G
-#   47,L,Z
-#    4,R,J
-#   24,R,K
-#   14,U,X
-#   10,L,J
-#    4,J
-#   50,L,G
-#   12,R,D,X
-#   10,L,G
-#   15,L,D,C
-#   26,L,G
-#    1,G
-#   12,L,G
-#    2,L,D,G
-#    1,L,G
-#    7,L,J,G
-#    2,J
-#   47,L,H
-#   15,L,Z
+# +3f non drift dependent
 ###
-  51,L,G
-  49,L,Z
+#   49,L,G
+#   50,L,X
+#    9,R
+#   27,L,Z
+#    4,L,J
+#    2,L,K
+#    1,L
+#   10,L,Z
+#   24,D,G
+#    4,L,J
+#    8,L
+#   26,L,Z
+#   28,L,G
+###
+  49,L,G
+  50,L,X
+   9,R
+  27,L,Z
    4,L,J
-  12,L
-  29,L,X
-   4,L,J
-   1,L,K
-  12,L,Z
-  22,D,G
-   2,D
+   2,L,K
+   1,L
+  11,L,Z
+  24,D,G
    4,L,J
    5,L
-   3,L
   26,L,Z
   28,L,G
    2,L,J,G
@@ -221,19 +213,13 @@ Read,the_outcome,endstun_i-00,cycle_i-10
 Read,the_outcome,endcycle_i-10,stun_i-10
 
 #stun_i-10
-   2,L
-StunPause
-   4,L
-SkipInput 3 1
-   5,D,X
-EndStunPause
-  10,D,X
+  10,D
 #endstun_i-10
 
 Read,the_outcome,endstun_i-10,cycle_i-14
 
 #cycle_i-14
-   0
+   1
 #endcycle_i-14
 
 Read,the_outcome,endcycle_i-14,stun_i-14
@@ -250,4 +236,4 @@ EndStunPause
 Read,the_outcome,endstun_i-14,Time
 ##
 
-ChapterTime: 15:50.164(55892)
+ChapterTime: 15:47.104(55712)
