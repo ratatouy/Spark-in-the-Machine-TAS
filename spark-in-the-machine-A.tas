@@ -1,7 +1,7 @@
 # SparkInTheMachine
 # https://gamebanana.com/mods/704652
 
-RecordCount: 12
+RecordCount: 15
 
 console load factory/BZFR/factory
    1
@@ -219,7 +219,24 @@ Read,the-outcome,endcycle_i-10,stun_i-10
 Read,the-outcome,endstun_i-10,cycle_i-14
 
 #cycle_i-14
+
+# +0f
+  12,L,D
+   2,D
    1
+   1,D
+
+# +1f
+#   11,L,D
+#    1,L
+#    4
+#    1,D
+
+# +2f
+#    9,L,D
+#    2,L
+#    7
+
 #endcycle_i-14
 
 Read,the-outcome,endcycle_i-14,stun_i-14
@@ -233,7 +250,25 @@ EndStunPause
    4,L
 #endstun_i-14
 
-Read,the-outcome,endstun_i-14,Time
+Read,the-outcome,endstun_i-14,cycle_i-15
+
+#cycle_i-15
+   0
+#endcycle_i-15
+
+Read,the-outcome,endcycle_i-15,stun_i-15
+
+#stun_i-15
+   4,L,J
+   1,L,K
+StunPause
+   4,L,J
+EndStunPause
+  10,R,J
+#endstun_i-15
+
+Read,the-outcome,endstun_i-15,Time
+
 ##
 
-ChapterTime: 15:47.104(55712)
+ChapterTime: 15:43.449(55497)
