@@ -111,7 +111,7 @@ Read,stray-catwalks,Start,Time
 
 ## Tinkerer's Dissent
 #cycle_g-07-east
-   0
+   1
 #endcycle_g-07-east
 
 Read,tinkerers-dissent,Start,snqcycle_g-07
@@ -159,6 +159,8 @@ Read,left-running,endstun_h-09,cycle_i-00
 ##
 
 ## The Outcome
+
+
 #cycle_i-00
    2
 #endcycle_i-00
@@ -271,4 +273,4 @@ Read,the-outcome,endstun_i-15,Time
 
 ##
 
-ChapterTime: 15:43.449(55497)
+ChapterTime: 15:42.174(55422)
