@@ -1,7 +1,7 @@
 # SparkInTheMachine
 # https://gamebanana.com/mods/704652
 
-RecordCount: 2576
+RecordCount: 2625
 
 console load factory/BZFR/factory -9556 -1191.500045
    1
@@ -10,10 +10,6 @@ console load factory/BZFR/factory -9556 -1191.500045
   36
   14,L,Z
    4,R,G
-
-#spinner-b03
-   0
-#spinner-b03-end
 
 #Start
    4,R,D,X
@@ -67,6 +63,7 @@ console load factory/BZFR/factory -9556 -1191.500045
    2,R
   14,R,D,X
    1,R,J
+#metalworks-S0
    5,R,Z
   12,R,J,G
    8,R
@@ -98,6 +95,7 @@ console load factory/BZFR/factory -9556 -1191.500045
   10,R,J
   32,R,X
    4,R,G
+#metalworks-S1
   12,R,J,G
    7,K,G
   14,R,X
@@ -132,7 +130,11 @@ console load factory/BZFR/factory -9556 -1191.500045
    1,R
   17,U,X
    1,R
-  37,R,J
+  36,R,J
+   1,J
+#spinner-b03
+   0
+#spinner-b03-end
    6,R,D,X
    1,R,J
    7,R
@@ -178,6 +180,7 @@ EndStunPause
   10,D
    3
    3,D
+#metalworks-S2
    1,L
    4,D
    3,L,D
@@ -191,6 +194,7 @@ EndStunPause
   10,R,D
    1,R
    7,R,D
+#metalworks-S3
    2,L,J
    7
    1,L,J
@@ -260,6 +264,7 @@ EndStunPause
   40
 
 #lvl_b-06-out
+#metalworks-S4
    1,R,J,G
    4,R
    2
@@ -320,6 +325,7 @@ EndStunPause
    5,L
   22,L,X
    4,R,G
+#metalworks-S5
 #spinner-b06
    0,G
 #spinner-b06-end
