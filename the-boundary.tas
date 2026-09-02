@@ -1,7 +1,7 @@
 # SparkInTheMachine
 # https://gamebanana.com/mods/704652
 
-RecordCount: 5263
+RecordCount: 5457
 
 console load factory/BZFR/factory
    1
@@ -214,9 +214,9 @@ console load factory/BZFR/factory
 
 #lvl_a-03-out
    3,R
-   5,R,J
-  15,R,D,X
-  18,R
+   1,R
+  20,R,J
+   2,K,G
   14,R,X
    4,R,J
    5,R,K
@@ -228,11 +228,11 @@ console load factory/BZFR/factory
    1,L,D
    6,J,G
    6,R,J
-   6,R
-   7,R,J
-   4,R
+   5,R
+   6,R,J
+   5,R
    1
-   1,R
+   2,R
    1,R,J,G
 #stun_a-03
    3,R,K,G
@@ -305,6 +305,7 @@ EndStunPause
   40
 
 #lvl_a-05-out
+# not getting the bino would be -2f (maybe 3) if we could enter transition 1px higher
    3,R
    1,L,N
    6,D,J
@@ -419,11 +420,10 @@ EndStunPause
 #lvl_b-00-out
    5,R
    1,R,J,G
-  10,L,J
-   4,L
-   1,K
-  16,L,Z
-   4,R,G
+  11,L,J
+   3,L
+   3,L,K,G
+  14,L,D,X
 
 #Time
-MidwayChapterTime: 0:49.691(2923)
+MidwayChapterTime: 0:49.470(2910)
