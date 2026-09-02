@@ -50,11 +50,14 @@ Read,the-boundary,endstun_a-04,Time
 ##
 
 ## Metalworks
+
+Read,metalworks,Start,spinner-b03
+
 #spinner-b03
    0
 #spinner-b03-end
 
-Read,metalworks,Start,stun_b-03
+Read,metalworks,spinner-b03-end,stun_b-03
 
 #stun_b-03
    3,R,J
