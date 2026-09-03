@@ -1,7 +1,7 @@
 # SparkInTheMachine
 # https://gamebanana.com/mods/704652
 
-RecordCount: 80
+RecordCount: 81
 
 console load factory/BZFR/factory -2026.736106 -3279.916878
    1
@@ -256,6 +256,7 @@ EndRepeat
    3
   15,U,X
    1,R
+#forlorn-industry-S0
   11,R,J
   10,R
    2,R,J
@@ -316,6 +317,7 @@ EndRepeat
    8,L,G
   12,U,X
   23,J
+#forlorn-industry-S1
    5,L,X
   41
    4,L,J
@@ -450,6 +452,7 @@ EndRepeat
    8
    2,R,J
    5,R
+#forlorn-industry-S2
    7,L,Z
    1,R,J
    6,R
@@ -504,6 +507,7 @@ EndRepeat
   15,R,J,G
   11,U,X
    2,J
+#forlorn-industry-S3
    2
    7,L,U,X
   15,R
@@ -542,6 +546,7 @@ EndRepeat
    1,L
    1
   15,U,C
+#forlorn-industry-S4
    9,R,J
   11,R
    4,R,D,X
@@ -562,6 +567,7 @@ EndRepeat
   15,R,D,X
   20,R,J
   11,U,X
+#forlorn-industry-S5
    3
   17,R,J
   15,R,X
@@ -585,6 +591,7 @@ EndRepeat
   13,L,K
   15,U,X
    6,R
+#forlorn-industry-S6
    1,J
   23,R
   25,U,X
@@ -615,7 +622,9 @@ EndRepeat
    9,R
    1,R,J
   20,R,J
-  41,U,X
+   9,U,X
+#forlorn-industry-S7
+  32
    4,R
   15,R,U,C
    4,L,J
@@ -672,6 +681,7 @@ EndRepeat
    4,R,J
   11,R,K
   11,U,X
+#forlorn-industry-S8
    8,R,J
    2
    1,R
@@ -697,6 +707,7 @@ EndRepeat
    2,K,G
    2,R,K
   14,L,U,X
+#forlorn-industry-S9
   17,R
   15,R,X
   15,U,C
