@@ -1,0 +1,614 @@
+# SparkInTheMachine
+# https://gamebanana.com/mods/704652
+
+RecordCount: 669
+
+console load factory/BZFR/factory -2026.736106 -3279.916878
+   1
+
+#lvl_b-08-out
+  36
+
+#cycle_c-06
+   0
+#endcycle_c-06
+
+#Start
+Read,forlorn-industry,Start,forlorn-industry-S0
+
+#forlorn-industry-S0
+  11,R,J
+  10,R
+   2,R,J
+   1,R
+   1,R,J
+  10,R
+   1,R,D
+  16,R,U,X
+  15,R,U,Z
+   1,J
+   5,R,J
+   1,R
+   1,K
+   4,L,K
+   1,K
+   1,J
+  10,R,J
+   3,R,J
+  11,K
+  10,L,Z
+  19,L,J
+  13,U,X
+   8,R,J
+  10,L,X
+   4,J
+   7,L,J
+  13,L,Z
+  12,J,G
+   1,K,G
+   5
+   2,L
+   8,J
+  24,R,U,X
+   4,Z
+   1,R,K
+   3,R
+   1,R,K
+   3,R
+   8,R,J
+  15,R,D,X
+   1,R,K
+   4,R
+  13,R,U,X
+   2,R,J,G
+  11,R
+  40
+
+#lvl_c-03a-in
+   1,R,D
+  10,D
+  12,L,D,X
+   6,R,J
+  11,R
+  39,R,U,X
+   4,L,K
+   5,L,J
+   1,R
+  32,R,Z
+   1,G
+   2,R,K,G
+   2,K
+   3
+   1,R,J,G
+   4,L,J
+   6,R,J
+   1,R,K,G
+   3,R,J,G
+   6,R
+   7,R,J
+  10,R
+   1
+  16,L
+  15,U,X
+   3
+  24,R
+   5,R,D
+   2,R
+  25,R,Z
+   1,R,K,G
+   7,R,J,G
+  13,R
+   2,L
+  77
+   7,L,D,X
+  40
+
+#lvl_c-03-in
+   3,L,D,X
+   1,L,J
+   3,L
+   1,L,J
+   3,L
+   4,L,K
+   3,L
+  15,L,D,X
+   2,L
+  15,L,J
+  15,L,D,X
+   2,L,K
+   5,L
+   7,L,K
+  40
+
+#lvl_c-04-in
+  10,L,K
+  15,L,U,X
+  11,L,D,C
+  12,L,J
+   1,L
+   4,L,J
+  33,L,Z
+   4,R,J
+  18,D,X
+  18,R,Z
+   4,R,J
+   9,R,K
+   7,R
+   1,L,G
+   7,J
+   2
+   9,K
+   3
+   1,J
+   8,L,G
+  12,U,X
+  23,J
+#forlorn-industry-S1
+
+Read,forlorn-industry,forlorn-industry-S1,forlorn-industry-S2
+
+#forlorn-industry-S2
+   7,L,Z
+   1,R,J
+   6,R
+   1,R,J
+  15,R,D,X
+   2,L,D
+   3,R,J
+   6,R
+  40
+
+#lvl_c-06-in (0)
+   6,R
+   1,R,J
+   2,R
+  20,R,D,X
+  11,R,J
+   4,R
+  18,R,U,Z
+  15,L,U,X
+
+### idea, probably not possible to survive after the transition, but would save ~160f.
+#    7,L,C
+#StunPause
+#    8,L,C
+#SkipInput 3 1
+#   11,U,X
+#   29,L
+#SkipInput 3 1
+#   15,U,X
+#SkipInput 3 1
+#   12,U,Z
+#EndStunPause
+#    1,U,Z
+#   40
+###
+
+  15,L,C
+  11,U,X
+  15,L,J
+  15,U,X
+  15,D,C
+   9,L,D
+  10,L,Z
+   1,R,J
+   7,R
+   9,R,J
+  15,R,D,X
+   1,R
+  27,R,J
+   5,R,D
+   4,D
+   9,R,D
+   9,R
+   4,R,D
+   1,D
+   1,R,D
+  15,R,U,Z
+   1,L
+   1,J,G
+  10,R,J
+   4,R
+  12,K
+  12,J
+  12,K
+  10,J
+   3,K
+   1,J,G
+   1,L,J
+   1,R,J
+   3,K,G
+  40
+
+#lvl_c-06a-in
+   3,R
+   1,L
+   1,L,J,G
+   3,L,K,G
+   3,L
+  13,L,J,G
+  19,U,X
+   2,R
+  29,U,X
+  14,R
+  21,U,X
+   6,R
+  25,L,U,X
+   4,R
+   5,L,J
+   7,L
+   3,G
+   4,L,K,G
+  15,L,X
+   4,L,J
+   4,L,K
+   4,L
+  21,L,D,X
+   4,L,J
+   1,L,K
+  26
+   4,X
+  23,D,X
+   3
+   1,R,J
+  14,R,C
+   1,L,K
+   4,X
+  23,D,X
+   4,Z
+   1,L,J
+   7,L
+   4
+   4,D,X
+  49,R,D,X
+   4,L
+  28,L,X
+  46,L,C
+   6,L,J
+  14,L,K
+  23,L,U,Z
+   4,L,J
+   1,L,K
+  15,L,D,X
+  23,R,U,Z
+   2,L,J
+  21,L,X
+   4,R,J
+   4,R,K
+  22,R
+  27,R,X
+   4,L,J
+  15,R,U,Z
+   2,L,K
+   5,L
+   7,R,U,X
+   1,J
+   7,L,J
+  17,L,X
+   4,L,K
+   1,L,J
+   7,L
+   5,L,K
+  15,U,X
+  18,R
+  77
+  10,R,D,X
+   6,R,J
+  15,R,D,X
+  40
+
+#lvl_c-06-in (1)
+   9,D
+   1,L,D
+   1,D
+   1,L,D
+   1,D
+   1,L,D
+   1,D
+   4,L,D
+  14,R,D
+  14,R,D,X
+   1,R,J
+   9,R,D,X
+  40
+
+#lvl_c-07-in
+   5,R,D,X
+   4,R,J
+   1,R,K,G
+   1,R
+  16,R,J,G
+  11,U,X
+   2,J
+#forlorn-industry-S3
+
+Read,forlorn-industry,forlorn-industry-S3,forlorn-industry-S4
+
+#forlorn-industry-S4
+   9,R,J
+  11
+   4,Z
+   1,R,J
+   4,R
+   2,R,J
+   1,R
+   6,R,D,K
+   2
+   5,R,D,X
+   1,R,J,G
+   3
+   8,R
+   7,R,D,K
+   6,R,D,X
+  40
+
+#lvl_c-08-in (0)
+   9,R,D,X
+  15,R,J
+  15,R,D,X
+   3,R,J,G
+  14,R,K,G
+  40
+
+#lvl_c-08a-in
+   7,R,K
+  15,R,U,X
+   5,R,U,C
+  11
+  15,R,X
+  11,R,D,C
+   2,R,J
+   1,J
+   1
+   1,R,J
+  14,R,Z
+   4,R,J
+   7,R,D,X
+   5,R,K
+   8,R
+  15,R,X
+   4,L
+  25,L,C
+  18,R,D
+  10,R,Z
+  32,R,J
+  72,R,X
+   4,L,K
+   4,L,J
+  15,U,X
+  15,R,D
+   3,D
+   2
+   1,R,D
+   1,R
+  41,R,Z
+  16,R,D,X
+   4,R,J
+  17,R,D,X
+  23,L,G
+  10,L,U,X
+   4,L,J
+  10,L,K
+   4,L
+   3
+   6,G
+  40,U,G
+   1,G
+   1,U,G
+   3,G
+  20,R
+  64,R,X
+  31,R,G
+  28,R,X
+   4,R,J
+   1,R,K
+   5,R
+  22,L,Z
+  77
+   9,L,D,X
+  40
+
+#lvl_c-08-in (1)
+   4,L,D,X
+   1,L,J
+   3,L
+   1,L,J
+   3,L
+  17,L,K
+  11,U,X
+#forlorn-industry-S5
+
+Read,forlorn-industry,forlorn-industry-S5,forlorn-industry-S6
+
+#forlorn-industry-S6
+   1,J
+  23,R
+  25,U,X
+  12
+   5,L
+   7,L,J
+   1,J
+   1,L,J
+   1,J
+  15,U,X
+   1,R
+  38
+  76,D,C
+   7,L
+  15,U,X
+  11,L
+   6,L,Z
+   1,L,J
+   7,L
+   1,L,J
+  14,L,D,X
+   1,L,J
+  40
+
+#lvl_c-08b-in
+   6,L,D,X
+   2,L,J
+   3,L
+   1,L,K,G
+   1,L
+   1
+   8,L
+   1,L,J
+   7,L
+  34,R,D,X
+   4,L,K
+  31,L,U,Z
+   1,J
+  17,R
+  26,L,D,X
+   4,L,K
+   3,L,J
+  28,L,U,Z
+   1,K
+   1,J
+   2,K,G
+   6,R,K
+   6,R
+   3,R,K
+   8,R
+   1,S
+   1,D,O
+  34
+  16,L,X
+   1,R,J
+   2,L,J
+  10,J
+  15,L,D,X
+   4,Z
+   1,R,J
+   1,R,K,G
+   9,R
+   7,R,D,J
+   2,R
+  15,R,D,X
+   1,R,D,K
+   9,R
+   1,R,K
+   5,R
+   6,R,J
+   4,R
+   5,R,D,X
+   1,R,K,G
+   9,R
+   1,R,K
+   7,R,D
+   2,R,J
+  40,J
+
+#lvl_c-08-in (2)
+  10,R,J
+   1,L,J
+   4,K,G
+  15,R,D,X
+   1,R,J
+  14,R
+   4,R,K
+   3,K
+   5,R,X
+  40
+
+#lvl_c-09-in
+   8,R,X
+   1,R,J,G
+  26,R,K,G
+  10,U,X
+#forlorn-industry-S7
+
+Read,forlorn-industry,forlorn-industry-S7,forlorn-industry-S8
+
+#forlorn-industry-S8
+   8,R,J
+   2
+   1,R
+   1,K
+  40
+
+#lvl_c-10-in (0)
+   1,R,J,G
+   1,R,K,G
+   9,R
+   6,R,Z
+   1,R,J
+   7,R
+   1,R,J
+  14,R,D,X
+   1,R,J
+  14,R,D,X
+   1,R,J
+  14,R,D,X
+   1,R,J
+   9,R,D,X
+  40
+
+#lvl_c-10a-in
+   4,R,D,X
+   2,R,J
+  13,R,D,X
+  12,R,K
+  14,L,U,X
+  17,R
+  23,R,D,X
+   1,R,J
+  15,R,D,X
+   6
+  14,R,D,C
+   5,R,K
+   9,R
+  14,R,U,Z
+   1,J
+  15,R,D,X
+   1,R
+   2,L
+  14,L,U,X
+  12,R
+   1,J,G
+   7
+   6,G
+  14,U,G
+   7,R,U,Z
+   4,K,G
+   1,L,K
+   1,J
+  10,L,J
+   6,L
+  13,L,U,X
+   1,K
+  28,R,D
+   6,D
+   1,R,D
+   4,D
+   3,R,D
+  41,R,Z
+   8,R,V
+   1,R,J
+   6,R
+   2,R,K
+   3,R
+   1,R,J
+  14,R,D,X
+   1,R,K
+  15,D,X
+   5,D
+   2,J
+  77
+   7,L,D,X
+   1,L,J
+   5,L
+  40
+
+#lvl_c-10-in (1)
+   1,L
+   8,L,K
+  10,L
+  14,L,U,X
+#forlorn-industry-S9
+
+Read,forlorn-industry,forlorn-industry-S9,Time
+
+#Time
+MidwayChapterTime: 2:36.094(9182)
