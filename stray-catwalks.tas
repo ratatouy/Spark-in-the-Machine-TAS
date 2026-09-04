@@ -1,4 +1,4 @@
-RecordCount: 4397
+RecordCount: 4398
 
 console load factory/BZFR/factory -4872.497068 -10528.303874
    1
@@ -194,6 +194,7 @@ EndRepeat
   27,R,K
    4,R
    1,L
+#stray-catwalks-S0
    7,J,G
   13,R,J
   12,R,X
@@ -280,6 +281,7 @@ EndRepeat
 
 #lvl_f-03-night
    5,R
+#stray-catwalks-S1
   24,L,D,X
   26,R,D,C
   22,R,U,X
@@ -536,13 +538,10 @@ EndRepeat
 
 #lvl_f-07-night
    5,R,D,X
-
-
   14,R
    8,R,D,J
    1,R,J
    1,J
-#0:53.312(3136)
    1,R,J
    8,J
    1,R
@@ -627,6 +626,7 @@ EndRepeat
    2
    5,R,J,G
    7,R
+#stray-catwalks-S2
    7,R,Z
    1,R,J
    6,R
@@ -664,7 +664,9 @@ EndRepeat
    7,R,D
   15,R,D,X
   13,R,D
-  57,R,Z
+  12,R,Z
+#stray-catwalks-S3
+  45
    4,R,J
    3,R,K
    5,R
