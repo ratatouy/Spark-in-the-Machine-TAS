@@ -1,0 +1,414 @@
+# SparkInTheMachine
+# https://gamebanana.com/mods/704652
+
+RecordCount: 477
+
+console load factory/BZFR/factory -4872.497068 -10528.303874
+   1
+
+#lvl_e-01-in
+  36
+   1,S
+   1,D,O
+  34
+
+#Start
+Read,stray-catwalks,Start,stray-catwalks-S0
+
+#stray-catwalks-S0
+   7,J,G
+  10,R,J
+  13,R,X
+   1,K,G
+   4
+   2,R
+#cycle_f-02a
+   0
+#endcycle_f-02a
+   1,L
+   1,R,J
+   5,J
+   2,L,J
+  14,U,X
+  14,K
+  40
+
+#lvl_f-01ab-night
+   6,R
+   1,R,J,G
+  12,R,K,G
+   5,R
+   2,R,K
+   1,R
+   6,G
+  16,U,G
+   3,G
+   1,R,J,G
+   1,L,J
+   2,R,J
+  16,R,K,G
+  18,R,U,X
+   1,J
+  22,L,J
+   1,K
+  10,L,K
+  29,L,U,X
+  31,L,U,C
+   2
+  15,U,X
+   2,R
+  15,L,U,C
+  36,R,D
+  15,R,X
+  23,R,D
+  50,L,D
+   8,R,D
+  40
+
+#lvl_f-01-night
+  15,R,D
+  14,R,D,X
+   1,R,J
+  14,R,D,X
+   1,R,J
+  14,R,D,X
+   1,R,J
+   9,R,D,X
+  40
+
+#lvl_f-01b-night
+   3,R,D,X
+   1,R,J
+   3,R
+   1,R,J
+   3,R
+  11,R,K
+  25,R,X
+   4,R,J
+  18,R,C
+  16,D,X
+   2,L
+  15,L,Z
+  17,R,D,X
+  15,L,C
+   1,J
+   4,R,J
+   5,R
+   1,R,J
+   1,R
+  14,R,Z
+   1,R,K
+  13,R
+  15,R,X
+  15,L,D,C
+  12,R,D
+  18,R,X
+  15,L,D,C
+  15,R,D
+  23,R,X
+   4,L,J
+   1,L,K
+  15,L,D,X
+   1,D
+  24,D,C
+  14,U,X
+  17,R,J
+  17,R,X
+   8,R,J
+  24,R,K
+   4,R
+  15,R,D,X
+  16,D
+   2,R,D
+   5,R,J
+   5,R,D,X
+   1,L,K
+  57
+   4,J
+   2,L,J
+  15,D,X
+  13,R
+  12
+  18,K
+  17,U,X
+   1,L
+   5,L,J
+   1,L
+   8
+   1,L
+   1
+   9,R,K
+   5,K
+  27,U,X
+   8,L,D,C
+   1,L,J
+   7,L
+   1,L,K
+  14,L,D,X
+   1,L,J
+  14,L,D,X
+   2,L,K
+   4,L
+   1,G
+   1,R,J
+  14,R
+  14,R,D,X
+   1,L,K
+  13,L,D,X
+   1,L,J
+   2,L,K,G
+   8,L
+   2,L,K
+   6,L,D
+   1
+  14,L,Z
+   4,L,J
+  11,L,K
+  13,U,X
+  40
+
+#lvl_f-02-night (0)
+   5
+  18,L,J
+  14,L,U,X
+   1,L,K,G
+   1,R
+   6,L
+   7,L,J
+  15,U,Z
+  18,K
+   1,J
+   2,R,J
+   1
+   1,K,G
+   4,L,K
+   7,L
+   8,J
+   1,K
+   3,L,K
+  15,U,X
+  12,J
+   1,K
+   1,J,G
+  40
+
+#lvl_f-02a-night
+  11,R
+   2,K,G
+  15,R,X
+   1,L,D,J
+   1,R,J
+   3,J
+   1,R,J
+   4,J
+   1,R,J
+   1,L,K,G
+   1,R,K
+   1,K
+   1,R,K
+   1,K
+   1,R,K
+   1,K
+   1,R,K
+   1,K
+   1,R,K
+   1,K
+   1,R,K
+   1,K
+   1,R,K
+  13,J
+  15,U,X
+  39,D
+  12,R,D
+   6,R,Z
+   1,R,J
+   7,R
+   1,R,K
+  19,R,D,X
+   1,G
+   9
+  15,G
+   5,R,X
+   1,R,J,G
+   1,R,K,G
+   1,R,J,G
+   1,R,K,G
+   7,R
+   2,R,J
+  10,R,Z
+   1,R,K,G
+   1,R,J,G
+   5,R,K,G
+   8,R
+   3,R,K
+   7,R
+   4,R,J
+#stun_f-02a
+   7,R,D,X
+StunPause
+  10,R,D,X
+EndStunPause
+#endstun_f-02a
+   4,D
+  40
+
+#lvl_f-02-night (1)
+   1,S
+   1,D,J
+  69,O
+   4,Z
+   1,R,K
+   2,R
+  40
+
+#lvl_f-03-night
+   8,R
+#stray-catwalks-S1
+
+Read,stray-catwalks,stray-catwalks-S1,stray-catwalks-S2
+
+#stray-catwalks-S2
+   6,R,Z
+   1,R,J
+   6,R
+   1,R,K
+   1,R
+  10,R,U,Z
+  40
+
+#lvl_f-08-night (0)
+  10,R
+  12,U,X
+  18,J
+   1,K
+  11,L,K
+   3,L
+   1
+   3,L
+  15,U,C
+   1,L
+   4,L,J,G
+   3,J
+   1
+   1,K,G
+   4
+   2,L
+   1,R
+   3,J
+   1,L,K,G
+   5,K
+   2,R,K
+  14,U,X
+  40
+
+#lvl_f-08a-night
+   3,R
+   8,R,J
+   4,L,J
+   6,R,J
+   1,R,K,G
+  10,R,J,G
+   4,R
+  15,R,Z
+   1,G
+  15,D,X
+   1,L
+   4,Z
+   1,R,J
+   1
+   6,R
+   7,R,D,K
+   5,R
+   6,R,K
+  15,U,X
+   7
+   6,R
+   5,R,Z
+   8,R,J,G
+   5,R
+   8,R,J
+   1,J
+  10,R,J
+  15,D,X
+   7,L,K
+  13,R,U,X
+   1,R,J,G
+  13,R
+   4,Z
+   1,R,K
+  12,R
+  15,L,D,X
+   4,Z
+   1,R,J
+   7,R
+   7,R,D,K
+   5,R
+  12,R,K
+  15,U,X
+  34,R,C
+  12,R,X
+  15,R,J,G
+  15,R,U,X
+   2
+   1,R,K,G
+   3,L,K
+   3,L
+  14,R
+  34,R,X
+   2,R,D
+   1,R
+   7,L,Z
+   1,L,J
+   4
+  22,K
+   3,L,K
+   7,L
+  14,U,Z
+   4,L,K
+  13,L
+   6,G
+  77
+  12,D,X
+  40
+
+#lvl_f-08-night (1)
+  43,D
+  11,L,D
+  12,L
+  14,R,D,X
+   1,R,J
+  16,R,D,X
+   3,R,J
+   5,R
+   1,R,J
+   8,R
+   7
+  15,D,X
+   5,L
+   2,L,J
+  15,L,D,X
+   2,R,D
+  14,R,Z
+   1,R,J
+  15,R,D,X
+   8,R
+  15,R,D,X
+  15,D,C
+  14,R,D,X
+   1,R,J
+  13,R,U,Z
+   1,L
+   5,J,G
+   1,R,K,G
+   4,R
+   7,R,D
+  15,R,D,X
+   8,R,D
+   5,R
+  12,R,Z
+#stray-catwalks-S3
+
+Read,stray-catwalks,stray-catwalks-S3,Time
+
+#Time
+MidwayChapterTime: 2:19.281(8193)
