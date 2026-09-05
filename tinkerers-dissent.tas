@@ -1,4 +1,4 @@
-RecordCount: 4006
+RecordCount: 4007
 
 console load factory/BZFR/factory 8205 -11503.6
    1
@@ -294,6 +294,7 @@ console load factory/BZFR/factory 8205 -11503.6
   40
 
 #lvl_g-07-east
+#tinkerers-dissent-S0
 
 ### -12f no S+Q
 #   15,R,D,X
@@ -390,10 +391,10 @@ console load factory/BZFR/factory 8205 -11503.6
    1,F,
    1,U,O
 SaveAndQuitReenter
+  36
 #snqcycle_g-07
    1
 #endsnqcycle_g-07
-  36
   15,R,Z
   10
    2,R
@@ -406,6 +407,7 @@ SaveAndQuitReenter
   14,L
    2,D
    1
+#tinkerers-dissent-S1
    4,Z
    1,R,J
    1,R,K,G
@@ -449,6 +451,7 @@ SaveAndQuitReenter
    1,R,J
    4,R
   28,R,X
+#tinkerers-dissent-S2
    4,Z
    1,R,K
    6,R
@@ -468,9 +471,9 @@ SaveAndQuitReenter
    4,R,J,G
    7,R
   18,R,U,Z
+#tinkerers-dissent-S3
   15,R,X
   22,R,Z
-# non-S+Q branch syncs here
   23,U,G
    3
   14,L,J
