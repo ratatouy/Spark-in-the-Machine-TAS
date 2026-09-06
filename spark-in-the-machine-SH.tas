@@ -1,0 +1,324 @@
+# SparkInTheMachine
+# https://gamebanana.com/mods/704652
+
+RecordCount: 45
+
+console load factory/BZFR/factory
+   1
+#Start
+
+## The Boundary
+#spinner-a03
+   1
+#spinner-a03-end
+
+Read,the-boundary-S,Start,stun_a-03
+
+#stun_a-03
+   3,R,K,G
+StunPause
+  16,R,K,G
+SkipInput 3 1
+  18,R,X
+SkipInput 3 1
+   6,R,J
+   5,R,K
+EndStunPause
+   2,R,K
+#endstun_a-03
+
+Read,the-boundary-S,endstun_a-03,spinner-a04
+
+#spinner-a04
+   1
+#spinner-a04-end
+
+Read,the-boundary-S,spinner-a04-end,stun_a-04
+
+#stun_a-04
+  17,R
+StunPause
+   1,R
+SkipInput 3 1
+   9,R,Z
+   1,J,G
+EndStunPause
+   2
+#endstun_a-04
+
+Read,the-boundary-S,endstun_a-04,Time
+##
+
+## Metalworks
+
+Read,metalworks-S,Start,spinner-b03
+
+#spinner-b03
+   0
+#spinner-b03-end
+
+Read,metalworks-S,spinner-b03-end,stun_b-03
+
+#stun_b-03
+   3,R,J
+StunPause
+   6,R,J
+   5,R
+   2,R,J
+   6,R
+EndStunPause
+   2,R
+#endstun_b-03
+
+Read,metalworks-S,endstun_b-03,spinner-b06
+
+#spinner-b06
+   2,G
+#spinner-b06-end
+
+Read,metalworks-S,spinner-b06-end,stun_b-06
+
+#stun_b-06
+   2,R,J
+StunPause
+SkipInput,3,1
+   7,R,U,Z
+   2,R,K,G
+   2,R,J,G
+EndStunPause
+   3,R,J,G
+   6,R
+   2,R,K
+   1,R
+   1,R,K
+StunPause
+   2,R,K
+EndStunPause
+   1,R,K
+#endstun_b-06
+
+Read,metalworks-S,endstun_b-06,Time
+##
+
+## Forlorn Industry
+Read,forlorn-industry-S,Start,Time
+##
+
+## My Closest Friend
+Read,my-closest-friend,Start,Time
+##
+
+## The Machine
+Read,the-machine,Start,deathwarp_e-out-05
+   1,S
+   1,U
+   1,F,
+   1,U,O
+SaveAndQuitReenter
+  36
+Read,the-machine,enddeathwarp_e-out-05,Time
+##
+
+## Stray Catwalks
+Read,stray-catwalks-S,Start,cycle_f-02a
+
+#cycle_f-02a
+   1,D
+#endcycle_f-02a
+
+Read,stray-catwalks-S,endcycle_f-02a,stun_f-02a
+
+#stun_f-02a
+   7,R,D,X
+StunPause
+  10,R,D,X
+EndStunPause
+#endstun_f-02a
+
+Read,stray-catwalks-S,endstun_f-02a,Time
+##
+
+## Tinkerer's Dissent
+#cycle_g-07-east
+   2
+#endcycle_g-07-east
+
+Read,tinkerers-dissent-S,Start,stun_g-07-east
+
+#stun_g-07-east
+   6,R
+   1,R,J
+   3,R
+   9,R,D,X
+StunPause
+   2,R,D,X
+EndStunPause
+   4,R,D,X
+#endstun_g-07-east
+
+Read,tinkerers-dissent-S,endstun_g-07-east,Time
+##
+
+## Left Running
+Read,left-running-S,Start,cycle_h-09
+
+#cycle_h-09
+   2
+#endcycle_h-09
+
+Read,left-running-S,endcycle_h-09,stun_h-09
+
+#stun_h-09
+   3,G
+   1,R,G
+   1,G
+AutoInput, 2
+   1,G,S,N
+  10,G,O
+StartAutoInput
+   2,G
+SkipInput 3 1
+  13,R,U,Z,G
+EndAutoInput
+#endstun_h-09
+
+Read,left-running-S,endstun_h-09,cycle_i-00
+##
+
+## The Outcome
+
+#cycle_i-00
+   0
+#endcycle_i-00
+
+Read,left-running,endcycle_i-00,Time
+Read,the-outcome,Start,stun_i-00
+
+#stun_i-00
+# +3f non drift dependent
+###
+#   49,L,G
+#   50,L,X
+#    9,R
+#   27,L,Z
+#    4,L,J
+#    2,L,K
+#    1,L
+#   10,L,Z
+#   24,D,G
+#    4,L,J
+#    8,L
+#   26,L,Z
+#   28,L,G
+###
+  49,L,G
+  50,L,X
+   9,R
+  27,L,Z
+   4,L,J
+   2,L,K
+   1,L
+  11,L,Z
+  24,D,G
+   4,L,J
+   5,L
+  26,L,Z
+  28,L,G
+   2,L,J,G
+   4,L,G
+   4,L,K,G
+   3,L
+  44,L,H
+  15,L,Z
+#endstun_i-00
+
+Read,the-outcome,endstun_i-00,cycle_i-10
+
+#cycle_i-10
+   1
+#endcycle_i-10
+
+Read,the-outcome,endcycle_i-10,stun_i-10
+
+#stun_i-10
+  10,D
+#endstun_i-10
+
+Read,the-outcome,endstun_i-10,cycle_i-14
+
+#cycle_i-14
+
+# +0f
+  12,L,D
+   2,D
+   1
+   1,D
+
+# +1f
+#   11,L,D
+#    1,L
+#    4
+#    1,D
+
+# +2f
+#    9,L,D
+#    2,L
+#    7
+
+#endcycle_i-14
+
+Read,the-outcome,endcycle_i-14,stun_i-14
+
+#stun_i-14
+   2,L
+StunPause
+   3,L
+   3,L,J
+EndStunPause
+   4,L
+#endstun_i-14
+
+Read,the-outcome,endstun_i-14,cycle_i-15
+
+#cycle_i-15
+   0
+#endcycle_i-15
+
+Read,the-outcome,endcycle_i-15,stun_i-15
+
+#stun_i-15
+   4,L,J
+   1,L,K
+StunPause
+   4,L,J
+EndStunPause
+  10,R,J
+#endstun_i-15
+
+Read,the-outcome,endstun_i-15,Time
+##
+
+Assert,Equal,Celeste.AreaComplete,{Engine.Scene}
+Unsafe
+Add 197
+ 165
+   1,O
+  83
+Add 7
+   1,S
+   1,O
+  30
+   1,R
+   1,F,90
+   1,R
+   1,F,90
+   1,R
+   1,F,90
+   1,R
+   1,O
+  46
+Safe
+
+Read,left-running-H,Start
+
+FileTime: 19:29.838(68814)
