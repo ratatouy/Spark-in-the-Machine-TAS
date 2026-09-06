@@ -1,4 +1,4 @@
-RecordCount: 6816
+RecordCount: 6819
 
 console load factory/BZFR/factory -6018.936194 -9807.542462
    1
@@ -657,32 +657,32 @@ endrepeat
    9,L,D,X
    4,L,K
    3,L,J,G
-  13,L,D,X
-   7,L,K
-   1,L
-  17,L,K
-  21,L,U,Z
-   4,L,J
-   2,L,K
-  19,L,U,X
-   4,R,J
-  14,R,K
-  13,U,X
-  14,L,J
-  21,R,D
-   8,D
-   1,R
-   1,R,D
-   2,R
-  12,R,J
-   5,R
-   1
-  14,U,X
-  14,L,J
-   1,J
-   8,L,J
-   1,X
-  16,L,X,G
+  13,L,D,X,G
+   7,L,K,G
+   1,L,G
+  17,L,K,G
+   4,D,Z,G
+  17,L,U,Z,G
+   4,L,J,G
+   2,L,K,G
+  19,L,U,X,G
+   4,R,J,G
+  14,R,K,G
+  13,U,X,G
+  14,L,J,G
+  21,R,D,G
+   8,D,G
+   1,R,G
+   1,R,D,G
+   2,R,G
+  12,R,J,G
+   5,R,G
+   1,G
+  14,U,X,G
+  14,L,J,G
+   1,J,G
+   8,L,J,G
+  17,L,X,G
    1,G
    1,L,G
    1,G
