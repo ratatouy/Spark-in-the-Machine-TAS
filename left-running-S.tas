@@ -1,226 +1,16 @@
 # SparkInTheMachine
 # https://gamebanana.com/mods/704652
 
-RecordCount: 1912
+RecordCount: 1913
 
 console load factory/BZFR/factory 13933.444450 -11232.166761
    1
 
-#lvl_h-00-east (0)
+#lvl_h-00-east
   36
 #Start
 
-Read,left-running,Start,left-running-S0
-
-#left-running-S0
-   1,D,J
-  14,R,D,X
-   1,R,J
-   1,S
-   1,D,J
-  34
-  15,R,D,X
-   4,R,D
-   2,R,D,J
-   3,R
-  40
-
-#lvl_h-00b-east (0)
-   2,R,J
-   3,R
-  10,R,D,J
-  12,R,D,X
-   1,R,J,G
-  11,R
-   3,R,J
-   5,R,D,X
-   1,R,J,G
-   1,R
-   1
-   4,R
-   2,R,J
-   9,R
-   1,R,J
-  14,R
-  10,R,J
-   9,R,X
-  40
-
-#lvl_h-00c-east
-   7,R,X
-   4,R,J
-   3,R,K
-  15,U,X
-   5,R,J,G
-   2,R
-   5,R,Z
-   1,R,J
-   6,R
-   3,R,J
-   5,R
-   3,R,J
-   3,R
-   1,R,U,J,G
-   6
-   1,U,G
-   6
-   4,L,X
-   6,L,D
-   8,R,J
-   1,R,U,J,G
-   6
-   4,U,X
-   6,L,D
-   1,R,J
-   1,R
-   1,R,G
-   6
-   1,R
-   1,R,G
-   6
-   4,R,X
-   6,R,D
-   1,L,J
-   3
-   1,G
-   6
-  10,R,X
-   1,G
-   6
-   2,L,J
-  14,L,D,X
-   1,L,J,G
-   6
-   4,R,X
-   4,L
-   1,D,G
-   6
-   1,D
-   1,D,G
-   6
-   4,U,X
-   4,L
-   1,G
-   6
-   1,L,G
-   6
-   1,R
-   1,S
-   1,D,J
-  34
-
-
-# rtm inputs (with shoddy menuing)
-
-#    1,R
-#    6,R,J
-#  147,U,X
-#    1,S
-#    1,U,J
-#    1,O
-#Unsafe
-#   31
-#    4
-#    1,J
-#   30
-#    1,R
-#    1,F,90
-#    1,R
-#    1,F,90
-#    1,R
-#    1,F,90
-#    1,R
-#   47,J
-#Safe
-#   36
-#    7,R,Z
-#    1,R,J
-#    7,R
-#    1,R,J
-#   14,R,D,X
-#    3,R,J
-#   14,U,X
-#    1,R,J
-#    1,R
-#    2,R,K,G
-#    7,R
-#    4,R,Z
-#    1,R,J
-#    7,R
-#    4,R,D,J
-#   14,R,D
-#    1,R,D,J
-#   13,R,D,X
-#    1,R,J
-#    1,S
-#    1,D,J
-#   34
-#    2,R
-#    2,R,J
-#   14,R,U,Z
-#   12,J,G
-#   12,K
-#   12,J
-#   12,K
-#   12,J
-#   12,K
-#   12,J
-#    9,K,G
-#    2,L,K
-#    1,J
-#    7
-
-
-   5,R
-   1,J
-   1,R,J
-  15,U,X
-   6,R
-   1,R
-  38,L,D,X
-   8,L
- 153,L,D
-  31,O
-   4
-  10,L,Z
-   4,L,J
-   1,L,K
-  40
-
-#lvl_h-00b-east (1)
-   6,L,K
-  15,L,D,X
-   8,L,J
-   4,L
-  12,L,D,X
-   1,L,J,G
-  12,L
-   3,L,J
-   5,L,D,X
-   1,L,J,G
-   5,L
-   2,L,J
-  10,L
-  14,L,D,J
-  12,L,D,X
-  40
-
-#lvl_h-00-east (1)
-   3
-  15,U,X
-  24,R,J
-  12,R,K
-  12,L,J
-  12,R,K
-  12,L,J
-  12,R,K
-  10,J,G
-   2
-   9,K,G
-   7,L
-#left-running-S1
-
-Read,left-running,left-running-S1,left-running-S2
+Read,left-running,Start,left-running-S2
 
 #left-running-S2
    5,R,D,J
@@ -683,7 +473,7 @@ Read,left-running,left-running-S5,left-running-S6
 Read,left-running,left-running-S7,cycle_h-09
 
 #cycle_h-09
-   2
+   1
 #endcycle_h-09
 
 Read,left-running,cycle_h-09,stun_h-09
@@ -702,7 +492,13 @@ SkipInput 3 1
 EndAutoInput
 #endstun_h-09
 
-Read,left-running,endstun_h-09,Time
+Read,left-running,endstun_h-09,cycle_i-00
+
+#cycle_i-00
+   0
+#endcycle_i-00
+
+Read,left-running,endcycle_i-00,Time
 
 #Time
-MidwayChapterTime: 3:19.291(11723)
+MidwayChapterTime: 3:05.640(10920)
