@@ -493,9 +493,11 @@ console load factory/BZFR/factory -6018.936194 -9807.542462
   43
 
 #lvl_e-engine-00-in
+#deathwarp_e-engine-00
    1,S
    1,D,J
   69,O
+#enddeathwarp_e-engine-00
   10,L,X
    2,R,K
    2,K
@@ -1174,9 +1176,11 @@ EndRepeat
   40
 
 #lvl_e-out-mask-05-in
+#deathwarp_e-out-05
    1,S
    1,D,J
   69,O
+#enddeathwarp_e-out-05
    2,J
    1
   15,U,X
