@@ -1,7 +1,7 @@
 # SparkInTheMachine
 # https://gamebanana.com/mods/704652
 
-RecordCount: 5457
+RecordCount: 5461
 
 console load factory/BZFR/factory
    1
@@ -422,8 +422,9 @@ EndStunPause
    1,R,J,G
   11,L,J
    3,L
-   3,L,K,G
-  14,L,D,X
+   1,K
+  16,L,Z
+   4,R,G
 
 #Time
-MidwayChapterTime: 0:49.470(2910)
+MidwayChapterTime: 0:49.487(2911)
