@@ -1,4 +1,4 @@
-RecordCount: 6964
+RecordCount: 7505
 
 console load factory/BZFR/factory -6018.936194 -9807.542462
    1
@@ -865,27 +865,23 @@ EndRepeat
   14,L,U,X
   12,R,J
    1,R
-  33,R,U,X
+  41,R,U,Z
+   7,X,G
+  19,X
+  31,X,G
+  11,R,J
+   5
+   4,J
+   7,J,G
+   7,U
+   2
    7,G
-  13
-   7,G
-  15
-   7,G
-  14,L
-   5,L,J
-  13,L,K
-  12,R,J
-  11,U,X
-  39,R,G
-   4,R,G
-   1,R,J,G
+  33,R,G
   12,L,Z,G
-   1,R,J,G
    1,R,K,G
-   2,K,G
-  21,R,K,G
-  16,U,X
-   3,R
+  23,R,J,G
+  15,U,X
+   2,R
   50
   19,G
   19,H
@@ -893,108 +889,106 @@ EndRepeat
    5,D,H
   15,R,D,X,H
   44,D,G
-  36,D,H
-  11,L,D,X
-   4,L,J
-  14,L,D
-  14,D,G
-  20,U,H
-   8,R,G
-  20,R,D,X
-  12,R
-  14,U,X
-  10,U,G
-  12,L
-  10,U,H
-  12,L,H
-   2,L,K,H
-   1,J,H
-   9,L
+  31,D,H
+   1
+  28,L,D,X
+   6,D
+   7,R,D,G
+   8,U
+   4,R
+   7,R,G
+  15,R,D,X,G
+   6,G
+  12,R,U,Z,G
+   2,K,G
+   2,G
+   1,L,J,G
+   7,J,G
+   1,K,G
+   1,L
+   1
+   5,L
    1,R
-   8,R,G
+   1,L,J
+   7,L,J,G
+   8,U
+   4,L
+   7,L,G
   15,R,D,X
-   6,L,D
-  18,R,D
-  12,R
-   8,R,G
-   6,J,G
-   1,L,J
-   1,J
+   4,D
+   8,R,D
+  13,R
    1
-  11,J
+   7,R
+  10,R,G
    1
-   1,L,J
-   9,L
-   5,L,Z
+   1,K,G
+  15,R
+   2,R,J
+  14,L,D,X
+   1,R,K
+   5,R,D,X
+   1,R,J,G
+   7,R
    1,R,J
-   1,R,K,G
-  11,R
-   9,R,J
+   6,R
+   3,R,K
   40
 
 #lvl_e-out-mask-02-in
-  16,R,J
-  17,U,X
-  12,L,D,C
-   1,R,J
-   2,R
-   8,R,D,X
-   1,R,J
-  16,R,D
-   7,R,G
-   4,R
-  15,R,Z
-   8
-   9,D,G
-  13,L,Z,G
-  12,J,G
-   9,G
-
-   6,J,G
-  12
-   2,J
-   2
-   1,R
-   1
-   1,R
-  31,R
-  20,R,U,Z
-  34,L,G
-   6
-  15,L,U,Z
-   9
-   1,L
-   3,L,J
-  10,L
-   3,L,J
-   3,L
-   2
-   1,L
-   7,L
-   1,J
-   5,R,K
-   5,R
-   4,R,J
-   9
-  18,U,X
-   1,L
-  18,U,C
-  27,L,G
-  15,U,X
-   4,L,J,G
-   2,L
+  11,R,K
+   2,K
+   1,R,K
+  16,U,X
+  10,L,D,C
+   6,R,J
+  18,R,D,X
+   7,R,D,G
+   8,U,G
+  35,R,G
+   1,R,D,G
+   1,R,G
+   1,R,D,G
+   1,R,K,G
+  11,G
+   1,K,G
+   2,G
+   1,R,J,G
+   9,J,G
+  13,G
    1,J,G
+   8,G
+  34,R,G
+  29,R,U,Z,G
+   1,G
+   7,L,K
    1,L
-   4
+  18,U,X
+   2,L,J
+  22,L,J,G
+  15,L,Z,G
+   1,L,K,G
+  25,L,J,G
+  18,U,X
+  18,U,C
+   7,L,G
+  25,L
+  15,U,X
+   3,L
+   1,K,G
+   1,L,K
+   2,L
+   3
    1,L
    1,R
    5,R,J
-  15,U,X
-  10,R,J,G
+   2,J
+  16,U,X
+   4,K
   40
 
 #lvl_e-out-mask-03-in
-  11,R,J,G
+  11,R
   10,R,X
    7,R,J
   18,R,U,X
@@ -1028,29 +1022,31 @@ EndRepeat
    8,J,G
    1,K
    2,J,G
-  22,L,J
-  11,R,K
-  18,U,X
-  30,R,U,Z
-  15,U,X
-  40,R,U,C,G
-   7,L,J,G
+  21,L,J
+  12,U,X
+  32,R,K
+  19,R,U,X
+  15,U,C
+  19,R,U,Z
+   4,R,J
+   4,R,K
+   2
+   1,R
+   4
+  20,L,Z
+   8,L,J
+  16,L,K
+   3,K
+   4,J
+  16,U,J,G
+   8,L,G
    1,L,J,G
-  11,L,K,G
-   3,L,G
-   1,J,G
-   1,G
-  19,L,Z,G
-   8,L,J,G
-  19,L,K
+  11,K,G
+   1,L,K
    1,K
-   3,J
-   1
-  16,U,G
-   9,L,G
-   1,J,G
-   8,K,G
-  11,L,K
+   4,L,K
+   1,K
+   1,L,K
    1,K
   15,L,U,X
    7,L
@@ -1070,20 +1066,19 @@ EndRepeat
    5,L
    4,L,J
   15,U,Z
+   1,L
+  10,L,K
    2,L
-  15,L,J
-   5,L
-   8,J
-   3,R,J
    1,J
-   1
-   7,R,K
+   4,R,J
    9,R
    1,R,J
-  13,R
-   1,R,D
    1,R
-   2,R,D
+   4,K,G
+   8,R,K
+   8,R
+   1,R,K
+  10,R
    8,R,Z
    1,R,J
    6,R
@@ -1294,4 +1289,4 @@ EndRepeat
   34
 
 #Time
-MidwayChapterTime: 2:46.464(9792)
+MidwayChapterTime: 2:44.730(9690)
