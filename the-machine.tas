@@ -1,4 +1,4 @@
-RecordCount: 6819
+RecordCount: 6964
 
 console load factory/BZFR/factory -6018.936194 -9807.542462
    1
@@ -263,17 +263,13 @@ console load factory/BZFR/factory -6018.936194 -9807.542462
    5,R,D,G
   18,R,X,G
   10,G
-   5,R,J,G
-  11,R,K,G
-  14,U,X,G
-  15,R,J,G
-   8,R,G
-   4,R,J,G
-   2,R,G
-  11,G
-  14,R,Z,G
-   7,R,J,G
-   7,R,H
+   6,R,J
+  17,R,K
+  13,U,X
+  29,R,J
+   1
+  17,R,U,Z
+   7,R,G
   19,R,D
   40
 
@@ -836,13 +832,15 @@ EndRepeat
    1
    2,L
   16,L,G
-   9,U,X
+  15,U,X
    1,J
-  28,R,J
-   1,J,G
-   6
-   1,L
-  50,D
+   1,K
+  11,R,K
+   8,R
+   7,R,G
+  38,L
+  10,D
+   2
   20,R
    1,R,G
    7,U
@@ -1296,4 +1294,4 @@ EndRepeat
   34
 
 #Time
-MidwayChapterTime: 2:46.651(9803)
+MidwayChapterTime: 2:46.464(9792)
