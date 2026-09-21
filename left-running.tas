@@ -1,4 +1,4 @@
-RecordCount: 2936
+RecordCount: 3095
 
 console load factory/BZFR/factory 13933.444450 -11232.166761
    1
@@ -63,42 +63,54 @@ console load factory/BZFR/factory 13933.444450 -11232.166761
    2,L
    5,R,Z
    1,L,J
-   9,L
+   1,L
+   1,L,J
+   7,L
   15,L,D,X
-   3,L
-   7,L,J
-  18,U,G
-   8,R
-  15,R,U,Z
-   8,R
-   1,R
-   8,L,J
-   2,L,K,G
-  15,L,X
-  15,R,C
-  14,L
-  15,L,Z
-   2,L,J
-   3,L
-   4,L,J
-  27,U,X
-  20,G
-   1
-   1,G
-  12,R
-  15,R,Z
-  17,L
+   5,L
+   1,L,K
+   9,L,Z,G
+   1,R,J,G
+   8,R,G
+  15,R,K,G
+   1,J,G
+   1,R,J,G
+   1,L,J,G
+   1,K,G
+   1,R,J,G
+  23,L,J,G
+  13,L,U,Z,G
+   1,R,G
+   1,K,G
+   1,L,K
+   7,R,K
+   5,R
+   3
+   7,L,G
+   1,L,J
+   1,L
+   4,L,K
+  28,U,X
+   7,U,X,G
   15,U,X
-   4,L
-  11,L,D,C
+   7,U,X,G
+   4,D,G
+   1
+   4,Z
    1,R,J
+   5,R
+   2,R,J
+  10,R
+  15,U,X
+  13,R,Z
+  23,R,K
    7,R
-  22,R,J
-  12,R,D
-   1,L,D
-   2,D
-   3,D
+   4,D
+   1,R,D
+   1,D
+   1,R,D
    6,R,D,X
+#left-running-S2
    1,R,J
    6,R
   19,R,G
@@ -124,7 +136,6 @@ console load factory/BZFR/factory 13933.444450 -11232.166761
    1,S
    1,D,J
   34
-#left-running-S2
   11,R,D,J
    5,R
    2,R,J
@@ -166,8 +177,7 @@ console load factory/BZFR/factory 13933.444450 -11232.166761
    2,L,D
    6,L,J
   15,L,Z
-   3,L
-   3,L
+   6,L
    1
    1,J
    4,J
@@ -667,7 +677,7 @@ EndRepeat
    5,R,D
   18,D
 #cycle_h-09
-   2
+   0
 #endcycle_h-09
    5,R,J
    2,R
@@ -815,4 +825,4 @@ EndRepeat
   37
 
 #Time
-MidwayChapterTime: 2:06.531(7443)
+MidwayChapterTime: 2:05.766(7398)
