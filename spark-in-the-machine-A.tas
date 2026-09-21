@@ -139,7 +139,7 @@ Read,tinkerers-dissent,endstun_g-07-east,Time
 Read,left-running,Start,cycle_h-09
 
 #cycle_h-09
-   1
+   2
 #endcycle_h-09
 
 Read,left-running,endcycle_h-09,stun_h-09
@@ -276,4 +276,4 @@ Read,the-outcome,endstun_i-15,Time
 
 ##
 
-ChapterTime: 15:34.320(54960)
+ChapterTime: 15:33.606(54918)
