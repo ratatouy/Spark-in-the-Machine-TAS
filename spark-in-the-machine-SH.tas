@@ -1,7 +1,7 @@
 # SparkInTheMachine
 # https://gamebanana.com/mods/704652
 
-RecordCount: 45
+RecordCount: 49
 
 console load factory/BZFR/factory
    1
@@ -163,7 +163,7 @@ Read,tinkerers-dissent-S,endstun_g-07-east,Time
 Read,left-running-S,Start,cycle_h-09
 
 #cycle_h-09
-   2
+   1
 #endcycle_h-09
 
 Read,left-running-S,endcycle_h-09,stun_h-09
@@ -235,7 +235,7 @@ Read,the-outcome,Start,stun_i-00
 Read,the-outcome,endstun_i-00,cycle_i-10
 
 #cycle_i-10
-   1
+   0
 #endcycle_i-10
 
 Read,the-outcome,endcycle_i-10,stun_i-10
@@ -249,16 +249,16 @@ Read,the-outcome,endstun_i-10,cycle_i-14
 #cycle_i-14
 
 # +0f
-  12,L,D
-   2,D
-   1
-   1,D
+#   12,L,D
+#    2,D
+#    1
+#    1,D
 
 # +1f
-#   11,L,D
-#    1,L
-#    4
-#    1,D
+  11,L,D
+   1,L
+   4
+   1,D
 
 # +2f
 #    9,L,D
@@ -321,4 +321,4 @@ Safe
 
 Read,left-running-H,Start
 
-FileTime: 19:29.634(68802)
+FileTime: 19:24.466(68498)
