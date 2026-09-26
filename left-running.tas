@@ -1,4 +1,4 @@
-RecordCount: 3095
+RecordCount: 3765
 
 console load factory/BZFR/factory 13933.444450 -11232.166761
    1
@@ -140,20 +140,107 @@ console load factory/BZFR/factory 13933.444450 -11232.166761
    5,R
    2,R,J
   21,R,D
-  10,L,D
-   1,D
+   5,L,D
+   6,D
   40
 
 #lvl_h-02-east
-# not entirely sure what to do here, this is definitely not optimal
    5,D
-  13,R,D,X
+   2,L,D
+  10,R,D,X
 #left-running-S3
-   4,R,J
-  11,R
-   1
+   3,R,J
+  12,R
   15,D,X
    7,R,D
+
+# this still doesn't seem optimal..
+
+### +3f, seems potentially useful.
+#   15,R,Z
+#    1,L,J
+#    4,J
+#    5,R,J
+#    9,R
+#    1,R,J
+#    2,R
+#   15,R,Z
+#    8,L,C
+#    2,K,G
+#    1,R,K
+#    4
+#   15,R,Z
+#   18,L,D
+#   11,J
+#   15,R,Z
+#   22,L,D,X
+#   11,L,K
+#    7,L
+#    9,G
+#    1,J,G
+#    1,R,J
+#    3,J
+#    3
+#   15,L,D,X
+#   11,L,K
+#    1,J,G
+#    4,R,J
+#   15,D,X
+#    4,Z
+#    1,R,K
+#    1,R,J,G
+#    1,R,K,G
+#    1,R,J,G
+#    1,R,K,G
+#    7,R
+#    2,R,D
+#    3,R,J
+#   14,R
+#   15,R,U,X
+###
+
+
+### doesn't work, but still seems potentially useful.
+#   15,R,Z
+#    1,L,J
+#    4,J
+#    5,R,J
+#    9,R
+#    1,R,J
+#    2,R
+#   15,R,Z
+#    8,L,C
+#    1,K
+#    1,R,K
+#    3,R
+#    2
+#    2,K
+#   22,R,Z
+#   20,L
+#    3
+#   11,R,J
+#    1,R
+#    5
+#   15,L,U,X
+#   15,L,D,C
+#    9,L
+#   12,L,K
+#    5,L,J,G
+#    9,L,K,G
+#    4,X
+#   14,R,D,X
+#    1,R,J
+#    1,R
+#   14,L,D,X
+#    1,R,K
+#   10,R,D,X
+#    1,R,J,G
+#    1,R,K,G
+#    1,R,J,G
+#    1,R,K,G
+#  300,R
+###
+
   11,R,Z
    1,R,J
    3,R
@@ -163,35 +250,41 @@ console load factory/BZFR/factory 13933.444450 -11232.166761
   11,R,D,J
   10,L,C
    8,J
-   7,D
-   1,J
-   8,R,D
-  15,R,Z
+   7
+   2,R
+   1,R,J
    6,R
+  15,R,Z
+   5,R
   15,D,X
    4,R,D
-   7,R,J
-   5,J
+   6,R,J
+   4,J
+   2
   15,L,U,X
   15,D,C
    2,L,D
-   6,L,J
-  15,L,Z
-   6,L
-   1
-   1,J
-   4,J
-  14,L,D,X
+   4,Z
+  11,L,K
+   2,L
+   3,L,K
+   1,L
+   5
    1,R,J
+   3
+   1,L
+  14,L,D,X
+   1,R,K
    8,R,D,X
    1,R,J,G
    1,R,K,G
    1,R,J,G
-   6
+   5
+   1,R
    1,R,J
    1,R
-   2,R,D
-   3,R
+   3,R,D
+   2,R
    3,R,J
    7,R
    1,R,J
@@ -201,59 +294,73 @@ console load factory/BZFR/factory 13933.444450 -11232.166761
   14,R,U,X
   19,L
   15,R,D,X
-  13,R,D
-  25,R,G
-  18,R,U,Z
+   9,R,D
+   4,D
+   7,D,G
+  18,R
+  17,R,U,Z
+   1,R,K
   14,R,D,X
    1,R,J
+  16,R,D,X
+   7,R,D,K
+   4,R
   15,R,D,X
-   1,R,D
-   7,R,J
-   5,R
-  15,R,D,X
-   4,R,D
-   4,L,Z
-   6,L,J
+   4,D
+   4,Z
+   5,L,J
+   1,J
   16,R
   19,R,G
   15,R,D,X
    1,R,D
    2,D
    3
+   1,D
   19,L,J
-   4,R,J
-   1,J
+   3,R,J
    1,L,K,G
-Repeat, 3
-   1,K
+repeat 3
    1,R,K
-EndRepeat
    1,K
+endrepeat
+   1,R,K
    1,L,J,G
-   4,L,K,G
-  15,U,X
-  18,L,J
-   3,K
+   3,L,K,G
+  15,U,Z
+  11,J
+   5,L,J
+   1,J
+   1,K
+   2,R,K
   40
 
 #lvl_h-03-east
-   3
-   6,L
+   1
+   8,L
    1,L,J,G
    2,L,K,G
-  12,L,J,G
-  11,L
+  11,L,J,G
+   9,L
    1,G
-  14,L,D,X
-  21,L,J
-  28,L,U,X
-   4,R,J
-  12,R,K
+  15,L,D,X
+   8,R,J
+   1,K,G
+   1,L,K
+  10,R,K
+   1,J,G
+   1,L,J
+   1,R,J
+  10,K,G
+   1,L,K
+   2,J
+  16,U,X
+  15,R,K
+  11,R
+   1,J
+   1,L,J
   15,U,X
-   2,L
-  14,R,J
-  15,R,U,X
-  27,R
+  24,R
   15,R,X
   15,R
    5
@@ -269,49 +376,39 @@ EndRepeat
    7,L,J,G
    3,R,J
    2,R
-  15,L,U,X
-  18,U,C
-   5
-   1,D
-  16,L,D
-   2,L,D
-   1,G
-   5,L,Z
-   1,L,J,G
-   2,L,K,G
-   1,J,G
-   1,L,K,G
-   1,K
-   8,L,K
-   1,L,K
-  14,L,U,X
-# this section is messy, probably improvable, just try anything
-   1
-   5
-  15,L,U,X
-  11,J
-   5,L,K,G
-   1,L
-   1,L,J,G
-   1,L
-   1,L
-   1,J,G
-   2,L
-   3
+  11,L,U,X
+   9,K
+  15,U,C
    2
-   3,R
-   5,L,Z
-  13,R,J
-  14,R,U,X
-   2,R,J,G
+   1,R
+   1,R,D
    4,R
-   1
+   3,R,D
+  18,L,U,Z
+   9
+  15,L,Z
+  15,U,X
+  14,R
+   1,J,G
+   2
+   1,K,G
+   5
    2,R
+   1,R,K
+   3,K
+   6,J,G
+   1,R,J
+   1,L,J
+   1,R,K,G
+   9,R,J,G
+   1,K
+  11,L,K
   10,R,X
-  23,L,J
+  13,L,J
+   5,J
   21,R,U,X
-   4,R,J
-   6,R,Z
+   4,R,K
+   6,R,D,C
    1,R,J
    7,R
    1,R,J
@@ -378,21 +475,23 @@ EndRepeat
 #   14,R,X
 ###
 
-  34,R,J
-   4,R,D
-  15,R,U,X
-   7,R,J
-  17,R,G
+  15,R,J
+  20,R
+  17,R,U,X
+   7,L,K,G
+  13,R
   15,R,D,X
   10,R,D
    3,R
-  25,R,G
-  15,R,Z
-   9,R
-   8,R,J
-   7,R,K
-   1
-  22,R
+   7,R,G
+  19,R
+  24,R,Z
+   4,R,J
+   9,R,K
+   6,R
+   5,R,K
+  10,R
+   3
   14,R,Z
    7,R,J
    1,R,K,G
@@ -825,4 +924,4 @@ EndRepeat
   37
 
 #Time
-MidwayChapterTime: 2:05.766(7398)
+MidwayChapterTime: 2:05.001(7353)
