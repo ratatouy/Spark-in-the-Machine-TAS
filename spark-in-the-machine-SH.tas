@@ -1,7 +1,7 @@
 # SparkInTheMachine
 # https://gamebanana.com/mods/704652
 
-RecordCount: 49
+RecordCount: 56
 
 console load factory/BZFR/factory
    1
@@ -164,6 +164,8 @@ Read,left-running-S,Start,cycle_h-09
 
 #cycle_h-09
    1
+# + drift, hopefully temporary.
+   6
 #endcycle_h-09
 
 Read,left-running-S,endcycle_h-09,stun_h-09
@@ -321,4 +323,4 @@ Safe
 
 Read,left-running-H,Start
 
-FileTime: 19:24.466(68498)
+FileTime: 19:23.803(68459)
