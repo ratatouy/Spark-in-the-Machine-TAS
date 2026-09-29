@@ -1,7 +1,7 @@
 # SparkInTheMachine
 # https://gamebanana.com/mods/704652
 
-RecordCount: 56
+RecordCount: 74
 
 console load factory/BZFR/factory
    1
@@ -109,21 +109,14 @@ Read,my-closest-friend,Start,Time
 ##
 
 ## The Machine
-Read,the-machine,Start,deathwarp_e-out-05
-   1,S
-   1,U
-   1,F,
-   1,U,O
-SaveAndQuitReenter
-  36
-Read,the-machine,enddeathwarp_e-out-05,Time
+Read,the-machine,Start,Time
 ##
 
 ## Stray Catwalks
 Read,stray-catwalks-S,Start,cycle_f-02a
 
 #cycle_f-02a
-   1,D
+   2,D
 #endcycle_f-02a
 
 Read,stray-catwalks-S,endcycle_f-02a,stun_f-02a
@@ -149,11 +142,7 @@ Read,tinkerers-dissent-S,Start,stun_g-07-east
    6,R
    1,R,J
    3,R
-   9,R,D,X
-StunPause
-   2,R,D,X
-EndStunPause
-   4,R,D,X
+  15,R,D,X
 #endstun_g-07-east
 
 Read,tinkerers-dissent-S,endstun_g-07-east,Time
@@ -163,9 +152,8 @@ Read,tinkerers-dissent-S,endstun_g-07-east,Time
 Read,left-running-S,Start,cycle_h-09
 
 #cycle_h-09
-   1
-# + drift, hopefully temporary.
-   6
+# hope drift is ~.0-.2 here
+   0
 #endcycle_h-09
 
 Read,left-running-S,endcycle_h-09,stun_h-09
@@ -190,7 +178,7 @@ Read,left-running-S,endstun_h-09,cycle_i-00
 ## The Outcome
 
 #cycle_i-00
-   0
+   2
 #endcycle_i-00
 
 Read,left-running,endcycle_i-00,Time
@@ -251,16 +239,16 @@ Read,the-outcome,endstun_i-10,cycle_i-14
 #cycle_i-14
 
 # +0f
-#   12,L,D
-#    2,D
-#    1
-#    1,D
+  12,L,D
+   2,D
+   1
+   1,D
 
 # +1f
-  11,L,D
-   1,L
-   4
-   1,D
+#   11,L,D
+#    1,L
+#    4
+#    1,D
 
 # +2f
 #    9,L,D
@@ -283,7 +271,7 @@ EndStunPause
 Read,the-outcome,endstun_i-14,cycle_i-15
 
 #cycle_i-15
-   0
+   2
 #endcycle_i-15
 
 Read,the-outcome,endcycle_i-15,stun_i-15
@@ -323,4 +311,4 @@ Safe
 
 Read,left-running-H,Start
 
-FileTime: 19:23.803(68459)
+FileTime: 19:22.069(68357)
