@@ -1,4 +1,4 @@
-RecordCount: 4398
+RecordCount: 5729
 
 console load factory/BZFR/factory -4872.497068 -10528.303874
    1
@@ -146,7 +146,8 @@ EndRepeat
    7,R
    8,R,D,J
    2,R
-  20,R,D,X
+  15,R,D,X
+   5,R,D
   14,R,Z
    1,R,J
   14,R,D,X
@@ -494,57 +495,79 @@ EndRepeat
    8,R
   12,R,J,G
    8,R,K,G
-   7,R
-  22,L,J
-  15,L,X
-  16,L
-   4,L,J
-   2,L,K
-  24,L,U,Z
-   4,R,J
-  19,R,K
-   5,R
-   2,L,J
-  12,R,J
-  14,R,D,X
-  18,R,J
-  13,R
-   3,R,D
-  28,R,X
-  15,D,C
-  15,L,D,X
-  15,D,C
-   6,R,J
-  15,R,D,X
+   6,R,J,G
+   2,K,G
+   1,R,K,G
+   6,L,K,G
+   5,R,K,G
+   1,R,J,G
+   1,L,J,G
+   1,J,G
+   1,L,J,G
+   1,J,G
+   1,L,J,G
+   1,J,G
+   1,L,J,G
+   1,J,G
+   1,L,J,G
+   1,J,G
+   1,L,J,G
+   1,J,G
+   1,L,J,G
+   1,J,G
+   1,K
+  24,R,K
+  15,R,U,X
+  13,R,K,G
    1,R
-  15,R,D,X
-   4,L,D,J
-   5,R,D,X
-   1,L
-   6,J,G
-   6,R,J
-   7,R
-  21,G
-   2,D,G
-   1,R,J,G
-   2,J
-   1,K,G
-   4,R,K
-   1,R,J,G
+   4,X
+   5,R,J
+   3,L,J
+   5
+   6,J
    1
+   9
+   2,L
+   4,R,Z
+   1,R,J
+   5,R
+   3,R,J
+   5,R
+   1,R,J
+  12,R
+   9,L
+  15,L,D,X
+  15,R,D,C
    1,R
-  10,R,D,X
+  15,D,X
+   6
+   4,L
+   4
+   3,L
+   1
+   3,L,J
+  15,R,Z
+   1,G
+   1,R
+   2,K,G
+   9,R,D,X
+   5,R,K,G
+   4,R
+   7
+   1,R
+   9,R,D,X
   40
 
 #lvl_f-07-night
-   5,R,D,X
-  14,R
+  13,R,D,X
+   4,R
    8,R,D,J
    1,R,J
    1,J
    1,R,J
    8,J
    1,R
+   1
    1,X
    1,L,P
    2,L
@@ -788,4 +811,4 @@ EndRepeat
    7,R
 
 #Time
-MidwayChapterTime: 1:42.833(6049)
+MidwayChapterTime: 1:41.745(5985)
