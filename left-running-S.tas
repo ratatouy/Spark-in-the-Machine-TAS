@@ -1,7 +1,7 @@
 # SparkInTheMachine
 # https://gamebanana.com/mods/704652
 
-RecordCount: 2421
+RecordCount: 2853
 
 console load factory/BZFR/factory 13933.444450 -11232.166761
    1
@@ -423,152 +423,149 @@ Read,left-running,left-running-S5,left-running-S6
   15,U,X
    7,R,J
    1,R
-   1,R,K,G
-   3,R
-   2
-   2,R
-  15,R,D,X
-   1,R
-   7,D,C
-   1,L
-   1,J,G
+   1,K,G
+   5
+   2,L
+   4,Z
    1,R,J
-   3,R
-   2,R,J
-   3,R
-   7,R,J
-   1,R
-   1,K
+  14
+  13,R,Z
+   2,R,K
+   4,J
+   2
    5,R,Z
    1,R,J
    6,R
-   2,R,D,J
+   2,R,D,K
    3,R
    2,R,J
    1,R
   40
 
 #lvl_h-07a-east
+# can't skip. blockfield over the berry.
    3,R
    2,R,J
    3,R
-   2,R,J
-   1,L,J
-   1,K,G
-   7,R,K
-  10,L,X
-   1,R,J
-   3,J
-  13,R,J
-  13,R,U,X,G
+  17,R,J
+  15,U,X,G
+   2,G
+   1,R,G
+   1,G
+  13,R,U,Z,G
    1,L,G
-   6,J,G
-  19,R,J
-  15,U,G
-   9,R,G
-   1,J,G
-   1,R,J
+   1,K,G
+   6
+   1,R,K
+   9,R
+   1,L,J
+   7,J,G
+   8,U,G
+   4,G
+   3,R,G
+   1,R,K,G
+   5,R,J,G
    5,J
-   1
-  46,R,G
-  15,R,U,Z
+   7,J,H
+  38,R
+  14,R,U,Z
    4,R,J
    5,R
-   6,R,J
+   1,R,J
+   2,J
+   3
   15,U,G
-  16,G
-   7,L,G
-   1,G
-  12,L,J,G
-   5,L,K,G
-  14,L,J,G
-  14,R,U,X,G
-  13,R,J,G
-   6,L
-  15,U,Z
-   8,R
-  45,R,H
-  50,R,G
-  50,D
+  12,L,G
+  13,L,K,G
+   5,J,G
+   6,K,G
+   1,R,K,G
+   8,L,K,G
+   7,J,G
+   1,R,J,G
+   2,L,J,G
+   9,K,G
+   1,R,K,G
+   1,L,K,G
+  10,J,G
+   1,R,J,G
+   1,L,J,G
+   1,L,K,G
+   1,R,K,G
+   6,L,K,G
+   3,L,J,G
+   1,L
    1
-  62,D
-   1,D
-   1,D
-   1,L,D
+  13,U,X
+   7,U,X,G
+  21,R
+   7,R,G
+  51,R,D
+  93,D
+   1
    1,D
    2
-   1,R
+   1,L,D
+   1,D
+   1,L,D
+  14
+  13,R
    1,R,D
-   1,R
    5,R,Z
    1,L,J
-   6,L
-   5,L,D
-  10,L,D,J
-   1
-  24,L,J
-  15,L,D,X
-  12,L,D
-   2,D
-  14,L,Z
-   1,L,J
-  10,L,D,X
-   1,L,J
+# switch grab modes, maybe during stuns, to cut this pause?
+   1,S,N
+  10,G,O
+   1,L,K,G
+   4,G
+   6,L,G
+   4,L,J,G
+   1,G
+   4,L,G
+  18,L,J,G
+   2,L,D,G
+   2,L,G
+   6,L,D,G
+  26,L,K,G
+   5,L
+  21,L,U,Z
+   1,J
+   7,K,G
+   8,U
+  18,L
+   4,L,J
+   7,L,D,X
+   5,L,K
    1,L
-  14
-   1,R,D,J
-   1,R,J
-   4,R,D,J
-   6,J
-   2,L,J
-  15,U,X
-   3,R
-  15,R,J
-  15,U,G
+   1,L,K
+  12,L
    1
-   2,R
-  24,L
-   4,L,Z
-   2,L,J
-   9,L,D
   15,D,X
-   3,L
-   6,L,Z
-   1,L,J
+   1,L,D
+  10,L,Z
+   1,L,K
    7,L
    1,L,J
-   8,L,D,X
-   1,L,J
-   5,L
-   2,L,J
-   8,L,D,J
-   3,L
+  14,L,D,X
+   8,L,K
   15,L,D,X
-   4,L,D
-   4,L,Z
-   1,L,J
    6,L
-   1,D
    2,L,D,J
    3,L
-   2,L,J
+   2,L,K
    3,L
-   1,L,J
-   1,J
+   2,L,J
+   1,L
   40
 
 #lvl_h-transition3-east
-  15,L,D,X
-   2,L
-   1
-   7,D,C
-   1,R
-   1,J,G
-   1,L,J
    3,L
+   6,L,K
+  15,L,D,X
    2,L,J
    3,L
-   9,L,J
+   4,L,K
+   4,J
   15,L,X
   15,D,C
   56,D
@@ -582,7 +579,7 @@ Read,left-running,left-running-S5,left-running-S6
 Read,left-running,left-running-S7,cycle_h-09
 
 #cycle_h-09
-   0,G
+   1,G
 #endcycle_h-09
 
 Read,left-running,endcycle_h-09,stun_h-09
@@ -605,4 +602,4 @@ Read,left-running,endstun_h-09,cycle_i-00
 Read,left-running,endcycle_i-00,Time
 
 #Time
-MidwayChapterTime: 2:59.894(10582)
+MidwayChapterTime: 2:58.738(10514)
