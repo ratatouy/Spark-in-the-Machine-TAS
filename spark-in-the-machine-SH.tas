@@ -1,7 +1,7 @@
 # SparkInTheMachine
 # https://gamebanana.com/mods/704652
 
-RecordCount: 78
+RecordCount: 86
 
 console load factory/BZFR/factory
    1
@@ -116,7 +116,7 @@ Read,the-machine,Start,Time
 Read,stray-catwalks-S,Start,cycle_f-02a
 
 #cycle_f-02a
-   2,D
+   1,D
 #endcycle_f-02a
 
 Read,stray-catwalks-S,endcycle_f-02a,stun_f-02a
@@ -133,7 +133,7 @@ Read,stray-catwalks-S,endstun_f-02a,Time
 
 ## Tinkerer's Dissent
 #cycle_g-07-east
-   2
+   0
 #endcycle_g-07-east
 
 Read,tinkerers-dissent-S,Start,stun_g-07-east
@@ -152,7 +152,7 @@ Read,tinkerers-dissent-S,endstun_g-07-east,Time
 Read,left-running-S,Start,cycle_h-09
 
 #cycle_h-09
-   2,G
+   0,G
 #endcycle_h-09
 
 Read,left-running-S,endcycle_h-09,stun_h-09
@@ -221,7 +221,7 @@ Read,the-outcome,endstun_i-00,cycle_i-10
 #cycle_i-10
    0
 # drift, hopefully temporary
-  60
+  15
 #endcycle_i-10
 
 Read,the-outcome,endcycle_i-10,stun_i-10
@@ -235,16 +235,16 @@ Read,the-outcome,endstun_i-10,cycle_i-14
 #cycle_i-14
 
 # +0f
-  12,L,D
-   2,D
-   1
-   1,D
+#   12,L,D
+#    2,D
+#    1
+#    1,D
 
 # +1f
-#   11,L,D
-#    1,L
-#    4
-#    1,D
+  11,L,D
+   1,L
+   4
+   1,D
 
 # +2f
 #    9,L,D
@@ -307,4 +307,4 @@ Safe
 
 Read,left-running-H,Start
 
-FileTime: 19:21.865(68345)
+FileTime: 19:16.901(68053)
