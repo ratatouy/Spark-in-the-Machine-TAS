@@ -1,7 +1,7 @@
 # SparkInTheMachine
 # https://gamebanana.com/mods/704652
 
-RecordCount: 477
+RecordCount: 481
 
 console load factory/BZFR/factory -4872.497068 -10528.303874
    1
@@ -23,7 +23,7 @@ Read,stray-catwalks,Start,stray-catwalks-S0
    4
    2,R
 #cycle_f-02a
-   0
+   2,D
 #endcycle_f-02a
    1,L
    1,R,J
@@ -411,4 +411,4 @@ Read,stray-catwalks,stray-catwalks-S1,stray-catwalks-S2
 Read,stray-catwalks,stray-catwalks-S3,Time
 
 #Time
-MidwayChapterTime: 2:18.193(8129)
+MidwayChapterTime: 2:17.581(8093)
