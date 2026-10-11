@@ -1,13 +1,10 @@
-RecordCount: 8077
+RecordCount: 8651
 
 console load factory/BZFR/factory 23102 -14728
    1
 Set, Level.TimeActive, 10
 #lvl_h-10-east
   36
-#cycle_i-00
-   1
-#endcycle_i-00
   14,L,Z
    1,L,J
   14,L,D,X
@@ -33,57 +30,38 @@ Set, Level.TimeActive, 10
   15,U,Z
   27,L,D
   27,D
-#stun_i-00
-# +3f non drift dependent
-###
-#   49,L,G
-#   50,L,X
-#    9,R
-#   27,L,Z
-#    4,L,J
-#    2,L,K
-#    1,L
-#   10,L,Z
-#   24,D,G
-#    4,L,J
-#    8,L
-#   26,L,Z
-#   28,L,G
-###
-  49,L,G
-  50,L,X
-   9,R
-  27,L,Z
+  52,L,G
+   5,L,D
+  49,L,X
+  23,L,Z
    4,L,J
+   1,L,K
+   6,L
    2,L,K
-   1,L
-  11,L,Z
-  24,D,G
-   4,L,J
    5,L
-  26,L,Z
-  28,L,G
-   2,L,J,G
-   4,L,G
-   4,L,K,G
-   3,L
-  44,L,H
+   1
+   4,L
+   1
+   3,D
+  13,L,Z
+   7,L,Z,G
+  26,L
+   7,L,G
+  43,L
   15,L,Z
-#endstun_i-00
-   1,L,G
-   6,L,Z
+   1,G
+   6,L,X
    1,L,J,G
    2,L,K,G
    1,L,J,G
-  11,L,K,G
-   1,L,K
-  10,L,K
-  46
+  12,L,K,G
+  14,L
+  42
    6,R,Z
    1,R,J
-   4,R
+   1,R
    1,R,J
-   3,R
+   6,R
   10,R,D,X
    1,L,J
    6,L
@@ -113,58 +91,56 @@ Set, Level.TimeActive, 10
    4,L,Z
    1,L,J
    7,L
-   7,L,J
-   5,L
-   2,L,J
-   1,L
-   2,L,J
-  12,L
-   6,L,D
+  28,L,K
+   5,K
+   7,K,G
+  14,R
+  18,R,D,X
+  12,R,D,C
+   1,L,J
+   6,L
    1
-   1,D,G
-   6
-   8,U,G
-   7,L
-   5
-  19
-  18,L,U,X
-  51,L,G
-   1,L
-   1,L,G
-   6
-  45,L
-   1,L,D
-  14,R,D
-   4,R
-   2,G
-   1,J,G
-   9
-   1,J
-   4
-  36,L
-  10,L,X
+   4,L
+   1,L,K
    1,L,J,G
+   2,J
+   1,L,J
+   9,L
+   3,L,J
+   1,K
+  14,L,K
+  14,L,U,Z
+   2,L,J,G
    9,L
    1,L,J
-   4,L
-   2
+  30,L
+   1,L,D
+   1,L
+   1,L,D
+   2,D
+   1,G
+   1,L,K,G
+   5,L,J,G
+   5,L
+   2,L,J
+  11,L
+  35,L
    3
+  10,L,X
+   1,L,K,G
+   8,L
+   1,L,K
+  10,L
+   1,L,D
+  15,L,U,X
+  24
+   4,D
    1
-   1,L,J
-   8
-   1,J
-   1
-   1,L,J
-   6
+   1,D
    1,R,J
-  11,J
-   6
-   1,J
-   1
-   4,J
-  11
-   1
-  14,L,Z
+   1,R
+  13
+  12,L,Z
    2,R,J
    8,R
   14,R,D,X
@@ -197,61 +173,55 @@ Set, Level.TimeActive, 10
    8,L,D
   40,L,G
   20,L,Z
-
-   5,L,J
-  34,L,K,G
-   5,K,G
-  15,U,X,G
-  14,R,G
-  10,G
-   6,J,G
-   1,G
-   3,J,G
-   7
    4,L,J
-  11,R,D,X
-   2,L,J
-   2,L
-  23,L,D,X
-  11,L
-   6
-   1,L,G
-   6
-  20,D,X
-  19,U,C
-   6,L,D,X
-   2,L,J
-   8,L
+  24,L,K
+  16,L
+   7,L,G
+  41,L
+  14,L,Z
    1,L,J
-   5,D,X
-  19,G
-  17,L,X
+  14,L,D,X
+   1,L,K
+  14,D,C
+  12,C,G
+  19,U,X
+   1,L
+  10,R,D,C
+   5,L,J
+  14,L,D,X
+   1,L,K
+   1,L
+  18,D,X
+  14,L,C
+   8,R,C,G
    4,R,J
   14,R,Z
    4,L,J
-  18,U,X
-   7,L,D,C
+  18,U,C
+   7,L,D,X
    1,L,J
    7,L
-   1,L,J
+   1,L,K
   14,L,D,X
    4,L,J
-   6,L,K
-  30,L,D
+  10,L,K
+  15,L,D,X
+  12,L,D
+   2,L
+   8,L,J,G
    5,L
-  18,L,G
-  15,L,U,Z
-  15,L,X
-  42,L,G
-   1,L
-  24,D,G
-   5,L
+  11,L,J
+  32,L,U,X
+   7,L,G
+  40,L
+   7,L,G
+  14,D
   47
    1,J
    8
    2,J
    5
-   7,R,Z
+  14,R,Z
    1,L,J
    6,L
    1,L,J
@@ -265,61 +235,95 @@ Set, Level.TimeActive, 10
    8,L
    6,L,J
   21,L,D,X
-   4,R,J
-  21,K
-  10
-   8,R
-   5,R
-  14,R,X
+   8,J
+  11,L,K
+   2,L
+   5
+   1,G
+   2
+  22,R,D,X
+  14,R,C
    1,L,J
   14,L,D,X
-  12,L,J
-  15,L,Z
-  50
-   4,L,J
-  15,U,X
+  12,L,K
+  15,L,U,Z
+  12,R,J
+  12,K,G
+  12,J,G
+   2,K,G
+   9
+   2,R
+   3
    1,L
-  42,L,G
-  43,L,H
-  43,R,G
-  14,D
-   1,R,D
-   1,D
-   1,R,D
-   2,D
-  18,L,D
- 121,L,U,Z
-  19,R,U,X
-   1,R,J
-   3,R
-   7,U,X
-  32,L,G
-  45,L,H
-   8,L
-  15,R,D,X
-  20,L,D
-  42,L,D,G
-   4,L,D,X
-   1,L,J
-   6,L
-   3,L,J
+   1
+   5,R,Z
+   6,L,J
+   5,L
+   2,L,J
   10,L
-   1,L,J
-  14,L,D
-  38,L,Z
-   8,L,G
-   6,L,J,G
-   1,L,K,G
-  14,L,D,X,G
-   1,L,J,G
-   7,L,G
-  14,L,U,Z,G
-   1,L,J,G
-  15,U,H
-  11,R
-   5
+   1
+   1,L
+   4
+   7,G
+  43,L
+   7,G
+  35,R
+  15,D,X
+   1,R,D
+   5,D
+   1,L,D
+   1,R,G
+   1,D
+   3,L,D
+   1
+   1,L,D
+   1,J
+  11,L,J
+   2,L
+  83,L,X
+   4,K
+   1
+   5,R
    1
    1,R
+  15,U,Z
+  12,R
+   1
+   7,G
+  17,L
+   7,L,G
+  43,L
+  28,R,D
+   2,R
+   7,R,D,G
+  34,L
+### -5f skip oshiro, but makes cutscene longer
+#    4,Z
+#    1,L,K
+#    5,L
+#    1,L,K
+#    5,L
+#    1,L,J
+#   49,L,Z
+###
+   7,L,G
+   1,L,J
+   5,L,K
+  17,L
+   6
+   1,L
+  39,L,Z
+   8,L,Z,G
+   6,L,K
+   1,L,J
+  11,L
+  13,L,U,Z
+   7,Z,G
+   8,U
+  11,R
+   5
+   1,R
+   1,D
   14,L,D,X
    1,L,J
   17,L,D,X
@@ -495,7 +499,7 @@ Set, Level.TimeActive, 10
    7,L
    2,L
 #cycle_i-10
-   1
+   0
 #endcycle_i-10
    8,L,Z
    1,L,J
@@ -1338,13 +1342,13 @@ EndStunPause
   14,R,Z
   12,L,D
   14,D
- 190,L,D
- 465,L
+ 175,L,D
+ 480,L
  425
    1,S
   18,D,J
 
-MidwayChapterTime: 3:20.277(11781)
+MidwayChapterTime: 3:18.288(11664)
 # to update ChapterTime in full level
    1
 
