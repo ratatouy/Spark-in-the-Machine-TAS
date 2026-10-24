@@ -1,7 +1,7 @@
 # SparkInTheMachine
 # https://gamebanana.com/mods/704652
 
-RecordCount: 19
+RecordCount: 29
 
 console load factory/BZFR/factory
    1
@@ -70,7 +70,23 @@ EndStunPause
    2,R
 #endstun_b-03
 
-Read,metalworks,endstun_b-03,spinner-b06
+Read,metalworks,endstun_b-03,cycle_b-04
+
+#cycle_b-04
+   0
+#endcycle_b-04
+
+Read,metalworks,endcycle_b-04,stun_b-04
+
+#stun_b-04
+   7,R,D,K
+StunPause
+   2,R,K
+EndStunPause
+   9,R,K
+#endstun_b-04
+
+Read,metalworks,endstun_b-04,spinner-b06
 
 #spinner-b06
    0,G
@@ -105,7 +121,14 @@ Read,my-closest-friend,Start,Time
 ##
 
 ## The Machine
-Read,the-machine,Start,Time
+Read,the-machine,Start,deathwarp_e-out-05
+   1,S
+   1,U
+   1,F,0
+   1,U,O
+SaveAndQuitReenter
+  36
+Read,the-machine,enddeathwarp_e-out-05,Time
 ##
 
 ## Stray Catwalks
@@ -114,25 +137,20 @@ Read,stray-catwalks,Start,Time
 
 ## Tinkerer's Dissent
 #cycle_g-07-east
+# if S+Qing, set this to 0, and use snqcycle_g-07 instead.
    1
 #endcycle_g-07-east
 
-Read,tinkerers-dissent,Start,snqcycle_g-07
-
-#snqcycle_g-07-east
-   1
-#endsnqcycle_g-07-east
-
-Read,tinkerers-dissent,endsnqcycle_g-07,stun_g-07-east
-
-#stun_g-07-east
+Read,tinkerers-dissent,Start,tinkerers-dissent-S0
+Read,tinkerers-dissent,route_any_nosnq,stun_g-07_nosnq
+#stun_g-07_nosnq
    6,R
    1,R,J
    3,R
   15,R,D,X
-#endstun_g-07-east
-
-Read,tinkerers-dissent,endstun_g-07-east,Time
+#endstun_g-07_nosnq
+Read,tinkerers-dissent,endstun_g-07_nosnq,endroute_any_nosnq
+Read,tinkerers-dissent,tinkerers-dissent-S3,Time
 ##
 
 ## Left Running
@@ -153,57 +171,11 @@ SkipInput 3 1
 EndStunPause
 #endstun_h-09
 
-Read,left-running,endstun_h-09,cycle_i-00
+Read,left-running,endstun_h-09,Time
 ##
 
 ## The Outcome
-
-#cycle_i-00
-   1
-#endcycle_i-00
-
-Read,left-running,endcycle_i-00,Time
-Read,the-outcome,Start,stun_i-00
-
-#stun_i-00
-# +3f non drift dependent
-###
-#   49,L,G
-#   50,L,X
-#    9,R
-#   27,L,Z
-#    4,L,J
-#    2,L,K
-#    1,L
-#   10,L,Z
-#   24,D,G
-#    4,L,J
-#    8,L
-#   26,L,Z
-#   28,L,G
-###
-  49,L,G
-  50,L,X
-   9,R
-  27,L,Z
-   4,L,J
-   2,L,K
-   1,L
-  11,L,Z
-  24,D,G
-   4,L,J
-   5,L
-  26,L,Z
-  28,L,G
-   2,L,J,G
-   4,L,G
-   4,L,K,G
-   3,L
-  44,L,H
-  15,L,Z
-#endstun_i-00
-
-Read,the-outcome,endstun_i-00,cycle_i-10
+Read,the-outcome,Start,cycle_i-10
 
 #cycle_i-10
    0
@@ -218,24 +190,7 @@ Read,the-outcome,endcycle_i-10,stun_i-10
 Read,the-outcome,endstun_i-10,cycle_i-14
 
 #cycle_i-14
-
-# +0f
-#   12,L,D
-#    2,D
-#    1
-#    1,D
-
-# +1f
-  11,L,D
-   1,L
-   4
-   1,D
-
-# +2f
-#    9,L,D
-#    2,L
-#    7
-
+   0
 #endcycle_i-14
 
 Read,the-outcome,endcycle_i-14,stun_i-14
@@ -258,16 +213,21 @@ Read,the-outcome,endstun_i-14,cycle_i-15
 Read,the-outcome,endcycle_i-15,stun_i-15
 
 #stun_i-15
-   4,L,J
-   1,L,K
+  10,U,X
 StunPause
-   4,L,J
+   5,U,X
+   2,L
+   2
+   3,L,J
+   1,R,J
 EndStunPause
-  10,R,J
+StunPause
+   4,R,J
+EndStunPause
+   6,R,J
 #endstun_i-15
 
 Read,the-outcome,endstun_i-15,Time
-
 ##
 
-ChapterTime: 15:28.353(54609)
+ChapterTime: 15:18.544(54032)
