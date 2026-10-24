@@ -295,97 +295,99 @@ console load factory/BZFR/factory 8205 -11503.6
 
 #lvl_g-07-east
 #tinkerers-dissent-S0
+play,route_any_nosnq
 
-### -12f no S+Q
-#   15,R,D,X
-#   15,D,C
-#    1,R,D
-#    1,D
-#    1,R,D
-#    2,D
-#    1,L,D
-#    1,L
-#    7,D
-#   16,R,D,X
-#    1,R,D,N
-#    1,R,J
-#    2
-#    6,R,D,X
-#    1,R,J
-#    7,R
-#    1,R,K
-#   11,R,D,X
-#    1,R,K
-#   20,D
-#   34,R,D,X
-#    4,L
-#   15,J
-#   15,U,X
-#    9
-#    2,L
-#    2
-#   11,L
-#    2,D
-#    1
-#    4,Z
-#    1,R,J
-#    1,R,K,G
-#    1,R,J,G
-#    1,R,K,G
-#    6,R
-#    1
-#    1,R
-#    1,R,J
-#    2,R
-#    9,R,D,X
-#    2,R,K,G
-#    8,R
-#    2,R,K
+#route_any_nosnq
+  15,R,D,X
+  15,D,C
+   1,R,D
+   1,D
+   1,R,D
+   2,D
+   1,L,D
+   1,L
+   7,D
+  16,R,D,X
+   1,R,D,N
+   1,R,J
+   2
+   6,R,D,X
+   1,R,J
+   7,R
+   1,R,K
+  11,R,D,X
+   1,R,K
+  20,D
+  34,R,D,X
+   4,L
+  15,J
+  15,U,X
+   9
+   2,L
+   2
+  11,L
+   2,D
+   1
+   4,Z
+   1,R,J
+   1,R,K,G
+   1,R,J,G
+   1,R,K,G
+   6,R
+   1
+   1,R
+   1,R,J
+   2,R
+   9,R,D,X
+   2,R,K,G
+   8,R
+   2,R,K
+#stun_g-07_nosnq
+   6,R
+   1,R,J
+   3,R
+  15,R,D,X
+#endstun_g-07_nosnq
+  15,D
+   1,R,K
+   5,L
+   4,L,K
+   1,L
+   7
+   1,L
+   2
+   1,L,D
+   1,D
+   1,L,D
+   1,D
+   1,L,D
+   1,J
+  13,L
+  12,L,Z
+   3,R,J
+   3,R
+   2,R,J
+   1,R
+   1,R,J
+   4,R
+  28,R,X
+   4,Z
+   1,R,K
+   6,R
+  10,R,J
+   4,R,K,G
+  12,R,D,X
+  40
 
-#    6,R
-#    1,R,J
-#    3,R
-#   15,R,D,X
+#lvl_g-08-east (0)
+   6,R,J
+   7,R
+   5,R,K
+  18,R,U,Z
+#endroute_any_nosnq
+play,tinkerers-dissent-S3
 
-#   15,D
-#    1,R,K
-#    5,L
-#    4,L,K
-#    1,L
-#    7
-#    1,L
-#    2
-#    1,L,D
-#    1,D
-#    1,L,D
-#    1,D
-#    1,L,D
-#    1,J
-#   13,L
-#   12,L,Z
-#    3,R,J
-#    3,R
-#    2,R,J
-#    1,R
-#    1,R,J
-#    4,R
-#   28,R,X
-#    4,Z
-#    1,R,K
-#    6,R
-#   10,R,J
-#    4,R,K,G
-#   12,R,D,X
-#   40
-
-#    6,R,J
-#    7,R
-#    5,R,K
-#   18,R,U,Z
-#   15,R,X
-#   22,R,Z
-###
-
+#route_any_snq
    1,S
    1,U
    1,F,
@@ -422,12 +424,12 @@ SaveAndQuitReenter
    2,R,K,G
    8,R
    2,R,K
-#stun_g-07-east
+#stun_g-07_snq
    6,R
    1,R,J
    3,R
   15,R,D,X
-#endstun_g-07-east
+#endstun_g-07_snq
   15,D
    1,R,K
    5,L
@@ -460,8 +462,7 @@ SaveAndQuitReenter
   12,R,D,X
   40
 
-#lvl_g-08-east
-
+#lvl_g-08-east (1)
    1,R,J
    4,R
    1,R,J
@@ -471,6 +472,9 @@ SaveAndQuitReenter
    4,R,J,G
    7,R
   18,R,U,Z
+#endroute_any_snq
+play,tinkerers-dissent-S3
+
 #tinkerers-dissent-S3
   15,R,X
   22,R,Z
@@ -593,4 +597,4 @@ SaveAndQuitReenter
    7,R
 
 #Time
-MidwayChapterTime: 1:07.303(3959)
+MidwayChapterTime: 1:07.643(3979)
