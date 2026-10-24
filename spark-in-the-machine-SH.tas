@@ -1,7 +1,7 @@
 # SparkInTheMachine
 # https://gamebanana.com/mods/704652
 
-RecordCount: 86
+RecordCount: 94
 
 console load factory/BZFR/factory
    1
@@ -70,7 +70,23 @@ EndStunPause
    2,R
 #endstun_b-03
 
-Read,metalworks-S,endstun_b-03,spinner-b06
+Read,metalworks-S,endstun_b-03,cycle_b-04
+
+#cycle_b-04
+   0
+#endcycle_b-04
+
+Read,metalworks-S,endcycle_b-04,stun_b-04
+
+#stun_b-04
+   7,R,D,K
+StunPause
+   2,R,K
+EndStunPause
+   9,R,K
+#endstun_b-04
+
+Read,metalworks-S,endstun_b-04,spinner-b06
 
 #spinner-b06
    2,G
@@ -109,14 +125,21 @@ Read,my-closest-friend,Start,Time
 ##
 
 ## The Machine
-Read,the-machine,Start,Time
+Read,the-machine,Start,deathwarp_e-engine-00
+   1,S
+   1,U
+   1,F,0
+   1,U,O
+SaveAndQuitReenter
+  36
+Read,the-machine,enddeathwarp_e-engine-00,Time
 ##
 
 ## Stray Catwalks
 Read,stray-catwalks-S,Start,cycle_f-02a
 
 #cycle_f-02a
-   1,D
+   2,D
 #endcycle_f-02a
 
 Read,stray-catwalks-S,endcycle_f-02a,stun_f-02a
@@ -136,23 +159,23 @@ Read,stray-catwalks-S,endstun_f-02a,Time
    0
 #endcycle_g-07-east
 
-Read,tinkerers-dissent-S,Start,stun_g-07-east
+Read,tinkerers-dissent-S,Start,stun_g-07_snq
 
-#stun_g-07-east
+#stun_g-07_snq
    6,R
    1,R,J
    3,R
   15,R,D,X
-#endstun_g-07-east
+#endstun_g-07_snq
 
-Read,tinkerers-dissent-S,endstun_g-07-east,Time
+Read,tinkerers-dissent-S,endstun_g-07_snq,Time
 ##
 
 ## Left Running
 Read,left-running-S,Start,cycle_h-09
 
 #cycle_h-09
-   0,G
+   2,G
 #endcycle_h-09
 
 Read,left-running-S,endcycle_h-09,stun_h-09
@@ -166,62 +189,14 @@ SkipInput 3 1
 EndStunPause
 #endstun_h-09
 
-Read,left-running-S,endstun_h-09,cycle_i-00
+Read,left-running-S,endstun_h-09,Time
 ##
 
 ## The Outcome
-
-#cycle_i-00
-   1
-#endcycle_i-00
-
-Read,left-running,endcycle_i-00,Time
-Read,the-outcome,Start,stun_i-00
-
-#stun_i-00
-# +3f non drift dependent
-###
-#   49,L,G
-#   50,L,X
-#    9,R
-#   27,L,Z
-#    4,L,J
-#    2,L,K
-#    1,L
-#   10,L,Z
-#   24,D,G
-#    4,L,J
-#    8,L
-#   26,L,Z
-#   28,L,G
-###
-  49,L,G
-  50,L,X
-   9,R
-  27,L,Z
-   4,L,J
-   2,L,K
-   1,L
-  11,L,Z
-  24,D,G
-   4,L,J
-   5,L
-  26,L,Z
-  28,L,G
-   2,L,J,G
-   4,L,G
-   4,L,K,G
-   3,L
-  44,L,H
-  15,L,Z
-#endstun_i-00
-
-Read,the-outcome,endstun_i-00,cycle_i-10
+Read,the-outcome,Start,cycle_i-10
 
 #cycle_i-10
    0
-# drift, hopefully temporary
-  15
 #endcycle_i-10
 
 Read,the-outcome,endcycle_i-10,stun_i-10
@@ -233,24 +208,7 @@ Read,the-outcome,endcycle_i-10,stun_i-10
 Read,the-outcome,endstun_i-10,cycle_i-14
 
 #cycle_i-14
-
-# +0f
-#   12,L,D
-#    2,D
-#    1
-#    1,D
-
-# +1f
-  11,L,D
-   1,L
-   4
-   1,D
-
-# +2f
-#    9,L,D
-#    2,L
-#    7
-
+   0
 #endcycle_i-14
 
 Read,the-outcome,endcycle_i-14,stun_i-14
@@ -267,18 +225,25 @@ EndStunPause
 Read,the-outcome,endstun_i-14,cycle_i-15
 
 #cycle_i-15
-   2
+   0
 #endcycle_i-15
 
 Read,the-outcome,endcycle_i-15,stun_i-15
 
 #stun_i-15
-   4,L,J
-   1,L,K
+  10,U,X
 StunPause
-   4,L,J
+   5,U,X
+   2,L
+   2
+   3,L,J
+   1,R,J
 EndStunPause
-  10,R,J
+   2,R,J
+StunPause
+   2,R,J
+EndStunPause
+   6,R,J
 #endstun_i-15
 
 Read,the-outcome,endstun_i-15,Time
@@ -307,4 +272,4 @@ Safe
 
 Read,left-running-H,Start
 
-FileTime: 19:16.901(68053)
+FileTime: 19:06.939(67467)
