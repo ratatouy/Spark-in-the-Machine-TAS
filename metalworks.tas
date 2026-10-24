@@ -184,6 +184,9 @@ EndStunPause
    1,L
    4,D
    3,L,D
+#cycle_b-04
+   0
+#endcycle_b-04
    4,R,Z
    1,R,J
   32,R,D
@@ -206,11 +209,13 @@ EndStunPause
    1,R,K,G
   17,R,J,G
   11,R
+#stun_b-04
    7,R,D,K
 StunPause
    2,R,K
 EndStunPause
    9,R,K
+#endstun_b-04
   15,U,X
   13,R
   15,R,Z
