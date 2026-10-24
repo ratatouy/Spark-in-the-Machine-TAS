@@ -130,16 +130,16 @@ Read,tinkerers-dissent,Start,tinkerers-dissent-S0
    1
 #tinkerers-dissent-S1
 
-Read,tinkerers-dissent,tinkerers-dissent-S1,stun_g-07-east
+Read,tinkerers-dissent,tinkerers-dissent-S1,stun_g-07_snq
 
-#stun_g-07-east
+#stun_g-07_snq
    6,R
    1,R,J
    3,R
   15,R,D,X
-#endstun_g-07-east
+#endstun_g-07_snq
 
-Read,tinkerers-dissent,endstun_g-07-east,tinkerers-dissent-S2
+Read,tinkerers-dissent,endstun_g-07_snq,tinkerers-dissent-S2
 
 #tinkerers-dissent-S2
    4,Z
