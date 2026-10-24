@@ -1,4 +1,4 @@
-RecordCount: 10384
+RecordCount: 10616
 
 console load factory/BZFR/factory 23102 -14728
    1
@@ -1320,21 +1320,19 @@ EndStunPause
 #endstun_i-14
    2,L,J
   18,L,G
-  26,L,Z,G
-   1,L,G
+  22,L,Z,G
+   4,L,K,G
   15,D,X,G
   15,L,Z,G
-   9,R,J,G
-   2,R,G
+   2,J,G
+   3,G
+   2,R,K,G
    1,R,J,G
    2,R,K,G
-   2,R,J,G
-   2,R,K,G
-   2,R,J,G
-  10,L,K
-  13,L
-  15,L,X
-  21,L
+   2,L,K
+   1,J
+  29,L,J
+  36,L,X
    4,L,J
    1,L,K
   14,L,D,X
@@ -1343,44 +1341,53 @@ EndStunPause
    1,L,J
   16,L,U,Z
    4,L,J
-   6,L,D,X
+   5,L,D,X
    1,L,J
-   7,L
+   1,L
    1,L,J
+   4,L
+   1
+   1,L
+   1,L,K
   14,L,D,X
    1,L,J
-  12,L,D,X
+  13,L,D,X
    4,L,J
-  15,L,Z
-   8,L
-   1,L,G
-   6
+  21,L,Z
+   7,L,G
    2,L,J
   13,L,D,X
+   7,L,G
+   2,L,J,G
+  14,L,D,X,G
+   1,L,J,G
    1,L,G
-   6
-   2,L,J
-  14,L,D,X
-   1,L,J
-   2,L
-  18,D,X
+  16,L,D,X,G
+   4,L,G
   18,D,C
-   5,L,J,Z
-   7,L
+   6,L,D,X
+   1,L,J
+   3,L
+   1,L,J
+   3,L
+   1,L
+   3,L,D,K
+   5,L
+  13,L,U,X
    4,L,J
-   8,L
-  16,L,U,Z
-   4,L,J
-   4,R,K
-   6,L,J
-   4,L
+   3,K
+   1,L,K
+   1,J
+   9,L,J
   10,R,Z
-  27,L,J
-   5,J
-  53,L,G
-  23,L,U,X
-  12,L,J
-  33,L
+  22,L,K
+  11,L
+  51,L,G
+  19,L,U,X
+   1,J
+   1,K
+  10,L,K
+  34,L
 #cycle_i-15
    0
 #endcycle_i-15
@@ -1424,69 +1431,67 @@ EndStunPause
    1,L,D,G
    6
   28,L,D,C
-  20,L,J
-  10,L
-  29,R,G
-  42,D
-  17,L,D
-   6
-  15,U,G
-  11,R
-  22,L,G
-  47,L,X
-   4,L,J
-   8,L,K
    1,L
-  24,L,K
-   6,J
-   1
-   4,L
-   3,L,J
-   1,L
-   1,L,J
-   7,L
-  23,L,X
+  29,L,J
+  15,R,G
 #stun_i-15
+  10,U,X
+StunPause
+   5,U,X
+   2,L
+   2
+   3,L,J
+   1,R,J
+EndStunPause
+StunPause
+   4,R,J
+EndStunPause
+   6,R,J
+#endstun_i-15
+   8,R
+   5,R,J
+   1,R
+   2
+   4,X
+  11,L,K
+   2,L
+   5
+   4,Z
+   3,L,J
+   1,L,K,G
+   1,L
+   1
+   9,L
+  47,L,D
+  14,L
+  26,L,X
    4,L,J
    1,L,K
-StunPause
-   4,L,J
-EndStunPause
-  10,R,J
-#endstun_i-15
-  12,L,U,Z
-   1,L,J,G
-   6,L
-   8
-   6,J
-  19,R
-  31,L,J
-   5,D
-   1,L,D
-  12,D
-  12,L,D
-  15,L,J,X
-  17,U,C
-   8,L,J
-   4,L
-   8,L,K,G
-  20,L,D,X
-  16,D
-  17,R,D
-   4,R
-   3,R,D
+   9,L
+   1,L,K
+   3,L
+  21,L,X
+  15,D,C
+  10,D
+   2
+  11,D
+  11,R,D
    1,R
    4,R,D
-  14,R,Z
-  12,L,D
-  14,D
- 175,L,D
- 480,L
- 425
+  15,R,Z
+  21,D
+   2,L,D
+   2,D
+ 180,L,D
+ 475,L
+ 243
+
+#lvl_i-end-collapse
+ 182
    1,S
   18,D,J
 
-MidwayChapterTime: 3:14.055(11415)
+MidwayChapterTime: 3:11.522(11266)
 # to update ChapterTime in full level
    1
 
