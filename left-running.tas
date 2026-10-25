@@ -1,4 +1,4 @@
-RecordCount: 4645
+RecordCount: 4766
 
 console load factory/BZFR/factory 13933.444450 -11232.166761
    1
@@ -425,21 +425,25 @@ endrepeat
    5,R
    1,R,J,G
    1,R,K,G
-   5,R
-  21,R,U,C
-   5,R,J
-   6,R,Z
-  11,R,J
-   2,R
-  11,R,J
-  20,R,D
-  25
-  14,L,D,X
-   1,R,J
-  14,R,D,X
-
-###
-# i would love if someone could make this idea faster
+   5,R,G
+  21,R,U,C,G
+   5,R,J,G
+   6,R,Z,G
+  11,R,J,G
+   2,R,G
+  11,R,J,G
+  20,R,D,G
+   5,R,Z,G
+   1,L,J,G
+   6,G
+   3,L,G
+  14,L,D,X,G
+   1,R,K,G
+   6,R,D,X,G
+   1,R,J,G
+  17,R,D
+   2,D
+### i would love if someone could make this idea faster
 #   38,R,J
 #   15,R,U,X
 #    4,L,J
@@ -473,18 +477,26 @@ endrepeat
 #    7,R,J
 #   14,R,X
 ###
-
-  15,R,J
-  20,R
-  17,R,U,X
-   7,L,K,G
-  13,R
+  25,R,D,K
+   9,R,D
+   1,D
+   3
+   1,R
+   7,G
+   1,R
+  14,R,U,X
+   4
+   2,R,J
+   1,J
+   3,R,J
   15,R,D,X
-  10,R,D
-   3,R
+   8,R,D
+   2,R
+   1,R,D
+   2,R
    7,R,G
   19,R
-  24,R,Z
+  23,R,Z
    4,R,J
    9,R,K
    6,R
@@ -517,7 +529,6 @@ endrepeat
    2,R,J
    6,R
   14,R,U,X
-
 ### idea for stunning through spinners with speed
 #   18,L
 #   13,R,U,X
@@ -566,7 +577,6 @@ endrepeat
 #    5,R
 #  300,R,J
 ###
-
    3,L
   15,L,D,X
    9,L
@@ -987,4 +997,4 @@ EndRepeat
   37
 
 #Time
-MidwayChapterTime: 2:02.264(7192)
+MidwayChapterTime: 2:02.162(7186)
