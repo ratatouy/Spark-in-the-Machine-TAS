@@ -1,4 +1,4 @@
-RecordCount: 5916
+RecordCount: 6265
 
 console load factory/BZFR/factory -4872.497068 -10528.303874
    1
@@ -309,17 +309,15 @@ EndRepeat
 # be quicker and do an ultra?
    4,L,J
    1,R,K
-  15,D,K,X
-   1,L,K
-   3,R
-  12,R,D
-   2,R
-   6,R,Z
-   1,R,J
-   6,R
-  27,R,J
-  14,U,Z
+  15,D,X
+   1,L
+   1,R
+  10,L,Z
    7,R,J
+  15,R,D,X
+  25,R,J
+  14,U,Z
+   8,R,J
   11,R
    6,R,Z
    1,R,J
@@ -346,8 +344,6 @@ EndRepeat
    2,J
   14,D
    7,R,D
-
-
   15,R,D,X
    3,R,G
    1,R,J,G
@@ -460,6 +456,7 @@ EndRepeat
    1,R,J
    6,R
   17,R,D,J
+
   15,R,U,Z
    1,L,J,G
    1,L,K,G
@@ -470,6 +467,7 @@ EndRepeat
   20,R,J
    1,R
   14,R,Z
+
    1,R,J
    6,R
    4,R,J
@@ -711,6 +709,7 @@ EndRepeat
    1,L,D
    1,G
   27,R,J
+
 # if there's an way to exit at the top of the dream block that would save a lot of time, but i couldn't find one. this version requires a vertical position ~0.06px precise
   45,R,D,X
    1,R,J
@@ -762,22 +761,24 @@ EndRepeat
    3,R,U,J
    8,R,D
   14,R,D,X
-   5,R,U,J
-  14,R,Z
    1,R,J
-  20,R
-  15,R,U,X
-   2,U
-  10,R,Z
+  11,R,D,X
+   4,R,U,J
+  14,R,Z
+   6,R,J
+   5,R,U,J
+  15,R,U,Z
+   9,R,V
    7,R,U,J
   14,U,X
-   8,R,U,J
+   8,R,J
    5,R,Z
-   7,R,J
-   9,R,D
+   1,R,U,J
+   7,R
+   8,R,D
   15,R,Z
-  15,U,X
-  12,U,C
+  15,U,V
+  12,U,X
    1,L
   40
 
@@ -803,4 +804,4 @@ EndRepeat
    7,R
 
 #Time
-MidwayChapterTime: 1:41.099(5947)
+MidwayChapterTime: 1:40.997(5941)
