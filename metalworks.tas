@@ -1,12 +1,15 @@
 # SparkInTheMachine
 # https://gamebanana.com/mods/704652
 
-RecordCount: 3123
+RecordCount: 3465
 
 console load factory/BZFR/factory -9556 -1191.500045
    1
 
 #lvl_b-00-out
+## b-03-out spinner cycle
+   1
+##
   36
   14,L,Z
    4,R,G
@@ -85,108 +88,81 @@ console load factory/BZFR/factory -9556 -1191.500045
    4,R
   15,R,X
    6,R
-   4,R,Z
+   7,R,Z
    1,R,J
    6,R
-   2,R,J
   40
 
 #lvl_b-02-out
-  10,R,J
-  32,R,X
-   4,R,G
-#metalworks-S1
-  12,R,J,G
-   7,K,G
-  14,R,X
-   7,R,J
-  21,R,K
-   2,K
-   9,U,X
-  16,L,J
-  19,L,X
-   8,L,J
-   3,K
-   1,K
-   8,L,K
-  25,R,U,X
-  21,L,U,C
-  28,R,U,X
-   4,R,J
-   7,R,K
-  20,R,C
-   4,R,J
-   2,L,K
-   2
-   9,J
-   6
-   2,R
-  16,R,U,Z
-   6
-  21,U,X
-   8
-   5,R
-   1
-   1,R
-  17,U,X
-   1,R
-  36,R,J
-   1,J
-#spinner-b03
-   0
-#spinner-b03-end
-   6,R,D,X
    1,R,J
-   7,R
-   3,R,J
-   5,R,D,X
-   1,R,K,G
-   8,R
+  14,R,D,X
+   6,R,J
+   5,R
+   1,G
+   5,L
+   1,L,J
+   5,L
+   4,L,J
+  15,L,D,X
+   2
+   1,N
+  12,J
+   1,K
+  12,R,J
+  11,R,K,G
+  14,R,X
+   8,R,J
+  16,R,K
+   7,K
+  18,U,X
+  14,L,J
+  20,L,X
+   8,L,J
+   9,L,K
+  37,R,U,X
+  29,R,U,C
+   4,R,J
+   5,R,K
+   3,L,K
+   4,K
+  20,R,U,X
+   7,L
+   7,L,J
+  15,U,X
+   1,L
+  10
+   5
+   5,L
+   2
+  17,U,X
+  37,R,J
+  14,R,Z
+   1,L,J
+  14,L,Z
+   1,R,J
+   6,R,D,X
+   1,R,J,G
+  12,R
+   2,R,J
+   3,R,K,G
+   7,R,D,X
   40
 
 #lvl_b-03-out
-   1,R,J
-   2,R
-#stun_b-03
-   3,R,J
-StunPause
-   6,R,J
-   5,R
-   2,R,J
-   6,R
+   5,R,D,J
+StunPause,Input
+  12,R,J
 EndStunPause
-   2,R
-#endstun_b-03
-  15,R,U,Z
-   7
-  13,R
-   1,R,K,G
-   5,R,J,G
-   8,R
-   1,R,J
-   8,R
-  10,R,J
+   2,R,J
+  15,R,U,X
+  24,R
+  11,R,J
    5,R
    6,R,J
-   2,R
-  23,R,J
-   2,R
-   1,D
-   1,R,D
-   1,D
-   1,R,D
-  20,D
-   1,R,D
-  10,D
-   3
-   3,D
-#metalworks-S2
-   1,L
-   4,D
-   3,L,D
-#cycle_b-04
-   0
-#endcycle_b-04
+  15,R
+  19,R,D
+  14,L,D
+  24,D
    4,R,Z
    1,R,J
   32,R,D
@@ -551,4 +527,4 @@ EndStunPause
    7,R
 
 #Time
-MidwayChapterTime: 1:00.469(3557)
+MidwayChapterTime: 0:59.840(3520)
