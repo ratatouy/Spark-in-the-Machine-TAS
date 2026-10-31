@@ -1,4 +1,4 @@
-RecordCount: 6265
+RecordCount: 6412
 
 console load factory/BZFR/factory -4872.497068 -10528.303874
    1
@@ -729,54 +729,66 @@ EndRepeat
   40
 
 #lvl_g-00-night
-   1,R,D,X
+   3,R,D,X
    1,R,J
-   7,R
-  11,R,J
-  15,R,D,X
+  12,R,D,X
    1,R,J
-  15,R,D,X
-   4,R,D
-  20,R,J
    5,R
-   2,R,J
-   5,R,K,G
-  15,R,D,X
-   2,R,D
    1,R,J
+   1,R
+   1,R,K
+   3,R
+  15,R,D,X
+   4,R,D,J
+  15,R,D,X
+  10,R,K
+   5,R
+   1,R,K
+   3,R,J,G
+   2,R,K,G
+  14,R
+   6
+  14,R,D,X
    4,R,J
-  16,R,D,X
-   2
-   9,D,X
+   8,D,X
   40
 
 #lvl_g-01-east
-# please improve this i don't know how to tas water movement ahhhhh
-   6,D,X
+# still doesn't seem optimal.
+   7,D,X
   15,D,C
   15,D,X
-  15,R,D,C
-  15,D,X
-   4,R,C
-   3,R,U,J
-   8,R,D
-  14,R,D,X
+   6,R
+  15,D,C
+   6,R,D
+  13,R,Z
    1,R,J
-  11,R,D,X
-   4,R,U,J
-  14,R,Z
-   6,R,J
-   5,R,U,J
+   1,R
+  14,R,D,X
+   1,R,K
+   5,R,D,X
+   1,R,J
+   4,F,0.1
+   5,R
+  14,R,D,X
+   1,R,K
+   2,R
+   2,F,0.1
+   1,R
+   1,F,0.1
   15,R,U,Z
-   9,R,V
-   7,R,U,J
-  14,U,X
-   8,R,J
+   8,R,X
+   1,R,J
+   8,F,0.1
+  13,U,X
+   1,K
+   5,U
    5,R,Z
-   1,R,U,J
-   7,R
-   8,R,D
+   1,R,J
+  10,F,113
+   4,F,179.9
   15,R,Z
+   2,R
   15,U,V
   12,U,X
    1,L
@@ -804,4 +816,4 @@ EndRepeat
    7,R
 
 #Time
-MidwayChapterTime: 1:40.997(5941)
+MidwayChapterTime: 1:40.810(5930)
