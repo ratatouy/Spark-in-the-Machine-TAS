@@ -1,4 +1,4 @@
-RecordCount: 6412
+RecordCount: 7743
 
 console load factory/BZFR/factory -4872.497068 -10528.303874
    1
@@ -149,43 +149,62 @@ EndRepeat
 
 #lvl_f-01-night
    1,R,J
-  14,R,D,X
+  12,R,D,X
    1,R,J
-   2,R
+   1
    1,R,J
+   1,R
    2,R
-   3
+   2,R,J
+   3,R,J
+   1,R,J
+   1,J,G
+   1,J
+   1,J,G
+   1,J
+   1,J,G
+   1,J
+   1,J,G
+   1,J
+   1,J,G
+   1,J
+   1,J,G
+   1,K,G
+   9,R
+   1,R,J
+   5,L
+   4,R,Z
+   1,R,J
+   1,R,K,G
+   6,R,J,G
+   3,R
+   1
+   2,R
+   2,R,J
+  12,R
+  15,R,Z
+   8,R
    5,L,Z
    1,R,J
-   6,R
-  29,R,J
-  15,R,U,Z
-  30,R,D
-   1,R
-   3
-  15,R,X
-   6,R
-   5,L,D,X
+   7,R
    1,R,J
-   8,R
-   2,R,J
-   8,R
-  24,R,J,G
+   5,R
+   5,R,J
+  24,R,K,G
   49,R,X
    9,R,J
   15,R,U,X
    5,R
   15,R,Z
-  20,L
+  18,L
+   1,L,J
   10,R,D,X
    1,R,J
-   1,R
-   1,R,J
-  11,R
+  13,R
   18,R,X
-   4,R,J
-  27,R,K
-   4,R
+   5,R,J
+  23,R,K
+   7,R
    1,L
 #stray-catwalks-S0
    7,J,G
@@ -259,64 +278,71 @@ EndRepeat
    1,J
    1,R,J
   15,R,D,X
-   1,R,J
-   2,J
-  18,R,J
+   4,R,J
+   3,J
+  14,R,J
   15,R,D,X
-   1,R
-   5,R,J
+   1,R,D,J
+   2,R,J
+   2,R,D,J
    5,R
-   3,R,J
-   9,R,K,G
+   4,R,J
+   8,R,K,G
   15,R,D,X
    3,R
   40
 
 #lvl_f-03-night
-   5,R
+   5
 #stray-catwalks-S1
   24,L,D,X
-  26,R,D,C
-  22,R,U,X
-   4,L,J
-   2
-   5,L,Z
+  22,R,D,C
    4,R,J
+   2,R,K
+  21,R,U,X
+   4,R
+   7,R,Z
+   1,R,J
+   2,R
+   1
+   8,R
+  27,R,J
+   6,R
+  28,R,X
+   4,R,G
+  15
+   6,R,D
+  12,R,Z
+   2,R,J
+   1,R,J
+   6,R,D,X
+   1,R,J,G
+  12,J
+  15,R,U,X
+  15,L
+  17
   12,R
-  33,R,J
-  31,R,X
-   4,R,J
-  16,R,C
-   2,R
+   3,R,D
+  15,R,U,X
+   6
   15,D,X
-   2,R
-  10,R,Z
-   5,R,J
-  16,R,U,X
-  15,U,C
-  15,D,X
-  24,D
-   9,L,X
-  16,R
-  15,R,U,Z
-  15,D,X
-   6,D
-  13,R,D
+  12,D
+   4,L,D
+   4,D
   12,L,D,X
-  12,R,J
+  18,R,J
   15,U,X
-  80,R,Z
-# be quicker and do an ultra?
-   4,L,J
-   1,R,K
-  15,D,X
-   1,L
-   1,R
-  10,L,Z
-   7,R,J
+  73,R,Z
+# have to lose a bunch of time here to not cornercorrect on the down dash... please try other things!
+   4,R,J
+   3,R,K
+  16,D,X
+  10,L,D,C
+   1,R,J
+   4,R
   15,R,D,X
-  25,R,J
-  14,U,Z
+  20,R,J
+  13,U,X
    8,R,J
   11,R
    6,R,Z
@@ -440,23 +466,25 @@ EndRepeat
   15,R,Z
    2,R
    3
-   8,K,G
-   1,L,K
-  14,R,J,G
+  12,R,K,G
+   8,R,J,G
+   2,K
+   5,R,Z
    1,R,K,G
-   9,R,J,G
-   1,R
-   4,R,J
-   1,R
-  15,R,D,X
-   3,R,D
-  12,L,D
-   6,L
+   1,R,D
+   1,D
+   9,R,D
+  21,D
+   2,L,D
+   1,R,D
+   2,L
+   1,L,D
    4,R,Z
    1,R,J
    6,R
-  17,R,D,J
-
+  15,R,D,J
+   1,D,J
+   1,R,D,J
   15,R,U,Z
    1,L,J,G
    1,L,K,G
@@ -467,7 +495,6 @@ EndRepeat
   20,R,J
    1,R
   14,R,Z
-
    1,R,J
    6,R
    4,R,J
@@ -659,30 +686,37 @@ EndRepeat
    7,L
    2,L,J
   15,L,D,X
-   4,R
-  14,R,Z
-   6,R,J
-  15,R,D,X
-  10,R
-   3,R,D,J
-   5,R
-  15,D,X
-  14,R,Z
+   4,L,D
+   6,R,Z
    1,R,J
-  16,R,U,Z
-   1,L
-   5,J,G
-   1,R,K,G
-   4
-   7,R,D
+   5,R
+   1,R,J
+   4,R
   15,R,D,X
-  13,R,D
-  12,R,Z
+   5,R,D
+   1,D
+   4,R
+   4,R,D,J
+   5,R
+   1
+   1,R,D,J
+   5,R
+   3,R,J
+   4,R
+   8,R,U,X
+   1,R,K,G
+   8,R
+   3,R,J
+  15,R,D,X
+   3,R
+  15,R,D,C
+   3,R
+  11,R,Z
 #stray-catwalks-S3
   45
    4,R,J
-   3,R,K
-   5,R
+   4,R,K
+   4,R
    1,R,J
    1,R
    1,R,J
@@ -709,7 +743,6 @@ EndRepeat
    1,L,D
    1,G
   27,R,J
-
 # if there's an way to exit at the top of the dream block that would save a lot of time, but i couldn't find one. this version requires a vertical position ~0.06px precise
   45,R,D,X
    1,R,J
@@ -816,4 +849,4 @@ EndRepeat
    7,R
 
 #Time
-MidwayChapterTime: 1:40.810(5930)
+MidwayChapterTime: 1:39.433(5849)
