@@ -1,4 +1,4 @@
-RecordCount: 5423
+RecordCount: 5695
 
 console load factory/BZFR/factory 13933.444450 -11232.166761
    1
@@ -523,6 +523,7 @@ endrepeat
   15,R
    3,R,J
   40
+
 #lvl_h-05-east
    1,R,J
    5,R
@@ -630,17 +631,27 @@ StunPause
 SkipInput 3
    7,R,D
 EndStunPause
-   9,R
-  23,L
-  30,D
-   7,L,J
-  16,U,X
-  25,U,C
-# 1f wait for cycle in h-09
+   7,R,D
+  13,R
+   8
+   1,R,D
    1
-   7,R,Z
+   1
+   1,R,D
+  22,R,D
+   4,L,D,J
+  22,U,X
+  22,U,C
+   1,R
+   1
+   1,R
+
+# spinner cycle in h-09
+   1
+#
+   6,R,Z
    1,R,J
-   6,R
+   7,R
    1,R,K
    8,R,D,X
   40
@@ -648,12 +659,13 @@ EndStunPause
 #lvl_h-06-east
    1,R,J
   14,R
-  19,R,K
-  34,R,U,X
+  20,R,K
+  33,R,U,X
    4,R,J
   19,R,D
-   3,D
-   4,R,D
+   3,R,D
+   2,R,D
+   1,R,D
   22,R,U,Z
   15,U,X
    4,K
@@ -982,4 +994,4 @@ EndRepeat
   37
 
 #Time
-MidwayChapterTime: 2:01.584(7152)
+MidwayChapterTime: 2:01.482(7146)
