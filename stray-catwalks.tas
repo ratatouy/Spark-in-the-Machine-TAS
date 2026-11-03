@@ -1,4 +1,4 @@
-RecordCount: 7743
+RecordCount: 7774
 
 console load factory/BZFR/factory -4872.497068 -10528.303874
    1
@@ -686,32 +686,29 @@ EndRepeat
    7,L
    2,L,J
   15,L,D,X
-   4,L,D
-   6,R,Z
-   1,R,J
-   5,R
+   4,R,D
+   5,R,Z
    1,R,J
    4,R
+   5,R,J
   15,R,D,X
-   5,R,D
-   1,D
-   4,R
-   4,R,D,J
-   5,R
+   2,R
    1
-   1,R,D,J
+   7,R
+   1,R,D
+   4,R,D,J
+   6,R
+   1,R,J
    5,R
-   3,R,J
-   4,R
+   7,R,J
    8,R,U,X
-   1,R,K,G
-   8,R
-   3,R,J
+   1,R,J,G
+  10,R
   15,R,D,X
-   3,R
+   2,R
   15,R,D,C
-   3,R
-  11,R,Z
+   4,R
+  10,R,Z
 #stray-catwalks-S3
   45
    4,R,J
@@ -849,4 +846,4 @@ EndRepeat
    7,R
 
 #Time
-MidwayChapterTime: 1:39.433(5849)
+MidwayChapterTime: 1:39.382(5846)
