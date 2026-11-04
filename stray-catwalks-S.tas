@@ -1,7 +1,7 @@
 # SparkInTheMachine
 # https://gamebanana.com/mods/704652
 
-RecordCount: 512
+RecordCount: 513
 
 console load factory/BZFR/factory -4872.497068 -10528.303874
    1
@@ -319,16 +319,14 @@ Read,stray-catwalks,stray-catwalks-S1,stray-catwalks-S2
    6,R
    7,R,D,K
    5,R
-   6,R,K
+  10,R,K
   15,U,X
-   7
-   6,R
-   5,R,Z
-   8,R,J,G
-   5,R
-   8,R,J
-   1,J
-  10,R,J
+  10,R,D,C
+   3,R,J
+   7,R
+  11,R,D,X
+   1,R,J
+   8,R
   15,D,X
    7,L,K
   13,R,U,X
@@ -336,32 +334,42 @@ Read,stray-catwalks,stray-catwalks-S1,stray-catwalks-S2
   13,R
    4,Z
    1,R,K
-  12,R
-  15,L,D,X
-   4,Z
-   1,R,J
-   7,R
-   7,R,D,K
-   5,R
-  12,R,K
-  15,U,X
-  34,R,C
-  12,R,X
-  15,R,J,G
-  15,R,U,X
-   2
-   1,R,K,G
-   3,L,K
-   3,L
-  14,R
-  34,R,X
-   2,R,D
+   4,R
    1,R
+   3
+   4,R
+   2
+  16,L,D,X
+  13,R,Z
+  22,R,J
+   2,R
+# bottlenecked here
+  15,U,X
+  15,R,C
+  10,R
+   7
+  14,R,X
+  12,R,J,G
+  15,R,U,X
+   1,R,K,G
+   3,R,K
+   4,R,D
+  17,L,D
+   2,L
+   5,R,X
+   5,R,K,G
+   5,R
+   4,R,J
+   1,J
+   2,R,J
+  12,R
+   2,L,D
+   1,L
    7,L,Z
    1,L,J
    4
-  22,K
-   3,L,K
+  18,K
+   7,L,K
    7,L
   14,U,Z
    4,L,K
@@ -422,4 +430,4 @@ Read,stray-catwalks,stray-catwalks-S1,stray-catwalks-S2
 Read,stray-catwalks,stray-catwalks-S3,Time
 
 #Time
-MidwayChapterTime: 2:15.932(7996)
+MidwayChapterTime: 2:15.864(7992)
