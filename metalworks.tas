@@ -1,7 +1,7 @@
 # SparkInTheMachine
 # https://gamebanana.com/mods/704652
 
-RecordCount: 4062
+RecordCount: 4157
 
 console load factory/BZFR/factory -9556 -1191.500045
    1
@@ -103,6 +103,7 @@ console load factory/BZFR/factory -9556 -1191.500045
    1,L,J
    5,L
    4,L,J
+# metalworks-S1
   15,L,D,X
    1
    1,N
@@ -135,6 +136,7 @@ console load factory/BZFR/factory -9556 -1191.500045
   17,U,X
    1
   37,R,J
+# cycle_b-03
   14,R,Z
    1,L,J
   14,L,Z
@@ -158,11 +160,14 @@ StunPause
 SkipInput,3,1
    7,R,U,Z
 EndStunPause
+# endstun_b-03
    7,R,U,Z
    3,J,G
    9
    1,J
   25,D
+
+# metalworks-S2
    1,R,D
    1,D
    2,L,D
@@ -175,14 +180,12 @@ EndStunPause
   40
 
 #lvl_b-04-out
-  29,R,D
-   2,R,D
+  31,R,D
   12
 #metalworks-S3
    1,R,J
    6,R
-   1
-   1
+   2
    2,J
    5,R
   14,L,Z
@@ -297,6 +300,7 @@ EndStunPause
    1,R,K
   11,R
   20,R,X
+#0:34.578(2034)
    6,R,J
    4,R,K
    2,K
