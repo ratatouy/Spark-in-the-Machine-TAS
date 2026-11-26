@@ -1,4 +1,4 @@
-RecordCount: 5695
+RecordCount: 5705
 
 console load factory/BZFR/factory 13933.444450 -11232.166761
    1
@@ -425,7 +425,11 @@ endrepeat
    5,R
    1,R,J,G
    1,R,K,G
-   5,R,G
+   2,R,G
+   3,G
+#cycle_h-05
+   1,G
+#endcycle_h-05
   21,R,U,C,G
    5,R,J,G
    6,R,Z,G
@@ -519,13 +523,11 @@ endrepeat
   15,R,D,X
    5,R
    1,R,J
-# 1f slow for spinner cycle
-  15,R
-   3,R,J
+  14,R
+   4,R,J
   40
 
 #lvl_h-05-east
-   1,R,J
    5,R
    2,R,J
    6,R
@@ -619,23 +621,23 @@ endrepeat
    5,R
    1,R,J
    3,R
+#stun_h-05
    9,R,D,X
 StunPause
-   6,R,D
+   6,R,D,X
    3,R,D,J
 EndStunPause
   16,R,J
 StunPause
    1,R
-   1,X
-SkipInput 3
-   7,R,D
+SkipInput 3 1
+   8,R,D,X
 EndStunPause
-   7,R,D
+   7,R,D,X
+#endstun_h-05
   13,R
    8
    1,R,D
-   1
    1
    1,R,D
   22,R,D
@@ -645,10 +647,6 @@ EndStunPause
    1,R
    1
    1,R
-
-# spinner cycle in h-09
-   1
-#
    6,R,Z
    1,R,J
    7,R
@@ -871,7 +869,7 @@ EndStunPause
    9,R
    9,R,D
 #cycle_h-09
-   0,G
+   2,G
 #endcycle_h-09
   14,R,D,X
    1,R,J
@@ -976,9 +974,6 @@ EndRepeat
   18,L,K
   15,U,X
   10
-#cycle_i-00
-   0
-#endcycle_i-00
    6,L,Z
    1,L,J
    7,L
