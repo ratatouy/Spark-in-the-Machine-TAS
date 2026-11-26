@@ -1,7 +1,7 @@
 # SparkInTheMachine
 # https://gamebanana.com/mods/704652
 
-RecordCount: 2853
+RecordCount: 2857
 
 console load factory/BZFR/factory 13933.444450 -11232.166761
    1
@@ -196,7 +196,9 @@ Read,left-running,Start,left-running-S2
   10,R,D,X
 #left-running-S3
 
-Read,left-running,left-running-S3,left-running-S4
+# currently these berry rooms aren't cycle-dependent, if they are in the future then e.g. a #cycle_h-04a could be placed between these reads
+Read,left-running,left-running-S3,cycle_h-05
+Read,left-running,endcycle_h-05,left-running-S4
 
 #left-running-S4
 #lvl_h-transition2-east (0)
@@ -381,6 +383,9 @@ Read,left-running,left-running-S3,left-running-S4
   22,R,D
   41,D
   25,R,D
+#cycle_h-05
+   0
+#endcycle_h-05
    6,R,D,X
    1,R,J
    7,R
@@ -403,7 +408,24 @@ Read,left-running,left-running-S3,left-running-S4
    1,R,J
 #left-running-S5
 
-Read,left-running,left-running-S5,left-running-S6
+Read,left-running,left-running-S5,stun_h-05
+
+#stun_h-05
+   9,R,D,X
+StunPause
+   6,R,D,X
+   3,R,D,J
+EndStunPause
+  16,R,J
+StunPause
+   1,R
+SkipInput 3 1
+   8,R,D,X
+EndStunPause
+   7,R,D,X
+#endstun_h-05
+
+Read,left-running,endstun_h-05,left-running-S6
 
 #left-running-S6
    8,R
@@ -593,13 +615,7 @@ SkipInput 3 1
 EndStunPause
 #endstun_h-09
 
-Read,left-running,endstun_h-09,cycle_i-00
-
-#cycle_i-00
-   0
-#endcycle_i-00
-
-Read,left-running,endcycle_i-00,Time
+Read,left-running,endstun_h-09,Time
 
 #Time
-MidwayChapterTime: 2:58.296(10488)
+MidwayChapterTime: 2:57.905(10465)
