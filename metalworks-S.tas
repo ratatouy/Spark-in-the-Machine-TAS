@@ -1,7 +1,7 @@
 # SparkInTheMachine
 # https://gamebanana.com/mods/704652
 
-RecordCount: 748
+RecordCount: 765
 
 console load factory/BZFR/factory -9556 -1191.500045
    1
@@ -13,60 +13,9 @@ console load factory/BZFR/factory -9556 -1191.500045
 
 #Start
 Read,metalworks,Start,metalworks-S0
-   4,R,D,X
-   1,R,J
-   1,S
-   1,D,O
-  34
-   1,R,J
-   6,J
-   3,R,J
-   5,R,K,G
-   7,R
-   2,R,J
-  14,R,D,X
-   1,R,J
-  40
 
-#lvl_b-01-out (0)
-  12,R,D,X
-   1,R,J
-   4,R
-   1,R,J
-   2,R
-   2,R,J
-   3,R
-  29,R,X
-   4,R,J
-   1,R,K
-  24,R,D,X
-  45,R,D,C
-   5,L,J
-   3,L
-   6,L,K
-   8,K
-  18,U,X
-  12,R,Z
-   1,R,J
-   6,R
-   4,R,D,J
-   6,R,K,G
-   1,R
-  15,R,D,X
-   2,R
-   2
-   1,D
-   1,R,D
-   1,D
-  15,D,X
-   1,L,J
-  10
-   2,R
-  14,R,D,X
-   1,R,J
 #metalworks-S0
-
-#lvl_b-01-out (1)
+#lvl_b-01-out (0)
    5,R,Z
   12,R,J,G
    8,R
@@ -143,7 +92,7 @@ Read,metalworks,Start,metalworks-S0
   13,D,X
   40
 
-#lvl_b-01-out (2)
+#lvl_b-01-out (1)
    1,D
    4,D
   12,R,D
@@ -166,58 +115,36 @@ Read,metalworks,Start,metalworks-S0
    5,L
    2,L,J
    2,L
+#metalworks-S1
+
 Read, metalworks, metalworks-S1, cycle_b-03
 
-# cycle_b-03
-   0
-# cycle_b-03_end
+#cycle_b-03
+   1
+#endcycle_b-03
 
-Read, metalworks, cycle_b-03, metalworks-S2
-  14,R,Z
-   1,L,J
-  14,L,Z
+Read, metalworks, cycle_b-03, stun_b-03
+
+#stun_b-03
    1,R,J
-   6,R,D,X
-   1,R,J,G
-  12,R
-   2,R,J
-   3,R,K,G
-   7,R,D,X
-  40
-
-#lvl_b-03-out (0)
-   3,R
-   5,R,D
 StunPause
-   5,R,J
-   6
-   1,J
-   2
-SkipInput,3,1
-   7,R,U,Z
+  10,R,J
+   4,R
 EndStunPause
-# endstun_b-03
-   7,R,U,Z
-   3,J,G
-   9
-   1,J
-  25,D
-##
-   1,R,D
-   1,D
-   1,L,D
+#endstun_b-03
+
+Read, metalworks, endstun_b-03, metalworks-S2
+
+#metalworks-S2
+   4
    1,L,D
    1,R,D
-   1,L,D
-   2,R,D
-   1,L,D
-   1,D
-   1,L,D
-  27,D
-   1,L,D
-   1,D
+  14,D
    1,R,D
-   1,D
+  12,D
+   1,L
+   5,D
+   2,L,D
   10,R,D,X
    1,R,J
    4
@@ -258,14 +185,14 @@ EndStunPause
    1,R
   77
 #cycle_b-04
-   1
+   2
 #endcycle_b-04
   14,L,D,X
    2,L,J
    4,L
   40
 
-#lvl_b-03-out (1)
+#lvl_b-03-out
    3,L
   15,D,X
    7,R,D
@@ -277,7 +204,23 @@ EndStunPause
    2
    1,D
   10
-Read,metalworks, metalworks-S3, metalworks-S4
+Read, metalworks, metalworks-S3, stun_b-04
+
+#stun_b-04
+   7,R,D,K
+StunPause
+   2,R,K
+EndStunPause
+   1,R,K
+   5,R
+   4,R,U,X
+StunPause
+   4,R,U,X
+EndStunPause
+   6,R,U,X
+#endstun_b-04
+
+Read, metalworks, endstun_b-04, metalworks-S4
 
 #metalworks-S4
 #lvl_b-06-out (0)
@@ -422,13 +365,13 @@ Read,metalworks, metalworks-S3, metalworks-S4
    4,R,G
 #metalworks-S5
 
-#Read,metalworks,metalworks-S5,spinner-b06
+Read,metalworks,metalworks-S5,spinner-b06
 
 #spinner-b06
    2,G
 #spinner-b06-end
 
-#Read,metalworks,spinner-b06-end,stun_b-06
+Read,metalworks,spinner-b06-end,stun_b-06
 
 #stun_b-06
    2,R,J
@@ -445,7 +388,7 @@ EndStunPause
    4,R,K
 #endstun_b-06
 
-#Read,metalworks,endstun_b-06,Time
+Read,metalworks,endstun_b-06,Time
 
 #Time
-MidwayChapterTime: 1:25.255(5015)
+MidwayChapterTime: 1:23.861(4933)
