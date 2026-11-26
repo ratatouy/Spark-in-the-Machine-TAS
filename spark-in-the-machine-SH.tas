@@ -1,7 +1,7 @@
 # SparkInTheMachine
 # https://gamebanana.com/mods/704652
 
-RecordCount: 94
+RecordCount: 122
 
 console load factory/BZFR/factory
    1
@@ -51,23 +51,20 @@ Read,the-boundary-S,endstun_a-04,Time
 
 ## Metalworks
 
-Read,metalworks-S,Start,spinner-b03
+Read,metalworks-S,Start,cycle_b-03
 
-#spinner-b03
+#cycle_b-03
    0
-#spinner-b03-end
+#endcycle_b-03
 
-Read,metalworks-S,spinner-b03-end,stun_b-03
+Read,metalworks-S,endcycle_b-03,stun_b-03
 
 #stun_b-03
-   3,R,J
+   1,R,J
 StunPause
-   6,R,J
-   5,R
-   2,R,J
-   6,R
+  10,R,J
+   4,R
 EndStunPause
-   2,R
 #endstun_b-03
 
 Read,metalworks-S,endstun_b-03,cycle_b-04
@@ -78,18 +75,28 @@ Read,metalworks-S,endstun_b-03,cycle_b-04
 
 Read,metalworks-S,endcycle_b-04,stun_b-04
 
+# significantly different from any% stun due to drift!
 #stun_b-04
-   7,R,D,K
+   6,R,D,K
 StunPause
-   2,R,K
+   2,R
 EndStunPause
-   9,R,K
+   3,R
+   2,R,K
+   7,R,U,X
+StunPause
+   2,R,U,X
+EndStunPause
+   5,R,U,X
+   1,R,K,G
+   2,K
+   1
 #endstun_b-04
 
 Read,metalworks-S,endstun_b-04,spinner-b06
 
 #spinner-b06
-   2,G
+   0,G
 #spinner-b06-end
 
 Read,metalworks-S,spinner-b06-end,stun_b-06
@@ -139,7 +146,7 @@ Read,the-machine,enddeathwarp_e-engine-00,Time
 Read,stray-catwalks-S,Start,cycle_f-02a
 
 #cycle_f-02a
-   2,D
+   0,D
 #endcycle_f-02a
 
 Read,stray-catwalks-S,endcycle_f-02a,stun_f-02a
@@ -172,7 +179,30 @@ Read,tinkerers-dissent-S,endstun_g-07_snq,Time
 ##
 
 ## Left Running
-Read,left-running-S,Start,cycle_h-09
+Read,left-running-S,Start,cycle_h-05
+
+#cycle_h-05
+   0
+#endcycle_h-05
+
+Read,left-running-S,endcycle_h-05,stun_h-05
+
+#stun_h-05
+   9,R,D,X
+StunPause
+   6,R,D,X
+   3,R,D,J
+EndStunPause
+  16,R,J
+   1,R
+StunPause
+SkipInput 3 1
+   8,R,D,X
+EndStunPause
+   7,R,D,X
+#endstun_h-05
+
+Read,left-running-S,endstun_h-05,cycle_h-09
 
 #cycle_h-09
    2,G
@@ -239,9 +269,8 @@ StunPause
    3,L,J
    1,R,J
 EndStunPause
-   2,R,J
 StunPause
-   2,R,J
+   4,R,J
 EndStunPause
    6,R,J
 #endstun_i-15
@@ -272,4 +301,4 @@ Safe
 
 Read,left-running-H,Start
 
-FileTime: 19:06.939(67467)
+FileTime: 19:00.054(67062)
